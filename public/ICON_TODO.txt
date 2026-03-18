@@ -1,0 +1,1 @@
+Note: Using SVG as placeholder. Real PNG icons needed for production.
