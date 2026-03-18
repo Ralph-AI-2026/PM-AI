@@ -1,11 +1,11 @@
 {
-  "name": "PM AI - Property Maintenance",
-  "short_name": "PM AI",
-  "description": "Property maintenance booking and management platform",
+  "name": "HROP - Property Maintenance",
+  "short_name": "HROP",
+  "description": "Connect tenants, landlords, and service providers on one trusted platform",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#2563eb",
+  "theme_color": "#1e40af",
   "orientation": "portrait-primary",
   "icons": [
     {
@@ -24,17 +24,17 @@
   "categories": ["business", "productivity"],
   "shortcuts": [
     {
-      "name": "Book Service",
-      "short_name": "Book",
-      "description": "Book a maintenance service",
-      "url": "/book",
+      "name": "Submit Request",
+      "short_name": "Request",
+      "description": "Submit a maintenance request",
+      "url": "/tenant/dashboard",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Dashboard",
       "short_name": "Dashboard",
       "description": "View your dashboard",
-      "url": "/dashboard",
+      "url": "/provider/dashboard",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     }
   ]
