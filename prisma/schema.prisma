@@ -1,0 +1,134 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  SUPER_ADMIN
+  CLUB_ADMIN
+  USER
+}
+
+enum BookingStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+}
+
+enum MembershipStatus {
+  ACTIVE
+  EXPIRED
+  CANCELLED
+}
+
+model User {
+  id            String       @id @default(cuid())
+  name          String?
+  email         String       @unique
+  role          Role         @default(USER)
+  clubId        String?      // If they are a club admin or primary club member
+  club          Club?        @relation(fields: [clubId], references: [id])
+  bookings      Booking[]
+  memberships   Membership[]
+  waivers       Waiver[]
+  eventTickets  EventTicket[]
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+}
+
+model Club {
+  id                     String       @id @default(cuid())
+  name                   String
+  location               String
+  stripeConnectAccountId String?
+  operatingHours         Json?        // e.g., { "monday": { "open": "09:00", "close": "21:00" } }
+  users                  User[]
+  lanes                  Lane[]
+  memberships            Membership[]
+  waivers                Waiver[]
+  events                 Event[]
+  createdAt              DateTime     @default(now())
+  updatedAt              DateTime     @updatedAt
+}
+
+model Lane {
+  id          String    @id @default(cuid())
+  clubId      String
+  club        Club      @relation(fields: [clubId], references: [id])
+  name        String    // e.g., "Lane 1"
+  maxCapacity Int       @default(1)
+  bookings    Booking[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Booking {
+  id                    String        @id @default(cuid())
+  userId                String
+  user                  User          @relation(fields: [userId], references: [id])
+  laneId                String
+  lane                  Lane          @relation(fields: [laneId], references: [id])
+  startTime             DateTime
+  endTime               DateTime
+  status                BookingStatus @default(PENDING)
+  stripePaymentIntentId String?
+  createdAt             DateTime      @default(now())
+  updatedAt             DateTime      @updatedAt
+}
+
+model Membership {
+  id                   String           @id @default(cuid())
+  userId               String
+  user                 User             @relation(fields: [userId], references: [id])
+  clubId               String
+  club                 Club             @relation(fields: [clubId], references: [id])
+  status               MembershipStatus @default(ACTIVE)
+  renewalDate          DateTime
+  stripeSubscriptionId String?
+  createdAt            DateTime         @default(now())
+  updatedAt            DateTime         @updatedAt
+}
+
+model Waiver {
+  id               String   @id @default(cuid())
+  userId           String
+  user             User     @relation(fields: [userId], references: [id])
+  clubId           String
+  club             Club     @relation(fields: [clubId], references: [id])
+  ipAddress        String?
+  agreementBoolean Boolean  @default(false)
+  timestamp        DateTime @default(now())
+}
+
+enum TicketStatus {
+  PENDING
+  PAID
+  WAITLIST
+}
+
+model Event {
+  id          String        @id @default(cuid())
+  clubId      String
+  club        Club          @relation(fields: [clubId], references: [id])
+  name        String
+  date        DateTime
+  maxCapacity Int
+  price       Float
+  tickets     EventTicket[]
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+}
+
+model EventTicket {
+  id            String       @id @default(cuid())
+  eventId       String
+  event         Event        @relation(fields: [eventId], references: [id])
+  userId        String
+  user          User         @relation(fields: [userId], references: [id])
+  paymentStatus TicketStatus @default(PENDING)
+  createdAt     DateTime     @default(now())
+}
