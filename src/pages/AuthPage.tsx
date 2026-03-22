@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
-import { Wrench, Mail, Lock, User, Phone } from 'lucide-react';
+import { Wrench, Mail, Lock, User, Phone, Home, Shield, Users } from 'lucide-react';
 
 type AuthMode = 'signin' | 'signup' | 'role-select';
 type UserRole = 'tenant' | 'landlord' | 'service_provider';
@@ -13,35 +13,31 @@ export default function AuthPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  // Form fields
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [fullName, setFullName] = useState('');
   const [phone, setPhone] = useState('');
 
+  const navigateByRole = (role: string) => {
+    if (role === 'tenant') navigate('/tenant');
+    else if (role === 'landlord') navigate('/landlord');
+    else if (role === 'service_provider') navigate('/provider');
+    else navigate('/');
+  };
+
   const handleSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setError('');
-
     try {
-      const { data, error } = await supabase.auth.signInWithPassword({
-        email,
-        password,
-      });
-
+      const { data, error } = await supabase.auth.signInWithPassword({ email, password });
       if (error) throw error;
-
-      // Get user profile to determine role
       const { data: profile } = await supabase
         .from('profiles')
         .select('role')
         .eq('id', data.user.id)
         .single();
-
-      if (profile) {
-        navigateByRole(profile.role);
-      }
+      if (profile) navigateByRole(profile.role);
     } catch (err: any) {
       setError(err.message || 'Failed to sign in');
     } finally {
@@ -51,262 +47,234 @@ export default function AuthPage() {
 
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!selectedRole) {
-      setError('Please select a role');
-      return;
-    }
-
+    if (!selectedRole) { setError('Please select a role'); return; }
     setLoading(true);
     setError('');
-
     try {
       const { data, error } = await supabase.auth.signUp({
         email,
         password,
-      });
-
-      if (error) throw error;
-
-      // Create profile
-      if (data.user) {
-        const { error: profileError } = await supabase
-          .from('profiles')
-          .insert({
-            id: data.user.id,
-            email,
-            full_name: fullName,
-            phone,
-            role: selectedRole,
-          });
-
-        if (profileError) throw profileError;
-
-        // If service provider, create service_providers entry
-        if (selectedRole === 'service_provider') {
-          await supabase
-            .from('service_providers')
-            .insert({
-              id: data.user.id,
-              service_type: 'general',
-            });
+        options: {
+          data: { full_name: fullName, phone, role: selectedRole }
         }
-
-        navigateByRole(selectedRole);
-      }
+      });
+      if (error) throw error;
+      if (data.user) navigateByRole(selectedRole);
     } catch (err: any) {
-      setError(err.message || 'Failed to sign up');
+      setError(err.message || 'Failed to create account');
     } finally {
       setLoading(false);
     }
   };
 
-  const navigateByRole = (role: string) => {
-    switch (role) {
-      case 'tenant':
-        navigate('/tenant/dashboard');
-        break;
-      case 'landlord':
-        navigate('/landlord/dashboard');
-        break;
-      case 'service_provider':
-        navigate('/provider/dashboard');
-        break;
-      default:
-        navigate('/');
-    }
-  };
+  const inputClass = "w-full px-4 py-3 rounded-xl text-white text-sm outline-none focus:ring-2 transition-all";
+  const inputStyle = { background: 'rgba(255,255,255,0.07)', border: '1px solid rgba(255,255,255,0.12)', color: 'white' };
 
-  if (mode === 'role-select') {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center px-6">
-        <div className="max-w-4xl w-full">
-          <div className="text-center mb-12">
-            <div className="flex justify-center mb-4">
-              <Wrench className="w-12 h-12 text-[var(--color-primary)]" />
-            </div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">Choose your role</h1>
-            <p className="text-gray-600">Select how you'll use HROP</p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            <button
-              onClick={() => {
-                setSelectedRole('tenant');
-                setMode('signup');
-              }}
-              className="bg-white p-8 rounded-xl border-2 border-gray-200 hover:border-[var(--color-primary)] transition-all text-left"
-            >
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <User className="w-6 h-6 text-[var(--color-primary)]" />
-              </div>
-              <h3 className="text-xl font-bold mb-2 text-gray-900">Tenant</h3>
-              <p className="text-gray-600">Submit and track maintenance requests</p>
-            </button>
-
-            <button
-              onClick={() => {
-                setSelectedRole('landlord');
-                setMode('signup');
-              }}
-              className="bg-white p-8 rounded-xl border-2 border-gray-200 hover:border-[var(--color-primary)] transition-all text-left"
-            >
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <Mail className="w-6 h-6 text-[var(--color-primary)]" />
-              </div>
-              <h3 className="text-xl font-bold mb-2 text-gray-900">Landlord</h3>
-              <p className="text-gray-600">Manage properties and approve work</p>
-            </button>
-
-            <button
-              onClick={() => {
-                setSelectedRole('service_provider');
-                setMode('signup');
-              }}
-              className="bg-white p-8 rounded-xl border-2 border-gray-200 hover:border-[var(--color-primary)] transition-all text-left"
-            >
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <Wrench className="w-6 h-6 text-[var(--color-primary)]" />
-              </div>
-              <h3 className="text-xl font-bold mb-2 text-gray-900">Service Provider</h3>
-              <p className="text-gray-600">Find jobs and earn money</p>
-            </button>
-          </div>
-
-          <div className="text-center mt-8">
-            <button
-              onClick={() => setMode('signin')}
-              className="text-[var(--color-primary)] hover:underline"
-            >
-              Already have an account? Sign in
-            </button>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  const roles: { id: UserRole; label: string; desc: string; Icon: typeof Home }[] = [
+    { id: 'tenant', label: 'Tenant', desc: 'Submit and track maintenance requests', Icon: Home },
+    { id: 'landlord', label: 'Landlord', desc: 'Manage properties and approve work', Icon: Shield },
+    { id: 'service_provider', label: 'Service Provider', desc: 'Find jobs and earn money', Icon: Users },
+  ];
 
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center px-6">
-      <div className="max-w-md w-full">
+    <div className="min-h-screen flex items-center justify-center px-6" style={{ background: '#060D1A' }}>
+      {/* Floating orbs */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full opacity-10 blur-3xl" style={{ background: '#00D4AA' }} />
+        <div className="absolute bottom-1/3 right-1/4 w-64 h-64 rounded-full opacity-8 blur-3xl" style={{ background: '#00D4AA' }} />
+      </div>
+
+      <div className="relative z-10 w-full max-w-md">
+        {/* Logo */}
         <div className="text-center mb-8">
-          <div className="flex justify-center mb-4">
-            <Wrench className="w-12 h-12 text-[var(--color-primary)]" />
+          <div className="flex justify-center mb-3">
+            <div className="w-14 h-14 rounded-2xl flex items-center justify-center" style={{ background: 'rgba(0,212,170,0.15)', border: '1px solid rgba(0,212,170,0.3)' }}>
+              <Wrench className="w-7 h-7" style={{ color: '#00D4AA' }} />
+            </div>
           </div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            {mode === 'signin' ? 'Welcome back' : 'Create your account'}
-          </h1>
-          <p className="text-gray-600">
-            {mode === 'signin' ? 'Sign in to continue' : 'Get started with HROP'}
-          </p>
+          <h1 className="text-2xl font-bold text-white">HROP</h1>
+          <p className="text-sm mt-1" style={{ color: 'rgba(255,255,255,0.45)' }}>Fix It Fast</p>
         </div>
 
-        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
-          {error && (
-            <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
-              <p className="text-red-600 text-sm">{error}</p>
-            </div>
+        {/* Card */}
+        <div className="rounded-2xl p-8 border" style={{ background: '#0D1F35', borderColor: 'rgba(255,255,255,0.08)' }}>
+
+          {/* Role Select */}
+          {mode === 'role-select' && (
+            <>
+              <h2 className="text-xl font-bold text-white mb-2">Choose your role</h2>
+              <p className="text-sm mb-6" style={{ color: 'rgba(255,255,255,0.45)' }}>Select how you'll use HROP</p>
+              <div className="space-y-3 mb-6">
+                {roles.map(({ id, label, desc, Icon }) => (
+                  <button
+                    key={id}
+                    onClick={() => setSelectedRole(id)}
+                    className="w-full flex items-center gap-4 p-4 rounded-xl text-left transition-all border"
+                    style={{
+                      background: selectedRole === id ? 'rgba(0,212,170,0.12)' : 'rgba(255,255,255,0.04)',
+                      borderColor: selectedRole === id ? 'rgba(0,212,170,0.5)' : 'rgba(255,255,255,0.08)',
+                    }}
+                  >
+                    <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style={{ background: 'rgba(0,212,170,0.15)' }}>
+                      <Icon className="w-5 h-5" style={{ color: '#00D4AA' }} />
+                    </div>
+                    <div>
+                      <div className="text-sm font-semibold text-white">{label}</div>
+                      <div className="text-xs mt-0.5" style={{ color: 'rgba(255,255,255,0.45)' }}>{desc}</div>
+                    </div>
+                  </button>
+                ))}
+              </div>
+              <button
+                onClick={() => selectedRole && setMode('signup')}
+                disabled={!selectedRole}
+                className="w-full py-3 rounded-xl text-sm font-semibold transition-all"
+                style={{
+                  background: selectedRole ? '#00D4AA' : 'rgba(255,255,255,0.1)',
+                  color: selectedRole ? '#060D1A' : 'rgba(255,255,255,0.3)',
+                  cursor: selectedRole ? 'pointer' : 'not-allowed',
+                }}
+              >
+                Continue
+              </button>
+              <p className="text-center text-sm mt-4" style={{ color: 'rgba(255,255,255,0.4)' }}>
+                Already have an account?{' '}
+                <button onClick={() => setMode('signin')} style={{ color: '#00D4AA' }} className="hover:underline">
+                  Sign in
+                </button>
+              </p>
+            </>
           )}
 
-          <form onSubmit={mode === 'signin' ? handleSignIn : handleSignUp}>
-            {mode === 'signup' && (
-              <>
-                <div className="mb-4">
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Full Name
-                  </label>
-                  <div className="relative">
-                    <User className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                    <input
-                      type="text"
-                      value={fullName}
-                      onChange={(e) => setFullName(e.target.value)}
-                      className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent"
-                      placeholder="John Doe"
-                      required
-                    />
-                  </div>
+          {/* Sign In */}
+          {mode === 'signin' && (
+            <>
+              <h2 className="text-xl font-bold text-white mb-2">Welcome back</h2>
+              <p className="text-sm mb-6" style={{ color: 'rgba(255,255,255,0.45)' }}>Sign in to your HROP account</p>
+              <form onSubmit={handleSignIn} className="space-y-4">
+                <div className="relative">
+                  <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: 'rgba(255,255,255,0.35)' }} />
+                  <input
+                    type="email"
+                    placeholder="Email address"
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
+                    required
+                    className={inputClass + " pl-10"}
+                    style={inputStyle}
+                  />
                 </div>
-
-                <div className="mb-4">
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Phone
-                  </label>
-                  <div className="relative">
-                    <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                    <input
-                      type="tel"
-                      value={phone}
-                      onChange={(e) => setPhone(e.target.value)}
-                      className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent"
-                      placeholder="(555) 123-4567"
-                      required
-                    />
-                  </div>
+                <div className="relative">
+                  <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: 'rgba(255,255,255,0.35)' }} />
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    value={password}
+                    onChange={e => setPassword(e.target.value)}
+                    required
+                    className={inputClass + " pl-10"}
+                    style={inputStyle}
+                  />
                 </div>
-              </>
-            )}
+                {error && <p className="text-sm text-red-400">{error}</p>}
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="w-full py-3 rounded-xl text-sm font-semibold transition-all hover:opacity-90"
+                  style={{ background: '#00D4AA', color: '#060D1A', opacity: loading ? 0.6 : 1 }}
+                >
+                  {loading ? 'Signing in...' : 'Sign In'}
+                </button>
+              </form>
+              <p className="text-center text-sm mt-4" style={{ color: 'rgba(255,255,255,0.4)' }}>
+                No account?{' '}
+                <button onClick={() => setMode('role-select')} style={{ color: '#00D4AA' }} className="hover:underline">
+                  Create one
+                </button>
+              </p>
+            </>
+          )}
 
-            <div className="mb-4">
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Email
-              </label>
-              <div className="relative">
-                <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent"
-                  placeholder="you@example.com"
-                  required
-                />
+          {/* Sign Up */}
+          {mode === 'signup' && (
+            <>
+              <div className="flex items-center gap-3 mb-6">
+                <button onClick={() => setMode('role-select')} className="text-sm hover:underline" style={{ color: 'rgba(255,255,255,0.4)' }}>
+                  ← Back
+                </button>
+                <div>
+                  <h2 className="text-xl font-bold text-white">Create account</h2>
+                  <p className="text-xs mt-0.5 capitalize" style={{ color: '#00D4AA' }}>
+                    {selectedRole?.replace('_', ' ')}
+                  </p>
+                </div>
               </div>
-            </div>
-
-            <div className="mb-6">
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Password
-              </label>
-              <div className="relative">
-                <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                <input
-                  type="password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent"
-                  placeholder="••••••••"
-                  required
-                  minLength={6}
-                />
-              </div>
-            </div>
-
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full bg-[var(--color-primary)] text-white py-3 rounded-lg font-semibold hover:bg-[var(--color-primary-dark)] transition-colors disabled:opacity-50"
-            >
-              {loading ? 'Loading...' : mode === 'signin' ? 'Sign In' : 'Create Account'}
-            </button>
-          </form>
-
-          <div className="mt-6 text-center">
-            {mode === 'signin' ? (
-              <button
-                onClick={() => setMode('role-select')}
-                className="text-[var(--color-primary)] hover:underline"
-              >
-                Need an account? Sign up
-              </button>
-            ) : (
-              <button
-                onClick={() => setMode('signin')}
-                className="text-[var(--color-primary)] hover:underline"
-              >
-                Already have an account? Sign in
-              </button>
-            )}
-          </div>
+              <form onSubmit={handleSignUp} className="space-y-4">
+                <div className="relative">
+                  <User className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: 'rgba(255,255,255,0.35)' }} />
+                  <input
+                    type="text"
+                    placeholder="Full name"
+                    value={fullName}
+                    onChange={e => setFullName(e.target.value)}
+                    required
+                    className={inputClass + " pl-10"}
+                    style={inputStyle}
+                  />
+                </div>
+                <div className="relative">
+                  <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: 'rgba(255,255,255,0.35)' }} />
+                  <input
+                    type="email"
+                    placeholder="Email address"
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
+                    required
+                    className={inputClass + " pl-10"}
+                    style={inputStyle}
+                  />
+                </div>
+                <div className="relative">
+                  <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: 'rgba(255,255,255,0.35)' }} />
+                  <input
+                    type="tel"
+                    placeholder="Phone number"
+                    value={phone}
+                    onChange={e => setPhone(e.target.value)}
+                    className={inputClass + " pl-10"}
+                    style={inputStyle}
+                  />
+                </div>
+                <div className="relative">
+                  <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: 'rgba(255,255,255,0.35)' }} />
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    value={password}
+                    onChange={e => setPassword(e.target.value)}
+                    required
+                    className={inputClass + " pl-10"}
+                    style={inputStyle}
+                  />
+                </div>
+                {error && <p className="text-sm text-red-400">{error}</p>}
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="w-full py-3 rounded-xl text-sm font-semibold transition-all hover:opacity-90"
+                  style={{ background: '#00D4AA', color: '#060D1A', opacity: loading ? 0.6 : 1 }}
+                >
+                  {loading ? 'Creating account...' : 'Create Account'}
+                </button>
+              </form>
+              <p className="text-center text-sm mt-4" style={{ color: 'rgba(255,255,255,0.4)' }}>
+                Already have an account?{' '}
+                <button onClick={() => setMode('signin')} style={{ color: '#00D4AA' }} className="hover:underline">
+                  Sign in
+                </button>
+              </p>
+            </>
+          )}
         </div>
       </div>
     </div>
