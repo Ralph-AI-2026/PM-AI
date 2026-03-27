@@ -33,3 +33,31 @@
 8. **PWA icons** — Only a single SVG icon exists. For full PWA compatibility across devices, generate PNG icons at 192x192 and 512x512 from the SVG and update manifest.json accordingly.
 
 9. **No Supabase database schema deployed** — `supabase-schema.sql` exists in the repo but the dashboards depend on tables (`properties`, `maintenance_requests`, `profiles`, `jobs`, `service_providers`, `property_tenants`) being created in Supabase. Ensure the schema is applied to the live Supabase project.
+
+---
+
+## Additional Audit — 2026-03-27 (Follow-up)
+
+### Additional Fixes Applied
+
+7. **Invalid Stripe API version (server.ts)** — API version was set to non-existent "2026-02-25.clover". Changed to valid version "2024-12-18.acacia".
+
+8. **Service worker cache name (public/sw.js)** — Cache name was 'pm-ai-v1' (old project name). Changed to 'hrop-v1' for HROP branding consistency.
+
+9. **Dead code removed** — Deleted `src/hooks/useWaiverConfig.ts` (archery-related, never imported anywhere).
+
+### Build Status
+
+```
+npm run build   ✅ Passes
+npm run lint    ✅ Passes (tsc --noEmit)
+```
+
+### Old Directories to Clean Up
+
+These directories contain old archery project code:
+- `archer-section-backup/`
+- `old-archery-code/`
+- `updated template variation/`
+
+Josh can delete these when ready.
