@@ -65,7 +65,11 @@ export default function TenantDashboard() {
         .eq('active', true);
 
       if (propertyTenants) {
-        setProperties(propertyTenants.map(pt => pt.property).filter(Boolean));
+        setProperties(
+          propertyTenants
+            .map(pt => pt.property as unknown as Property)
+            .filter(Boolean)
+        );
       }
 
       // Load requests

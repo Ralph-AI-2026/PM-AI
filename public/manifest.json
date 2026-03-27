@@ -4,20 +4,14 @@
   "description": "Connect tenants, landlords, and service providers on one trusted platform",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#1e40af",
+  "background_color": "#060D1A",
+  "theme_color": "#060D1A",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "/icon-192.svg",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/svg+xml",
       "purpose": "any maskable"
     }
   ],
@@ -28,14 +22,14 @@
       "short_name": "Request",
       "description": "Submit a maintenance request",
       "url": "/tenant/dashboard",
-      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
     },
     {
       "name": "Dashboard",
       "short_name": "Dashboard",
       "description": "View your dashboard",
       "url": "/provider/dashboard",
-      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
     }
   ]
 }

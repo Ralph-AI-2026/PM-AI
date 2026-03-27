@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pm-ai-v1';
+const CACHE_NAME = 'hrop-v1';
 const urlsToCache = [
   '/',
   '/index.html',

@@ -19,9 +19,9 @@ export default function AuthPage() {
   const [phone, setPhone] = useState('');
 
   const navigateByRole = (role: string) => {
-    if (role === 'tenant') navigate('/tenant');
-    else if (role === 'landlord') navigate('/landlord');
-    else if (role === 'service_provider') navigate('/provider');
+    if (role === 'tenant') navigate('/tenant/dashboard');
+    else if (role === 'landlord') navigate('/landlord/dashboard');
+    else if (role === 'service_provider') navigate('/provider/dashboard');
     else navigate('/');
   };
 
