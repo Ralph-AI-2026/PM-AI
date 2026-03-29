@@ -285,6 +285,10 @@ export default function TenantDashboard() {
                       <option value="electrical">Electrical</option>
                       <option value="hvac">HVAC</option>
                       <option value="general">General Maintenance</option>
+                      <option value="appliance">Appliance</option>
+                      <option value="structural">Structural</option>
+                      <option value="pest">Pest Control</option>
+                      <option value="other">Other</option>
                     </select>
                   </div>
 
@@ -300,7 +304,7 @@ export default function TenantDashboard() {
                       <option value="low">Low</option>
                       <option value="medium">Medium</option>
                       <option value="high">High</option>
-                      <option value="urgent">Urgent</option>
+                      <option value="emergency">Emergency</option>
                     </select>
                   </div>
                 </div>

@@ -8,8 +8,11 @@ import {
   MapPin,
   Calendar,
   TrendingUp,
-  Star
+  Star,
+  FileText,
+  Send
 } from 'lucide-react';
+import ContractorEstimateForm from '../components/ContractorEstimateForm';
 
 interface Job {
   id: string;
@@ -25,6 +28,21 @@ interface Job {
       address: string;
       city: string;
     };
+  };
+}
+
+interface MaintenanceRequestForEstimate {
+  id: string;
+  title: string;
+  description: string;
+  category: string;
+  priority: string;
+  status: string;
+  photos: string[];
+  created_at: string;
+  property: {
+    address: string;
+    city: string;
   };
 }
 
@@ -45,6 +63,8 @@ export default function ProviderDashboard() {
   const [availableJobs, setAvailableJobs] = useState<Job[]>([]);
   const [activeJobs, setActiveJobs] = useState<Job[]>([]);
   const [completedJobs, setCompletedJobs] = useState<Job[]>([]);
+  const [maintenanceRequests, setMaintenanceRequests] = useState<MaintenanceRequestForEstimate[]>([]);
+  const [estimatingRequestId, setEstimatingRequestId] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -128,6 +148,18 @@ export default function ProviderDashboard() {
         .limit(5);
 
       setCompletedJobs(completedData || []);
+
+      // Load maintenance requests open for estimates
+      const { data: requestsData } = await supabase
+        .from('maintenance_requests')
+        .select(`
+          id, title, description, category, priority, status, photos, created_at,
+          property:properties(address, city)
+        `)
+        .in('status', ['submitted', 'estimating'])
+        .order('created_at', { ascending: false });
+
+      setMaintenanceRequests(requestsData || []);
     } catch (error) {
       console.error('Error loading dashboard:', error);
     } finally {
@@ -269,6 +301,72 @@ export default function ProviderDashboard() {
             <p className="text-3xl font-bold text-gray-900">{activeJobs.length}</p>
             <p className="text-sm text-gray-500 mt-2">In progress</p>
           </div>
+        </div>
+
+        {/* Maintenance Requests for Estimates */}
+        <div className="mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">
+            <FileText className="w-5 h-5 inline mr-2 text-gray-500" />
+            Open Maintenance Requests
+          </h2>
+          {maintenanceRequests.length === 0 ? (
+            <div className="bg-white rounded-xl p-8 text-center shadow-sm border border-gray-200">
+              <FileText className="w-12 h-12 text-gray-400 mx-auto mb-3" />
+              <p className="text-gray-600">No open requests for estimates right now</p>
+            </div>
+          ) : (
+            <div className="grid md:grid-cols-2 gap-6">
+              {maintenanceRequests.map(req => (
+                <div key={req.id} className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                  <div className="flex items-start justify-between mb-3">
+                    <div>
+                      <h3 className="font-bold text-gray-900 text-lg">{req.title}</h3>
+                      <div className="flex items-center gap-2 mt-1">
+                        <span className={`px-2 py-1 rounded text-xs font-semibold ${
+                          req.priority === 'emergency' ? 'bg-red-100 text-red-700' :
+                          req.priority === 'high' ? 'bg-orange-100 text-orange-700' :
+                          req.priority === 'medium' ? 'bg-yellow-100 text-yellow-700' :
+                          'bg-green-100 text-green-700'
+                        }`}>
+                          {req.priority}
+                        </span>
+                        <span className="text-sm text-gray-500 capitalize">{req.category}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <p className="text-gray-600 mb-3 text-sm line-clamp-2">{req.description}</p>
+
+                  <div className="flex items-center gap-2 text-sm text-gray-500 mb-4">
+                    <MapPin className="w-4 h-4" />
+                    <span>{req.property.address}, {req.property.city}</span>
+                  </div>
+
+                  {estimatingRequestId === req.id ? (
+                    <div className="border-t border-gray-200 pt-4 mt-4">
+                      <h4 className="font-semibold text-gray-900 mb-3">Submit Your Estimate</h4>
+                      <ContractorEstimateForm
+                        requestId={req.id}
+                        onSuccess={() => {
+                          setEstimatingRequestId(null);
+                          loadDashboard();
+                        }}
+                        onCancel={() => setEstimatingRequestId(null)}
+                      />
+                    </div>
+                  ) : (
+                    <button
+                      onClick={() => setEstimatingRequestId(req.id)}
+                      className="w-full bg-[var(--color-primary)] text-white py-2 rounded-lg font-semibold hover:bg-[var(--color-primary-dark)] transition-colors flex items-center justify-center gap-2"
+                    >
+                      <Send className="w-4 h-4" />
+                      Submit Estimate
+                    </button>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Available Jobs */}

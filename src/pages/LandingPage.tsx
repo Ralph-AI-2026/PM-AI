@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Wrench, Home, Shield, Users, CheckCircle } from 'lucide-react';
+import PricingSection from '../components/PricingSection';
 
 export default function LandingPage() {
   return (
@@ -137,6 +138,9 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
+      {/* Pricing */}
+      <PricingSection />
 
       {/* CTA */}
       <section className="relative z-10 py-20">

@@ -9,8 +9,15 @@ import {
   Clock,
   Plus,
   MapPin,
-  Image as ImageIcon
+  Image as ImageIcon,
+  CreditCard,
+  Receipt,
+  Settings
 } from 'lucide-react';
+import type { Estimate } from '../types/payment';
+import EstimatesList from '../components/EstimatesList';
+import ServiceFeeHistory from '../components/ServiceFeeHistory';
+import PaymentMethodForm from '../components/PaymentMethodForm';
 
 interface MaintenanceRequest {
   id: string;
@@ -49,6 +56,9 @@ export default function LandlordDashboard() {
   const [selectedRequest, setSelectedRequest] = useState<MaintenanceRequest | null>(null);
   const [loading, setLoading] = useState(true);
   const [showAddProperty, setShowAddProperty] = useState(false);
+  const [activeTab, setActiveTab] = useState<'requests' | 'fees' | 'settings'>('requests');
+  const [organizationId, setOrganizationId] = useState<string | null>(null);
+  const [requestEstimates, setRequestEstimates] = useState<Record<string, Estimate[]>>({});
 
   // Property form state
   const [address, setAddress] = useState('');
@@ -88,6 +98,35 @@ export default function LandlordDashboard() {
         .order('created_at', { ascending: false });
 
       setRequests(requestsData || []);
+
+      // Load organization
+      const { data: orgData } = await supabase
+        .from('organizations')
+        .select('id')
+        .eq('owner_id', user.id)
+        .single();
+
+      if (orgData) {
+        setOrganizationId(orgData.id);
+      }
+
+      // Load estimates for all requests
+      if (requestsData && requestsData.length > 0) {
+        const requestIds = requestsData.map(r => r.id);
+        const { data: estimatesData } = await supabase
+          .from('estimates')
+          .select('*, contractor:contractors(name, company_name, trade)')
+          .in('request_id', requestIds);
+
+        if (estimatesData) {
+          const grouped: Record<string, Estimate[]> = {};
+          for (const est of estimatesData) {
+            if (!grouped[est.request_id]) grouped[est.request_id] = [];
+            grouped[est.request_id].push(est);
+          }
+          setRequestEstimates(grouped);
+        }
+      }
     } catch (error) {
       console.error('Error loading dashboard:', error);
     } finally {
@@ -166,6 +205,21 @@ export default function LandlordDashboard() {
     }
   };
 
+  const acceptEstimate = async (estimateId: string) => {
+    const response = await fetch(`/api/estimates/${estimateId}/accept`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ organization_id: organizationId }),
+    });
+
+    if (!response.ok) {
+      const data = await response.json();
+      throw new Error(data.error || 'Failed to accept estimate');
+    }
+
+    loadDashboard();
+  };
+
   const pendingRequests = requests.filter(r => r.status === 'pending');
   const activeRequests = requests.filter(r => ['approved', 'assigned', 'in_progress'].includes(r.status));
   const completedRequests = requests.filter(r => r.status === 'completed');
@@ -196,10 +250,55 @@ export default function LandlordDashboard() {
               Add Property
             </button>
           </div>
+
+          {/* Tabs */}
+          <div className="flex gap-6 mt-4">
+            {([
+              { key: 'requests', label: 'Requests', icon: AlertCircle },
+              { key: 'fees', label: 'Service Fees', icon: Receipt },
+              { key: 'settings', label: 'Settings', icon: Settings },
+            ] as const).map(tab => (
+              <button
+                key={tab.key}
+                onClick={() => setActiveTab(tab.key)}
+                className={`flex items-center gap-2 pb-2 text-sm font-semibold border-b-2 transition-colors ${
+                  activeTab === tab.key
+                    ? 'border-[var(--color-primary)] text-[var(--color-primary)]'
+                    : 'border-transparent text-gray-500 hover:text-gray-700'
+                }`}
+              >
+                <tab.icon className="w-4 h-4" />
+                {tab.label}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
       <div className="container mx-auto px-6 py-8">
+        {activeTab === 'fees' && organizationId && (
+          <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+            <div className="p-6 border-b border-gray-200">
+              <h2 className="text-xl font-bold text-gray-900">Service Fee History</h2>
+              <p className="text-sm text-gray-500 mt-1">All $35 service fees charged for accepted estimates</p>
+            </div>
+            <ServiceFeeHistory organizationId={organizationId} />
+          </div>
+        )}
+
+        {activeTab === 'settings' && organizationId && (
+          <div className="max-w-xl">
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+              <div className="flex items-center gap-3 mb-6">
+                <CreditCard className="w-5 h-5 text-gray-500" />
+                <h2 className="text-xl font-bold text-gray-900">Payment Method</h2>
+              </div>
+              <PaymentMethodForm organizationId={organizationId} />
+            </div>
+          </div>
+        )}
+
+        {activeTab === 'requests' && <>
         {/* Stats */}
         <div className="grid md:grid-cols-4 gap-6 mb-8">
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
@@ -417,6 +516,17 @@ export default function LandlordDashboard() {
                   </div>
                 )}
 
+                {requestEstimates[selectedRequest.id]?.length > 0 && (
+                  <div className="mb-6">
+                    <h3 className="font-semibold text-gray-900 mb-3">Contractor Estimates</h3>
+                    <EstimatesList
+                      estimates={requestEstimates[selectedRequest.id]}
+                      onAccept={acceptEstimate}
+                      canAccept={['submitted', 'estimating', 'estimated'].includes(selectedRequest.status)}
+                    />
+                  </div>
+                )}
+
                 {selectedRequest.status === 'pending' && (
                   <div className="mb-4">
                     <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -587,6 +697,7 @@ export default function LandlordDashboard() {
             </div>
           )}
         </div>
+        </>}
       </div>
     </div>
   );
