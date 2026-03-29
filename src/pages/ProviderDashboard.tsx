@@ -159,7 +159,10 @@ export default function ProviderDashboard() {
         .in('status', ['submitted', 'estimating'])
         .order('created_at', { ascending: false });
 
-      setMaintenanceRequests(requestsData || []);
+      setMaintenanceRequests((requestsData || []).map((r: any) => ({
+        ...r,
+        property: Array.isArray(r.property) ? r.property[0] : r.property,
+      })));
     } catch (error) {
       console.error('Error loading dashboard:', error);
     } finally {
