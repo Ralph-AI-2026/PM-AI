@@ -11,6 +11,8 @@ import AuthPage from './pages/AuthPage';
 import TenantDashboard from './pages/TenantDashboard';
 import LandlordDashboard from './pages/LandlordDashboard';
 import ProviderDashboard from './pages/ProviderDashboard';
+import ContractorOnboardingWizard from './components/ContractorOnboardingWizard';
+import AdminContractorReview from './components/AdminContractorReview';
 
 function ProtectedRoute({ children }: { children: ReactNode }) {
   const [state, setState] = useState<'loading' | 'authenticated' | 'unauthenticated'>('loading');
@@ -56,6 +58,8 @@ export default function App() {
         <Route path="/tenant/dashboard" element={<ProtectedRoute><TenantDashboard /></ProtectedRoute>} />
         <Route path="/landlord/dashboard" element={<ProtectedRoute><LandlordDashboard /></ProtectedRoute>} />
         <Route path="/provider/dashboard" element={<ProtectedRoute><ProviderDashboard /></ProtectedRoute>} />
+        <Route path="/contractor/onboarding" element={<ProtectedRoute><ContractorOnboardingWizard /></ProtectedRoute>} />
+        <Route path="/admin/contractors" element={<ProtectedRoute><AdminContractorReview /></ProtectedRoute>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

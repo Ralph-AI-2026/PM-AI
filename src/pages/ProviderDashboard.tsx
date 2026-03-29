@@ -13,6 +13,8 @@ import {
   Send
 } from 'lucide-react';
 import ContractorEstimateForm from '../components/ContractorEstimateForm';
+import ContractorVerificationStatus from '../components/ContractorVerificationStatus';
+import DocumentExpiryAlerts from '../components/DocumentExpiryAlerts';
 
 interface Job {
   id: string;
@@ -258,6 +260,10 @@ export default function ProviderDashboard() {
       </div>
 
       <div className="container mx-auto px-6 py-8">
+        {/* Contractor Verification Status */}
+        <ContractorVerificationStatus />
+        <DocumentExpiryAlerts />
+
         {/* Stats Grid */}
         <div className="grid md:grid-cols-4 gap-6 mb-8">
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
