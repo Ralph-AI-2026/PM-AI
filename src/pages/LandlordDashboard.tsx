@@ -12,7 +12,11 @@ import {
   Image as ImageIcon,
   CreditCard,
   Receipt,
-  Settings
+  Settings,
+  UserPlus,
+  Users,
+  Copy,
+  X
 } from 'lucide-react';
 import type { Estimate } from '../types/payment';
 import EstimatesList from '../components/EstimatesList';
@@ -48,6 +52,20 @@ interface Property {
   state: string;
   property_type: string;
   units: number;
+  invite_code: string | null;
+}
+
+interface PropertyTenant {
+  id: string;
+  property_id: string;
+  tenant_id: string | null;
+  invited_email: string | null;
+  status: string;
+  unit_number: string | null;
+  profile?: {
+    full_name: string;
+    email: string;
+  };
 }
 
 export default function LandlordDashboard() {
@@ -59,6 +77,20 @@ export default function LandlordDashboard() {
   const [activeTab, setActiveTab] = useState<'requests' | 'fees' | 'settings'>('requests');
   const [organizationId, setOrganizationId] = useState<string | null>(null);
   const [requestEstimates, setRequestEstimates] = useState<Record<string, Estimate[]>>({});
+
+  // Tenant invite state
+  const [invitePropertyId, setInvitePropertyId] = useState<string | null>(null);
+  const [inviteEmail, setInviteEmail] = useState('');
+  const [inviteUnit, setInviteUnit] = useState('');
+  const [inviting, setInviting] = useState(false);
+  const [inviteSuccess, setInviteSuccess] = useState('');
+
+  // Tenants per property
+  const [propertyTenants, setPropertyTenants] = useState<Record<string, PropertyTenant[]>>({});
+  const [showTenantsFor, setShowTenantsFor] = useState<string | null>(null);
+
+  // Copied code indicator
+  const [copiedCode, setCopiedCode] = useState<string | null>(null);
 
   // Property form state
   const [address, setAddress] = useState('');
@@ -205,6 +237,71 @@ export default function LandlordDashboard() {
     }
   };
 
+  const loadTenantsForProperty = async (propertyId: string) => {
+    const { data, error } = await supabase
+      .from('property_tenants')
+      .select(`*, profile:profiles(full_name, email)`)
+      .eq('property_id', propertyId);
+
+    if (!error && data) {
+      setPropertyTenants(prev => ({ ...prev, [propertyId]: data }));
+    }
+  };
+
+  const toggleShowTenants = async (propertyId: string) => {
+    if (showTenantsFor === propertyId) {
+      setShowTenantsFor(null);
+    } else {
+      setShowTenantsFor(propertyId);
+      if (!propertyTenants[propertyId]) {
+        await loadTenantsForProperty(propertyId);
+      }
+    }
+  };
+
+  const inviteTenant = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!invitePropertyId) return;
+    setInviting(true);
+    setInviteSuccess('');
+
+    try {
+      const { error } = await supabase
+        .from('property_tenants')
+        .insert({
+          property_id: invitePropertyId,
+          invited_email: inviteEmail.trim().toLowerCase(),
+          unit_number: inviteUnit || null,
+          status: 'invited',
+          active: false,
+        });
+
+      if (error) throw error;
+
+      setInviteSuccess(
+        `Invite recorded for ${inviteEmail}. Share the property invite code so they can link their account.`
+      );
+      setInviteEmail('');
+      setInviteUnit('');
+
+      if (showTenantsFor === invitePropertyId) {
+        await loadTenantsForProperty(invitePropertyId);
+      }
+    } catch (error: any) {
+      console.error('Error inviting tenant:', error);
+      alert(error.message || 'Failed to invite tenant. Please try again.');
+    } finally {
+      setInviting(false);
+    }
+  };
+
+  const copyInviteCode = (code: string) => {
+    navigator.clipboard.writeText(code).then(() => {
+      setCopiedCode(code);
+      setTimeout(() => setCopiedCode(null), 2000);
+    });
+  };
+
   const acceptEstimate = async (estimateId: string) => {
     const response = await fetch(`/api/estimates/${estimateId}/accept`, {
       method: 'POST',
@@ -223,6 +320,7 @@ export default function LandlordDashboard() {
   const pendingRequests = requests.filter(r => r.status === 'pending');
   const activeRequests = requests.filter(r => ['approved', 'assigned', 'in_progress'].includes(r.status));
   const completedRequests = requests.filter(r => r.status === 'completed');
+  const inviteProperty = invitePropertyId ? properties.find(p => p.id === invitePropertyId) : null;
 
   if (loading) {
     return (
@@ -452,6 +550,99 @@ export default function LandlordDashboard() {
           </div>
         )}
 
+        {/* Invite Tenant Modal */}
+        {invitePropertyId && inviteProperty && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-6">
+            <div className="bg-white rounded-xl max-w-lg w-full">
+              <div className="p-6 border-b border-gray-200 flex items-center justify-between">
+                <div>
+                  <h2 className="text-xl font-bold text-gray-900">Invite Tenant</h2>
+                  <p className="text-sm text-gray-500 mt-1">{inviteProperty.address}, {inviteProperty.city}</p>
+                </div>
+                <button
+                  onClick={() => { setInvitePropertyId(null); setInviteSuccess(''); setInviteEmail(''); setInviteUnit(''); }}
+                  className="text-gray-400 hover:text-gray-600"
+                >
+                  <X className="w-6 h-6" />
+                </button>
+              </div>
+
+              <div className="p-6">
+                {inviteProperty.invite_code && (
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+                    <p className="text-sm font-semibold text-blue-900 mb-1">Property Invite Code</p>
+                    <p className="text-xs text-blue-700 mb-3">
+                      Share this code with your tenant. They enter it on their dashboard to link to this property.
+                    </p>
+                    <div className="flex items-center gap-3">
+                      <span className="text-2xl font-mono font-bold text-blue-800 tracking-widest">
+                        {inviteProperty.invite_code}
+                      </span>
+                      <button
+                        onClick={() => copyInviteCode(inviteProperty.invite_code!)}
+                        className="flex items-center gap-1 px-3 py-1 bg-blue-100 hover:bg-blue-200 text-blue-800 rounded text-sm font-medium transition-colors"
+                      >
+                        <Copy className="w-4 h-4" />
+                        {copiedCode === inviteProperty.invite_code ? 'Copied!' : 'Copy'}
+                      </button>
+                    </div>
+                  </div>
+                )}
+
+                <p className="text-sm font-semibold text-gray-700 mb-3">Also record by email (optional):</p>
+
+                {inviteSuccess && (
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-3 mb-4 text-sm text-green-800">
+                    {inviteSuccess}
+                  </div>
+                )}
+
+                <form onSubmit={inviteTenant}>
+                  <div className="mb-4">
+                    <label className="block text-sm font-medium text-gray-700 mb-2">Tenant Email</label>
+                    <input
+                      type="email"
+                      value={inviteEmail}
+                      onChange={(e) => setInviteEmail(e.target.value)}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent"
+                      placeholder="tenant@example.com"
+                      required
+                    />
+                  </div>
+
+                  <div className="mb-6">
+                    <label className="block text-sm font-medium text-gray-700 mb-2">Unit Number (optional)</label>
+                    <input
+                      type="text"
+                      value={inviteUnit}
+                      onChange={(e) => setInviteUnit(e.target.value)}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent"
+                      placeholder="e.g. 2B"
+                    />
+                  </div>
+
+                  <div className="flex gap-3">
+                    <button
+                      type="button"
+                      onClick={() => { setInvitePropertyId(null); setInviteSuccess(''); setInviteEmail(''); setInviteUnit(''); }}
+                      className="flex-1 px-4 py-3 border border-gray-300 rounded-lg font-semibold text-gray-700 hover:bg-gray-50 transition-colors"
+                    >
+                      Close
+                    </button>
+                    <button
+                      type="submit"
+                      disabled={inviting}
+                      className="flex-1 px-4 py-3 bg-[var(--color-primary)] text-white rounded-lg font-semibold hover:bg-[var(--color-primary-dark)] transition-colors disabled:opacity-50"
+                    >
+                      {inviting ? 'Recording...' : 'Record Invite'}
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Request Detail Modal */}
         {selectedRequest && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-6">
@@ -676,22 +867,76 @@ export default function LandlordDashboard() {
               </button>
             </div>
           ) : (
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="space-y-4">
               {properties.map((property) => (
-                <div key={property.id} className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-                  <div className="flex items-start gap-3 mb-4">
-                    <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Building className="w-5 h-5 text-[var(--color-primary)]" />
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-bold text-gray-900">{property.address}</h3>
-                      <p className="text-sm text-gray-500">{property.city}, {property.state}</p>
+                <div key={property.id} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                  <div className="p-6">
+                    <div className="flex items-start gap-3">
+                      <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Building className="w-5 h-5 text-[var(--color-primary)]" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-gray-900">{property.address}</h3>
+                        <p className="text-sm text-gray-500">{property.city}, {property.state}</p>
+                        <div className="flex items-center gap-3 mt-1 text-sm text-gray-600 flex-wrap">
+                          <span className="capitalize">{property.property_type}</span>
+                          <span>{property.units} unit(s)</span>
+                          {property.invite_code && (
+                            <span className="font-mono text-xs bg-gray-100 px-2 py-0.5 rounded">
+                              Code: <strong>{property.invite_code}</strong>
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2 flex-shrink-0">
+                        <button
+                          onClick={() => toggleShowTenants(property.id)}
+                          className="flex items-center gap-1 px-3 py-2 text-sm border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                        >
+                          <Users className="w-4 h-4" />
+                          Tenants
+                        </button>
+                        <button
+                          onClick={() => { setInvitePropertyId(property.id); setInviteSuccess(''); }}
+                          className="flex items-center gap-1 px-3 py-2 text-sm bg-[var(--color-primary)] text-white rounded-lg hover:bg-[var(--color-primary-dark)] transition-colors"
+                        >
+                          <UserPlus className="w-4 h-4" />
+                          Invite Tenant
+                        </button>
+                      </div>
                     </div>
                   </div>
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="text-gray-600">{property.property_type}</span>
-                    <span className="text-gray-600">{property.units} unit(s)</span>
-                  </div>
+
+                  {showTenantsFor === property.id && (
+                    <div className="border-t border-gray-200 bg-gray-50 px-6 py-4">
+                      <h4 className="text-sm font-semibold text-gray-700 mb-3">Tenants</h4>
+                      {!propertyTenants[property.id] ? (
+                        <p className="text-sm text-gray-500">Loading...</p>
+                      ) : propertyTenants[property.id].length === 0 ? (
+                        <p className="text-sm text-gray-500">No tenants linked yet. Invite one using the button above.</p>
+                      ) : (
+                        <div className="space-y-2">
+                          {propertyTenants[property.id].map((pt) => (
+                            <div key={pt.id} className="flex items-center justify-between bg-white rounded-lg px-4 py-3 border border-gray-200">
+                              <div>
+                                <p className="text-sm font-medium text-gray-900">
+                                  {pt.profile?.full_name || pt.invited_email || 'Unknown'}
+                                </p>
+                                {pt.profile?.email && <p className="text-xs text-gray-500">{pt.profile.email}</p>}
+                                {!pt.profile && pt.invited_email && <p className="text-xs text-gray-500">{pt.invited_email}</p>}
+                                {pt.unit_number && <p className="text-xs text-gray-400">Unit {pt.unit_number}</p>}
+                              </div>
+                              <span className={`px-2 py-1 rounded text-xs font-semibold ${
+                                pt.status === 'active' ? 'bg-green-100 text-green-700' : 'bg-yellow-100 text-yellow-700'
+                              }`}>
+                                {pt.status === 'active' ? 'Active' : 'Invited'}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>

@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import {
   Plus,
-  Image as ImageIcon,
   AlertCircle,
   Clock,
   CheckCircle,
   XCircle,
-  Upload
+  Upload,
+  Home,
+  KeyRound
 } from 'lucide-react';
 
 interface MaintenanceRequest {
@@ -34,10 +36,17 @@ interface Property {
 }
 
 export default function TenantDashboard() {
+  const navigate = useNavigate();
   const [requests, setRequests] = useState<MaintenanceRequest[]>([]);
   const [properties, setProperties] = useState<Property[]>([]);
   const [showNewRequest, setShowNewRequest] = useState(false);
   const [loading, setLoading] = useState(true);
+
+  // Join by code state
+  const [joinCode, setJoinCode] = useState('');
+  const [joining, setJoining] = useState(false);
+  const [joinError, setJoinError] = useState('');
+  const [joinSuccess, setJoinSuccess] = useState('');
 
   // Form state
   const [propertyId, setPropertyId] = useState('');
@@ -49,15 +58,23 @@ export default function TenantDashboard() {
   const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
-    loadDashboard();
-  }, []);
+    const checkAuth = async () => {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) {
+        navigate('/auth');
+        return;
+      }
+      loadDashboard();
+    };
+    checkAuth();
+  }, [navigate]);
 
   const loadDashboard = async () => {
     try {
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) return;
 
-      // Load properties
+      // Load properties linked to this tenant
       const { data: propertyTenants } = await supabase
         .from('property_tenants')
         .select('property:properties(id, address, city)')
@@ -65,14 +82,13 @@ export default function TenantDashboard() {
         .eq('active', true);
 
       if (propertyTenants) {
-        setProperties(
-          propertyTenants
-            .map(pt => pt.property as unknown as Property)
-            .filter(Boolean)
-        );
+        const linked = propertyTenants
+          .map((pt: any) => pt.property)
+          .filter(Boolean) as Property[];
+        setProperties(linked);
       }
 
-      // Load requests
+      // Load maintenance requests
       const { data: requestsData } = await supabase
         .from('maintenance_requests')
         .select(`
@@ -90,6 +106,99 @@ export default function TenantDashboard() {
     }
   };
 
+  const joinByCode = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setJoining(true);
+    setJoinError('');
+    setJoinSuccess('');
+
+    try {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) return;
+
+      const code = joinCode.trim().toUpperCase();
+
+      // Find the property with this invite code
+      const { data: property, error: propError } = await supabase
+        .from('properties')
+        .select('id, address, city')
+        .eq('invite_code', code)
+        .single();
+
+      if (propError || !property) {
+        setJoinError('Invalid invite code. Double-check with your landlord.');
+        return;
+      }
+
+      // Check if already linked
+      const { data: existing } = await supabase
+        .from('property_tenants')
+        .select('id, status')
+        .eq('property_id', property.id)
+        .eq('tenant_id', user.id)
+        .maybeSingle();
+
+      if (existing) {
+        if (existing.status === 'active') {
+          setJoinError('You are already linked to this property.');
+          return;
+        }
+        // Activate the existing record
+        await supabase
+          .from('property_tenants')
+          .update({ status: 'active', active: true })
+          .eq('id', existing.id);
+        setJoinSuccess(`Linked to ${property.address}, ${property.city}.`);
+        setJoinCode('');
+        loadDashboard();
+        return;
+      }
+
+      // Check if there's an email-based invite for this user
+      const userEmail = user.email?.toLowerCase();
+      if (userEmail) {
+        const { data: emailInvite } = await supabase
+          .from('property_tenants')
+          .select('id')
+          .eq('property_id', property.id)
+          .eq('invited_email', userEmail)
+          .maybeSingle();
+
+        if (emailInvite) {
+          await supabase
+            .from('property_tenants')
+            .update({ status: 'active', active: true, tenant_id: user.id })
+            .eq('id', emailInvite.id);
+          setJoinSuccess(`Linked to ${property.address}, ${property.city}.`);
+          setJoinCode('');
+          loadDashboard();
+          return;
+        }
+      }
+
+      // Create a fresh active linkage
+      const { error: insertError } = await supabase
+        .from('property_tenants')
+        .insert({
+          property_id: property.id,
+          tenant_id: user.id,
+          status: 'active',
+          active: true,
+        });
+
+      if (insertError) throw insertError;
+
+      setJoinSuccess(`Linked to ${property.address}, ${property.city}. You can now submit maintenance requests.`);
+      setJoinCode('');
+      loadDashboard();
+    } catch (error: any) {
+      console.error('Error joining property:', error);
+      setJoinError(error.message || 'Something went wrong. Please try again.');
+    } finally {
+      setJoining(false);
+    }
+  };
+
   const handlePhotoUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
       setPhotos(Array.from(e.target.files));
@@ -104,7 +213,6 @@ export default function TenantDashboard() {
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) return;
 
-      // Get landlord_id from property
       const { data: propertyData } = await supabase
         .from('properties')
         .select('landlord_id')
@@ -119,7 +227,7 @@ export default function TenantDashboard() {
         const fileExt = photo.name.split('.').pop();
         const fileName = `${user.id}/${Date.now()}.${fileExt}`;
 
-        const { data: uploadData, error: uploadError } = await supabase.storage
+        const { error: uploadError } = await supabase.storage
           .from('maintenance-photos')
           .upload(fileName, photo);
 
@@ -132,7 +240,6 @@ export default function TenantDashboard() {
         photoUrls.push(publicUrl);
       }
 
-      // Create request
       const { error } = await supabase
         .from('maintenance_requests')
         .insert({
@@ -149,15 +256,12 @@ export default function TenantDashboard() {
 
       if (error) throw error;
 
-      // Reset form
       setTitle('');
       setDescription('');
       setCategory('general');
       setPriority('medium');
       setPhotos([]);
       setShowNewRequest(false);
-
-      // Reload dashboard
       loadDashboard();
     } catch (error) {
       console.error('Error submitting request:', error);
@@ -203,18 +307,75 @@ export default function TenantDashboard() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold text-gray-900">My Maintenance Requests</h1>
-            <button
-              onClick={() => setShowNewRequest(true)}
-              className="flex items-center gap-2 px-4 py-2 bg-[var(--color-primary)] text-white rounded-lg font-semibold hover:bg-[var(--color-primary-dark)] transition-colors"
-            >
-              <Plus className="w-5 h-5" />
-              New Request
-            </button>
+            {properties.length > 0 && (
+              <button
+                onClick={() => setShowNewRequest(true)}
+                className="flex items-center gap-2 px-4 py-2 bg-[var(--color-primary)] text-white rounded-lg font-semibold hover:bg-[var(--color-primary-dark)] transition-colors"
+              >
+                <Plus className="w-5 h-5" />
+                New Request
+              </button>
+            )}
           </div>
         </div>
       </div>
 
       <div className="container mx-auto px-6 py-8">
+
+        {/* Join Property by Code */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-9 h-9 bg-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <KeyRound className="w-5 h-5 text-indigo-600" />
+            </div>
+            <div>
+              <h2 className="text-lg font-bold text-gray-900">Join a Property</h2>
+              <p className="text-sm text-gray-500">Enter the 6-character code your landlord gave you</p>
+            </div>
+          </div>
+
+          {joinSuccess && (
+            <div className="bg-green-50 border border-green-200 rounded-lg p-3 mb-4 text-sm text-green-800">
+              {joinSuccess}
+            </div>
+          )}
+          {joinError && (
+            <div className="bg-red-50 border border-red-200 rounded-lg p-3 mb-4 text-sm text-red-800">
+              {joinError}
+            </div>
+          )}
+
+          <form onSubmit={joinByCode} className="flex gap-3">
+            <input
+              type="text"
+              value={joinCode}
+              onChange={(e) => setJoinCode(e.target.value.toUpperCase())}
+              maxLength={6}
+              className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent font-mono text-lg tracking-widest uppercase"
+              placeholder="ABC123"
+            />
+            <button
+              type="submit"
+              disabled={joining || joinCode.length < 6}
+              className="px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors disabled:opacity-50"
+            >
+              {joining ? 'Joining...' : 'Join'}
+            </button>
+          </form>
+        </div>
+
+        {/* No properties linked yet */}
+        {properties.length === 0 && (
+          <div className="bg-white rounded-xl p-10 text-center shadow-sm border border-gray-200 mb-8">
+            <Home className="w-14 h-14 text-gray-300 mx-auto mb-4" />
+            <h3 className="text-lg font-bold text-gray-900 mb-2">No properties linked</h3>
+            <p className="text-gray-500 text-sm max-w-sm mx-auto">
+              Your landlord hasn't added you yet, or you haven't joined a property.
+              Ask your landlord for your invite code and enter it above.
+            </p>
+          </div>
+        )}
+
         {/* New Request Modal */}
         {showNewRequest && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-6">
@@ -225,9 +386,7 @@ export default function TenantDashboard() {
 
               <form onSubmit={submitRequest} className="p-6">
                 <div className="mb-4">
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Property
-                  </label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Property</label>
                   <select
                     value={propertyId}
                     onChange={(e) => setPropertyId(e.target.value)}
@@ -244,9 +403,7 @@ export default function TenantDashboard() {
                 </div>
 
                 <div className="mb-4">
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Issue Title
-                  </label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Issue Title</label>
                   <input
                     type="text"
                     value={title}
@@ -258,9 +415,7 @@ export default function TenantDashboard() {
                 </div>
 
                 <div className="mb-4">
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Description
-                  </label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Description</label>
                   <textarea
                     value={description}
                     onChange={(e) => setDescription(e.target.value)}
@@ -273,9 +428,7 @@ export default function TenantDashboard() {
 
                 <div className="grid md:grid-cols-2 gap-4 mb-4">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Category
-                    </label>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">Category</label>
                     <select
                       value={category}
                       onChange={(e) => setCategory(e.target.value)}
@@ -285,17 +438,11 @@ export default function TenantDashboard() {
                       <option value="electrical">Electrical</option>
                       <option value="hvac">HVAC</option>
                       <option value="general">General Maintenance</option>
-                      <option value="appliance">Appliance</option>
-                      <option value="structural">Structural</option>
-                      <option value="pest">Pest Control</option>
-                      <option value="other">Other</option>
                     </select>
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Priority
-                    </label>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">Priority</label>
                     <select
                       value={priority}
                       onChange={(e) => setPriority(e.target.value)}
@@ -304,15 +451,13 @@ export default function TenantDashboard() {
                       <option value="low">Low</option>
                       <option value="medium">Medium</option>
                       <option value="high">High</option>
-                      <option value="emergency">Emergency</option>
+                      <option value="urgent">Urgent</option>
                     </select>
                   </div>
                 </div>
 
                 <div className="mb-6">
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Photos
-                  </label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Photos</label>
                   <div className="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center hover:border-[var(--color-primary)] transition-colors">
                     <input
                       type="file"
@@ -355,7 +500,7 @@ export default function TenantDashboard() {
         )}
 
         {/* Requests List */}
-        {requests.length === 0 ? (
+        {requests.length === 0 && properties.length > 0 ? (
           <div className="bg-white rounded-xl p-12 text-center shadow-sm border border-gray-200">
             <AlertCircle className="w-16 h-16 text-gray-400 mx-auto mb-4" />
             <h3 className="text-xl font-bold text-gray-900 mb-2">No maintenance requests yet</h3>
@@ -383,7 +528,7 @@ export default function TenantDashboard() {
                     <p className="text-sm text-gray-500 mb-2">
                       {request.property.address}, {request.property.city}
                     </p>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 flex-wrap">
                       <span className={`px-2 py-1 rounded text-xs font-semibold ${
                         request.priority === 'urgent' ? 'bg-red-100 text-red-700' :
                         request.priority === 'high' ? 'bg-orange-100 text-orange-700' :
