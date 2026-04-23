@@ -213,13 +213,29 @@ export default function TenantDashboard() {
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) return;
 
-      const { data: propertyData } = await supabase
-        .from('properties')
-        .select('landlord_id')
-        .eq('id', propertyId)
-        .single();
+      // Fetch property + landlord profile in parallel with tenant profile
+      const [propertyResult, tenantResult] = await Promise.all([
+        supabase
+          .from('properties')
+          .select('landlord_id, address, city')
+          .eq('id', propertyId)
+          .single(),
+        supabase
+          .from('profiles')
+          .select('full_name')
+          .eq('id', user.id)
+          .single(),
+      ]);
 
+      const propertyData = propertyResult.data;
       if (!propertyData) throw new Error('Property not found');
+
+      // Fetch landlord profile separately so we have email + name
+      const { data: landlordProfile } = await supabase
+        .from('profiles')
+        .select('email, full_name')
+        .eq('id', propertyData.landlord_id)
+        .single();
 
       // Upload photos
       const photoUrls: string[] = [];
@@ -255,6 +271,30 @@ export default function TenantDashboard() {
         });
 
       if (error) throw error;
+
+      // Fire-and-forget landlord email notification — don't block UI on this
+      if (landlordProfile?.email) {
+        const propertyAddress = `${propertyData.address}, ${propertyData.city}`;
+        const tenantName = tenantResult.data?.full_name ?? user.email ?? 'A tenant';
+
+        fetch('/api/notifications/maintenance-request', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            landlord_email: landlordProfile.email,
+            landlord_name: landlordProfile.full_name ?? 'Landlord',
+            property_address: propertyAddress,
+            request_title: title,
+            request_description: description,
+            request_priority: priority,
+            tenant_name: tenantName,
+            dashboard_url: `${window.location.origin}/landlord/dashboard`,
+          }),
+        }).catch((err) => {
+          // Silent failure — notification is best-effort
+          console.warn('Landlord notification failed to send:', err);
+        });
+      }
 
       setTitle('');
       setDescription('');

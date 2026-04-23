@@ -1,7 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/:path((?!assets|manifest|sw|icon).*)",
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/:path((?!assets|manifest|sw|icon|api).*)",
       "destination": "/index.html"
     }
   ]
