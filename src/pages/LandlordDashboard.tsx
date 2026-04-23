@@ -218,15 +218,38 @@ export default function LandlordDashboard() {
 
       if (error) throw error;
 
-      // If approved, create a job
+      // If approved, create a job and notify matching contractors
       if (status === 'approved') {
-        await supabase
+        const { data: newJob } = await supabase
           .from('jobs')
           .insert({
             request_id: requestId,
             status: 'available',
             cost: estimatedCost || 0,
-          });
+          })
+          .select('id')
+          .single();
+
+        // Find the request details to pass to the notification
+        const req = requests.find(r => r.id === requestId);
+        if (newJob && req) {
+          try {
+            await fetch('/api/notifications/job-available', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                job_id: newJob.id,
+                service_type: req.category,
+                location: req.property.city,
+                description: req.description,
+                property_address: `${req.property.address}, ${req.property.city}`,
+              }),
+            });
+          } catch (notifyErr) {
+            // Non-fatal: job was created, notification is best-effort
+            console.error('Failed to send job notifications:', notifyErr);
+          }
+        }
       }
 
       setSelectedRequest(null);

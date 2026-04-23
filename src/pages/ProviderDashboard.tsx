@@ -10,7 +10,9 @@ import {
   TrendingUp,
   Star,
   FileText,
-  Send
+  Send,
+  Zap,
+  XCircle,
 } from 'lucide-react';
 import ContractorEstimateForm from '../components/ContractorEstimateForm';
 import ContractorVerificationStatus from '../components/ContractorVerificationStatus';
@@ -68,6 +70,8 @@ export default function ProviderDashboard() {
   const [maintenanceRequests, setMaintenanceRequests] = useState<MaintenanceRequestForEstimate[]>([]);
   const [estimatingRequestId, setEstimatingRequestId] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const [claimingJobId, setClaimingJobId] = useState<string | null>(null);
+  const [claimToast, setClaimToast] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
 
   useEffect(() => {
     loadDashboard();
@@ -225,6 +229,40 @@ export default function ProviderDashboard() {
     }
   };
 
+  const claimJob = async (jobId: string) => {
+    try {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) return;
+
+      setClaimingJobId(jobId);
+
+      const response = await fetch('/api/jobs/claim', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ job_id: jobId, provider_id: user.id }),
+      });
+
+      const data = await response.json() as { success?: boolean; error?: string; already_claimed?: boolean };
+
+      if (response.ok && data.success) {
+        setClaimToast({ message: 'Job claimed! Check your email for full details.', type: 'success' });
+        loadDashboard();
+      } else if (data.already_claimed) {
+        setClaimToast({ message: 'Too slow — another contractor already claimed this job.', type: 'error' });
+        loadDashboard(); // Refresh so the job disappears from the list
+      } else {
+        setClaimToast({ message: data.error || 'Failed to claim job. Please try again.', type: 'error' });
+      }
+    } catch (err) {
+      console.error('Error claiming job:', err);
+      setClaimToast({ message: 'Something went wrong. Please try again.', type: 'error' });
+    } finally {
+      setClaimingJobId(null);
+      // Auto-dismiss toast after 4 seconds
+      setTimeout(() => setClaimToast(null), 4000);
+    }
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -238,6 +276,20 @@ export default function ProviderDashboard() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Toast notification */}
+      {claimToast && (
+        <div className={`fixed top-6 right-6 z-50 flex items-center gap-3 px-5 py-4 rounded-xl shadow-lg text-white font-semibold transition-all ${
+          claimToast.type === 'success' ? 'bg-green-600' : 'bg-red-600'
+        }`}>
+          {claimToast.type === 'success' ? (
+            <CheckCircle className="w-5 h-5 flex-shrink-0" />
+          ) : (
+            <XCircle className="w-5 h-5 flex-shrink-0" />
+          )}
+          <span>{claimToast.message}</span>
+        </div>
+      )}
+
       {/* Header */}
       <div className="bg-white border-b border-gray-200">
         <div className="container mx-auto px-6 py-4">
@@ -417,10 +469,21 @@ export default function ProviderDashboard() {
                   </div>
 
                   <button
-                    onClick={() => acceptJob(job.id)}
-                    className="w-full bg-[var(--color-primary)] text-white py-2 rounded-lg font-semibold hover:bg-[var(--color-primary-dark)] transition-colors"
+                    onClick={() => claimJob(job.id)}
+                    disabled={claimingJobId === job.id}
+                    className="w-full flex items-center justify-center gap-2 bg-[var(--color-primary)] text-[#060D1A] py-3 rounded-lg font-bold hover:bg-[var(--color-primary-dark)] transition-colors disabled:opacity-60 disabled:cursor-not-allowed text-base"
                   >
-                    Accept Job
+                    {claimingJobId === job.id ? (
+                      <>
+                        <div className="w-4 h-4 border-2 border-[#060D1A] border-t-transparent rounded-full animate-spin" />
+                        Claiming...
+                      </>
+                    ) : (
+                      <>
+                        <Zap className="w-4 h-4" />
+                        Claim This Job
+                      </>
+                    )}
                   </button>
                 </div>
               ))}
