@@ -150,15 +150,23 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
   }
 
-  // Find matching available service providers
+  // Find available service providers whose trade matches the job category.
+  // Also include "general" providers — they handle all trade types.
+  // De-dupe by id in case a provider somehow appears in both sets.
+  const serviceTypeFilters = [payload.service_type];
+  if (payload.service_type !== 'general') {
+    serviceTypeFilters.push('general');
+  }
+
   const { data: providers, error: providerError } = await supabase
     .from('service_providers')
     .select(`
       id,
       available,
+      service_type,
       profiles!inner(email, full_name)
     `)
-    .eq('service_type', payload.service_type)
+    .in('service_type', serviceTypeFilters)
     .eq('available', true);
 
   if (providerError) {
@@ -170,13 +178,18 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(200).json({ success: true, notified: 0, message: 'No matching providers found' });
   }
 
+  // De-dupe by provider id (shouldn't happen, but safe)
+  const uniqueProviders = Array.from(
+    new Map(providers.map(p => [p.id, p])).values()
+  );
+
   const dashboardUrl = process.env.DASHBOARD_URL ?? 'https://hrop.ca/provider';
   const from = process.env.RESEND_FROM_EMAIL ?? 'HROP - Fix It Fast <notifications@hrop.ca>';
 
   let notified = 0;
   const errors: string[] = [];
 
-  for (const provider of providers) {
+  for (const provider of uniqueProviders) {
     const profile = Array.isArray((provider as any).profiles)
       ? (provider as any).profiles[0]
       : (provider as any).profiles;
@@ -220,7 +233,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   return res.status(200).json({
     success: true,
     notified,
-    total_providers: providers.length,
+    total_providers: uniqueProviders.length,
     errors: errors.length > 0 ? errors : undefined,
   });
 }

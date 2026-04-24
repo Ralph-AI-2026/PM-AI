@@ -55,6 +55,7 @@ interface ProviderStats {
   total_jobs: number;
   rating: number;
   available: boolean;
+  service_type: string;
 }
 
 export default function ProviderDashboard() {
@@ -63,8 +64,10 @@ export default function ProviderDashboard() {
     total_jobs: 0,
     rating: 0,
     available: true,
+    service_type: '',
   });
   const [availableJobs, setAvailableJobs] = useState<Job[]>([]);
+  const [showAllJobs, setShowAllJobs] = useState(false);
   const [activeJobs, setActiveJobs] = useState<Job[]>([]);
   const [completedJobs, setCompletedJobs] = useState<Job[]>([]);
   const [maintenanceRequests, setMaintenanceRequests] = useState<MaintenanceRequestForEstimate[]>([]);
@@ -77,7 +80,12 @@ export default function ProviderDashboard() {
     loadDashboard();
   }, []);
 
-  const loadDashboard = async () => {
+  useEffect(() => {
+    // Re-fetch available jobs whenever the toggle changes (skip initial mount — handled above)
+    loadDashboard(showAllJobs);
+  }, [showAllJobs]);
+
+  const loadDashboard = async (overrideShowAll?: boolean) => {
     try {
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) return;
@@ -89,17 +97,25 @@ export default function ProviderDashboard() {
         .eq('id', user.id)
         .single();
 
+      const serviceType = providerData?.service_type ?? '';
+
       if (providerData) {
         setStats({
           total_earnings: providerData.total_earnings || 0,
           total_jobs: providerData.total_jobs || 0,
           rating: providerData.rating || 0,
           available: providerData.available,
+          service_type: serviceType,
         });
       }
 
+      // Providers with service_type "general" see all jobs by default.
+      // Others see only their trade unless showAllJobs is toggled on.
+      const effectiveShowAll = overrideShowAll ?? showAllJobs;
+      const filterByTrade = serviceType && serviceType !== 'general' && !effectiveShowAll;
+
       // Load available jobs
-      const { data: availableData } = await supabase
+      let availableQuery = supabase
         .from('jobs')
         .select(`
           *,
@@ -111,7 +127,14 @@ export default function ProviderDashboard() {
             property:properties(address, city)
           )
         `)
-        .eq('status', 'available')
+        .eq('status', 'available');
+
+      if (filterByTrade) {
+        // Filter via the joined maintenance_requests.category column
+        availableQuery = availableQuery.eq('request.category', serviceType);
+      }
+
+      const { data: availableData } = await availableQuery
         .order('created_at', { ascending: false });
 
       setAvailableJobs(availableData || []);
@@ -155,14 +178,20 @@ export default function ProviderDashboard() {
 
       setCompletedJobs(completedData || []);
 
-      // Load maintenance requests open for estimates
-      const { data: requestsData } = await supabase
+      // Load maintenance requests open for estimates (same trade filter as jobs)
+      let requestsQuery = supabase
         .from('maintenance_requests')
         .select(`
           id, title, description, category, priority, status, photos, created_at,
           property:properties(address, city)
         `)
-        .in('status', ['submitted', 'estimating'])
+        .in('status', ['submitted', 'estimating']);
+
+      if (filterByTrade) {
+        requestsQuery = requestsQuery.eq('category', serviceType);
+      }
+
+      const { data: requestsData } = await requestsQuery
         .order('created_at', { ascending: false });
 
       setMaintenanceRequests((requestsData || []).map((r: any) => ({
@@ -432,7 +461,30 @@ export default function ProviderDashboard() {
 
         {/* Available Jobs */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">Available Jobs</h2>
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h2 className="text-xl font-bold text-gray-900">Available Jobs</h2>
+              {stats.service_type && stats.service_type !== 'general' && (
+                <p className="text-sm text-gray-500 mt-0.5">
+                  {showAllJobs
+                    ? 'Showing all trade types'
+                    : `Showing ${stats.service_type} jobs only`}
+                </p>
+              )}
+            </div>
+            {stats.service_type && stats.service_type !== 'general' && (
+              <button
+                onClick={() => setShowAllJobs(prev => !prev)}
+                className={`px-4 py-2 rounded-lg text-sm font-semibold transition-colors border ${
+                  showAllJobs
+                    ? 'bg-gray-900 text-white border-gray-900 hover:bg-gray-700'
+                    : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
+                }`}
+              >
+                {showAllJobs ? 'My Trade Only' : 'Show All Jobs'}
+              </button>
+            )}
+          </div>
           {availableJobs.length === 0 ? (
             <div className="bg-white rounded-xl p-8 text-center shadow-sm border border-gray-200">
               <Briefcase className="w-12 h-12 text-gray-400 mx-auto mb-3" />
