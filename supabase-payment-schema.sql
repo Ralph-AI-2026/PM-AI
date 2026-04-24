@@ -1,6 +1,6 @@
 -- HROP Payment System Schema Migration
 -- Run this against your Supabase PostgreSQL database
--- Project: gmemgoqultiiedrdgtba
+-- Project: uyazjsoystozhetysdtc
 
 -- ============================================
 -- ORGANIZATIONS (landlord/property management companies)

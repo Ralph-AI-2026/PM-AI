@@ -1,5 +1,5 @@
 -- Migration: tenant-to-property linkage
--- Run this in the Supabase SQL editor for project gmemgoqultiiedrdgtba (HROP)
+-- Run this in the Supabase SQL editor for project uyazjsoystozhetysdtc (HROP)
 -- Date: 2026-04-23
 
 -- 1. Add invite_code column to properties

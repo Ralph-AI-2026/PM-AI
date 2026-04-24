@@ -1,6 +1,6 @@
 -- HROP Job Dispatch Migration
 -- Adds fields required for the Uber-style job dispatch system
--- Run in Supabase SQL Editor for project: gmemgoqultiiedrdgtba
+-- Run in Supabase SQL Editor for project: uyazjsoystozhetysdtc
 
 -- 1. Add service_area to service_providers (city/region the provider works in)
 ALTER TABLE public.service_providers

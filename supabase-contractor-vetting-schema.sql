@@ -1,5 +1,5 @@
 -- HROP Contractor Vetting & Onboarding Schema
--- Run this migration against Supabase project: gmemgoqultiiedrdgtba
+-- Run this migration against Supabase project: uyazjsoystozhetysdtc
 
 -- 1. Contractor Applications table
 CREATE TABLE contractor_applications (
