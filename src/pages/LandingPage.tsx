@@ -35,11 +35,11 @@ export default function LandingPage() {
             Now in beta — Durham Region
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
-            Property maintenance,{' '}
-            <span style={{ color: '#00D4AA' }}>simplified.</span>
+            Property Maintenance,{' '}
+            <span style={{ color: '#00D4AA' }}>Simplified</span>
           </h1>
           <p className="text-xl md:text-2xl mb-10" style={{ color: 'rgba(255,255,255,0.6)' }}>
-            Connect tenants, landlords, and service providers on one trusted platform. Fix It Fast.
+            AI-powered maintenance management for landlords. Your tenants submit requests, you approve with one tap, and licensed contractors claim the job instantly.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -63,7 +63,7 @@ export default function LandingPage() {
       {/* Value Props */}
       <section className="relative z-10 container mx-auto px-6 py-20">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-white">
-          Built for everyone in property maintenance
+          Built for landlords, tenants, and contractors
         </h2>
         <p className="text-center mb-16" style={{ color: 'rgba(255,255,255,0.5)' }}>
           One platform. Three roles. Zero friction.
@@ -73,23 +73,26 @@ export default function LandingPage() {
           {[
             {
               Icon: Home,
-              title: 'For Tenants',
-              desc: 'Report issues quickly. Upload photos. Track progress. Get help when you need it.',
-              features: ['Submit requests in seconds', 'Photo documentation required', 'Real-time status updates'],
+              title: 'For Landlords',
+              desc: 'Stop chasing contractors',
+              longDesc: 'Tenants submit requests with photos. AI categorizes the issue and estimates costs. You approve with one tap and contractors are notified instantly.',
+              features: ['AI-powered cost estimates', 'One-tap approval workflow', 'Multi-property dashboard'],
             },
             {
               Icon: Shield,
-              title: 'For Landlords',
-              desc: 'Manage properties efficiently. Approve work instantly. Keep tenants happy.',
-              features: ['Multi-property dashboard', 'AI-powered cost estimates', 'Verified service providers'],
+              title: 'For Tenants',
+              desc: 'Get things fixed faster',
+              longDesc: 'Submit a maintenance request in 60 seconds. Upload photos, describe the issue, and track progress from submission to completion.',
+              features: ['Submit in 60 seconds', 'Photo documentation', 'Real-time progress tracking'],
             },
             {
               Icon: Users,
-              title: 'For Service Providers',
-              desc: 'Find work nearby. Get paid faster. Build your reputation on a platform that works.',
-              features: ['Accept jobs on your terms', 'Track earnings in real-time', 'Build 5-star ratings'],
+              title: 'For Contractors',
+              desc: 'More jobs, keep 100% of your rate',
+              longDesc: 'Get notified about jobs in your area. Claim them instantly. No commission, no middleman markup. You keep every dollar.',
+              features: ['0% commission', 'Instant job alerts', 'Claim jobs in your area'],
             },
-          ].map(({ Icon, title, desc, features }) => (
+          ].map(({ Icon, title, desc, longDesc, features }) => (
             <div
               key={title}
               className="rounded-2xl p-8 border transition-all hover:border-opacity-60"
@@ -98,8 +101,9 @@ export default function LandingPage() {
               <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-6" style={{ background: 'rgba(0,212,170,0.15)' }}>
                 <Icon className="w-6 h-6" style={{ color: '#00D4AA' }} />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{title}</h3>
-              <p className="mb-6 text-sm" style={{ color: 'rgba(255,255,255,0.55)' }}>{desc}</p>
+              <h3 className="text-xl font-bold mb-2 text-white">{title}</h3>
+              <p className="mb-3 text-sm font-semibold" style={{ color: '#00D4AA' }}>{desc}</p>
+              <p className="mb-6 text-sm" style={{ color: 'rgba(255,255,255,0.55)' }}>{longDesc}</p>
               <ul className="space-y-2">
                 {features.map(f => (
                   <li key={f} className="flex items-center gap-3 text-sm" style={{ color: 'rgba(255,255,255,0.7)' }}>
@@ -121,9 +125,10 @@ export default function LandingPage() {
           </h2>
           <div className="max-w-2xl mx-auto space-y-10">
             {[
-              { n: '1', title: 'Report the issue', body: 'Tenants submit maintenance requests with photos (required). Our AI analyzes the issue and estimates costs automatically.' },
-              { n: '2', title: 'Landlord approves', body: 'Landlords review requests, check AI estimates, and approve work with one click. Backstop payment ensures jobs never stall.' },
-              { n: '3', title: 'Provider completes', body: 'Verified professionals accept jobs, complete the work, and get paid. Everyone stays updated in real-time.' },
+              { n: '1', title: 'Tenant submits request', body: 'Describe the issue, upload photos' },
+              { n: '2', title: 'AI triages & landlord approves', body: 'Smart categorization, cost estimation, one-tap approval' },
+              { n: '3', title: 'Contractors get notified', body: 'All matching contractors in the area are alerted instantly' },
+              { n: '4', title: 'First to claim wins', body: 'Uber-style dispatch. Fast response, quality work.' },
             ].map(({ n, title, body }) => (
               <div key={n} className="flex items-start gap-6">
                 <div className="w-12 h-12 rounded-full flex items-center justify-center text-lg font-bold flex-shrink-0" style={{ background: 'rgba(0,212,170,0.15)', color: '#00D4AA', border: '1px solid rgba(0,212,170,0.3)' }}>
