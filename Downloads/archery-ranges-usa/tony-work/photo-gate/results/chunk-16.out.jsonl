@@ -1,0 +1,40 @@
+{"id":"d3db6243-870e-4111-acf3-54dcee10b5f2", "verdict":"keep", "kind":"shooting", "reason":"people with 3D target faces"}
+{"id":"f44579cd-ee48-4348-85ae-c824b3f774ca", "verdict":"keep", "kind":"range", "reason":"outdoor range with targets"}
+{"id":"46d56ded-1a77-42a0-8bea-b7fe0326b43e", "verdict":"reject", "kind":"other", "reason":"event poster graphic"}
+{"id":"55f96ac5-7c18-4218-9610-c3c87cc324d1", "verdict":"keep", "kind":"interior", "reason":"indoor shooting people"}
+{"id":"94e1fe25-a181-49e6-9ded-e34e376d761c", "verdict":"reject", "kind":"other", "reason":"club logo only"}
+{"id":"bfca05d1-a64a-41c7-b4ed-9a16894cec1c", "verdict":"keep", "kind":"shooting", "reason":"people with targets"}
+{"id":"64602166-6bcc-4011-9625-fa033fff9b46", "verdict":"keep", "kind":"range", "reason":"outdoor range with people"}
+{"id":"6db66af4-af72-4d98-b6d0-0199785fabe4", "verdict":"keep", "kind":"shooting", "reason":"person shooting compound bow"}
+{"id":"255d88d0-cee7-4ca3-b5db-ce81b8402ab8", "verdict":"reject", "kind":"other", "reason":"promotional poster"}
+{"id":"0e2a6d14-79e9-477b-86bd-8db356a35652", "verdict":"keep", "kind":"shooting", "reason":"person shooting compound bow"}
+{"id":"703eb47e-8be6-435d-8624-0d3b61d55cdc", "verdict":"reject", "kind":"other", "reason":"logo graphic"}
+{"id":"d200e245-feae-4b0f-8587-c50cddd5249c", "verdict":"reject", "kind":"other", "reason":"logo graphic"}
+{"id":"411a1867-7306-4369-b5ab-a652c8fd2c1f", "verdict":"keep", "kind":"range", "reason":"collage of outdoor archery"}
+{"id":"ba3d714c-c8da-44ad-ad1d-314289374014", "verdict":"keep", "kind":"3d", "reason":"outdoor 3D archery course"}
+{"id":"0c8aa110-ee6d-4c80-9e47-f0bcda60ee0b", "verdict":"reject", "kind":"other", "reason":"logo graphic"}
+{"id":"2e8d808a-61aa-403e-9ba7-2420051f5b62", "verdict":"keep", "kind":"shooting", "reason":"person shooting compound"}
+{"id":"b4c28d32-1734-4c8f-8655-11a4c48e3dd5", "verdict":"keep", "kind":"shooting", "reason":"person shooting compound"}
+{"id":"f39de16c-4e4b-4f5d-be62-ce3d22c82f27", "verdict":"reject", "kind":"other", "reason":"logo graphic"}
+{"id":"82dd438c-7b12-43b8-9376-5718889f0dd8", "verdict":"keep", "kind":"shooting", "reason":"children shooting targets"}
+{"id":"f546f77b-2161-4cf6-811f-4c93f6160e61", "verdict":"reject", "kind":"other", "reason":"promotional graphic"}
+{"id":"926010ea-26e3-401b-baf7-9f6c5adc0c91", "verdict":"reject", "kind":"other", "reason":"logo graphic"}
+{"id":"1dbe4f38-3dd5-4169-894b-f6a12ec85e73", "verdict":"keep", "kind":"shooting", "reason":"person shooting compound"}
+{"id":"87c5f69b-5d08-498e-afcb-c3519f94d9ca", "verdict":"keep", "kind":"range", "reason":"outdoor group at range"}
+{"id":"f9ed5766-27ad-4fe3-a5fd-43082730fab6", "verdict":"hold", "kind":"interior", "reason":"tournament setting, text overlay"}
+{"id":"da7c5f0c-9688-47c1-847d-4da99d65dd10", "verdict":"reject", "kind":"other", "reason":"logo graphic"}
+{"id":"f4fb9c0d-47ed-4722-83b4-5a4df732dcfc", "verdict":"reject", "kind":"other", "reason":"logo graphic"}
+{"id":"9efbdc27-3b92-49bc-b0e9-ea848dafad05", "verdict":"reject", "kind":"other", "reason":"scoreboard chart"}
+{"id":"ebbb7375-3c0a-4ea2-96f3-608d8b970b15", "verdict":"keep", "kind":"exterior", "reason":"facility building banner"}
+{"id":"478fc479-76a2-4628-a6ca-ba4c7e5780e7", "verdict":"reject", "kind":"other", "reason":"event poster graphic"}
+{"id":"5635bdb7-3eec-4676-967d-93cc5c9528cb", "verdict":"keep", "kind":"interior", "reason":"person shooting indoors"}
+{"id":"e28234f4-5354-4ee7-8776-60ae1c4501ec", "verdict":"reject", "kind":"other", "reason":"merchandise only"}
+{"id":"e6fd2469-e74f-496f-a43a-5420a8ae5ac2", "verdict":"keep", "kind":"exterior", "reason":"tree with equipment"}
+{"id":"0c7de074-b700-4b63-8945-88166b99769d", "verdict":"keep", "kind":"shooting", "reason":"person with 3D target"}
+{"id":"fcc03c0a-7d33-43f2-b272-33cf5883a5c4", "verdict":"keep", "kind":"3d", "reason":"indoor 3D targets"}
+{"id":"3e3fe9d0-875a-4336-8a2e-5f34f2dc64b8", "verdict":"reject", "kind":"other", "reason":"logo graphic"}
+{"id":"b5635233-ee60-4bc8-88c7-408600752806", "verdict":"reject", "kind":"other", "reason":"advertisement text"}
+{"id":"00127b5c-5a79-4639-b519-ad7482f402d4", "verdict":"keep", "kind":"shooting", "reason":"person shooting compound"}
+{"id":"1daab8f6-19bb-42ab-a427-0e5dde4fdfe5", "verdict":"keep", "kind":"interior", "reason":"person at indoor range"}
+{"id":"4af08dc8-c099-44a2-aa3b-7b42ce60db5d", "verdict":"keep", "kind":"shooting", "reason":"person shooting outdoors"}
+{"id":"c6f16d26-710e-4c6f-a51d-bd80fba525b2", "verdict":"reject", "kind":"other", "reason":"logo graphic"}

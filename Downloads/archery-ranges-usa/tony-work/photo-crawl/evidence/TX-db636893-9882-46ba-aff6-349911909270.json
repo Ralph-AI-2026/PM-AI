@@ -1,0 +1,51 @@
+{
+  "id": "db636893-9882-46ba-aff6-349911909270",
+  "name": "TAA - Plano",
+  "city": "Dallas",
+  "state": "TX",
+  "website": "http://texasarchery.info/",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://texasarchery.info/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 2,
+      "candidates": [
+        {
+          "url": "https://texasarchery.info/wp-content/uploads/2025/06/Texas-Archery-ClubSC-768x1013-1.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "304218",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://texasarchery.info/wp-content/uploads/2010/12/13.12.23-ED-LH-PH-Laun_opt-150x150.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (10377B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "10377",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://texasarchery.info/wp-content/uploads/2025/06/Texas-Archery-ClubSC-768x1013-1.png",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/png",
+        "content_length": "304218",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://texasarchery.info/wp-content/uploads/2025/06/Texas-Archery-ClubSC-768x1013-1.png",
+  "chosen_source_page": "http://texasarchery.info/",
+  "drop_reason": null
+}

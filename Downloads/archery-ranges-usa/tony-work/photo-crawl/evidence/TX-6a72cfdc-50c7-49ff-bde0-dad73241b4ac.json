@@ -1,0 +1,111 @@
+{
+  "id": "6a72cfdc-50c7-49ff-bde0-dad73241b4ac",
+  "name": "Viking Archery Joad Club",
+  "city": "Canyon Lake",
+  "state": "TX",
+  "website": "http://Viking-Archery.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://Viking-Archery.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 9,
+      "candidates": [
+        {
+          "url": "http://Viking-Archery.com/images/logoG.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "http://Viking-Archery.com/images/aboutT.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "172260",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://Viking-Archery.com/images/aboutH.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "198797",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://Viking-Archery.com/images/tackleT.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "173974",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://Viking-Archery.com/images/tackleH.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "199957",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://Viking-Archery.com/images/customT.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "181398",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://Viking-Archery.com/images/customH.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "202991",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://Viking-Archery.com/images/facilitiesT.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "168587",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://Viking-Archery.com/images/facilitiesH.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "196642",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "http://Viking-Archery.com/images/customH.png",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/png",
+        "content_length": "202991",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "http://Viking-Archery.com/images/customH.png",
+  "chosen_source_page": "http://Viking-Archery.com",
+  "drop_reason": null
+}

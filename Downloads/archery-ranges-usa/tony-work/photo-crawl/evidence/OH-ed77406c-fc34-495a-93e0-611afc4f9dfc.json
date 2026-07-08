@@ -1,0 +1,31 @@
+{
+  "id": "ed77406c-fc34-495a-93e0-611afc4f9dfc",
+  "name": "Cincinnati Jr Olympians",
+  "city": "Mason",
+  "state": "OH",
+  "website": "http://www.cincyjrolympians.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.cincyjrolympians.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 1,
+      "candidates": [
+        {
+          "url": "http://cincyjrolympians.com/wp-content/uploads/2016/11/CJO_Logo_NoName.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        }
+      ],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "all candidates failed gate"
+}

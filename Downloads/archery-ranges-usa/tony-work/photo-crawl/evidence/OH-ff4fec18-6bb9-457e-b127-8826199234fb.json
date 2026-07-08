@@ -1,0 +1,24 @@
+{
+  "id": "ff4fec18-6bb9-457e-b127-8826199234fb",
+  "name": "Sycamore State Park Archery Range",
+  "city": "Trotwood",
+  "state": "OH",
+  "website": "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/sycamore-state-park",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/sycamore-state-park",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": "dead/parked marker: 'coming soon'"
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "dead/parked: dead/parked marker: 'coming soon'"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ebd15248-7281-4ae7-834c-6a265536a450",
+  "name": "Sherwood Archery",
+  "city": "Steubenville",
+  "state": "OH",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/sherwoodarcherysteuboh",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/sherwoodarcherysteuboh",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 2,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/456193308_496078776517626_4498053678068180429_n.jpg?stp=dst-jpg_tt6&cstp=mx398x400&ctp=s398x400&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DRcy8_rxoaQQ7kNvwF_Kt00&_nc_oc=Adqr6Zxckf7_dR_IjS5C_PTsvBjtpj5PZsKbuYFsmGadX-szPIfiMKaqR4vH1mApU7g&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=mQ-oC5cwMlPMFdG5rby8PA&_nc_ss=79289&oh=00_AQADBexV3r6k8j_MezJdvrU_nptTQ6055Rc6-g3uKFsDmw&oe=6A5243E3",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "22162",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.facebook.com/images/icons/FBLogo_Blueprint.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/456193308_496078776517626_4498053678068180429_n.jpg?stp=dst-jpg_tt6&cstp=mx398x400&ctp=s398x400&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DRcy8_rxoaQQ7kNvwF_Kt00&_nc_oc=Adqr6Zxckf7_dR_IjS5C_PTsvBjtpj5PZsKbuYFsmGadX-szPIfiMKaqR4vH1mApU7g&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=mQ-oC5cwMlPMFdG5rby8PA&_nc_ss=79289&oh=00_AQADBexV3r6k8j_MezJdvrU_nptTQ6055Rc6-g3uKFsDmw&oe=6A5243E3",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "22162",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/456193308_496078776517626_4498053678068180429_n.jpg?stp=dst-jpg_tt6&cstp=mx398x400&ctp=s398x400&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DRcy8_rxoaQQ7kNvwF_Kt00&_nc_oc=Adqr6Zxckf7_dR_IjS5C_PTsvBjtpj5PZsKbuYFsmGadX-szPIfiMKaqR4vH1mApU7g&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=mQ-oC5cwMlPMFdG5rby8PA&_nc_ss=79289&oh=00_AQADBexV3r6k8j_MezJdvrU_nptTQ6055Rc6-g3uKFsDmw&oe=6A5243E3",
+  "chosen_source_page": "https://www.facebook.com/sherwoodarcherysteuboh",
+  "drop_reason": null
+}

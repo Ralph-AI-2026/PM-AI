@@ -1,0 +1,5 @@
+# Lancaster Archery Academy JOAD Club - Lancaster Archery Academy
+
+At the Lancaster Archery Academy, we believe that any youth archer has the potential to become an Olympic Champion, that they can achieve goals beyond their wildest imagination. We believe these things because we know a secret. We know that the only thing that separates the best in the world from the ones who never try is that the best take their first steps in a sport...and then take their second, and their third. The best keep practicing, they keep trying, until--one day--there is no one left to beat. 
+
+The JOAD (Junior Olympic Archery Development) program was created by USA Archery decades ago to produce competitive Olympic athletes for the world stage. Designed for youth archers under the age of 21, our JOAD club is structured to help athletes climb the competitive ladder to a National, or even a World, title. This idea has remained our focus at Lancaster Archery, and we are committed to providing the high-level coaching required to meet such an ambitious goal.

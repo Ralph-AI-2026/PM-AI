@@ -1,0 +1,150 @@
+{
+  "id": "8421f4f9-7086-45d3-8298-bfe5c219dc63",
+  "name": "Home On The Range Archery",
+  "city": "Victoria",
+  "state": "TX",
+  "website": "https://www.folksyfarmsteadvtx.com/",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.folksyfarmsteadvtx.com/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 13,
+      "candidates": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/2a72537d-fdb3-44b2-9216-76912c13101f/12.JPG",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "438831",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/a4da0cd5-3329-4fba-a688-58dfcb8981ac/IMG_3198+%281%29.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "787485",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/5aefd1b3-9df4-44b9-81e6-a40159016230/IMG_0429.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "311723",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/e932969a-cfd2-4f4d-b306-c23cc203da0e/IMG_3498.JPG",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "345757",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/32296f05-c925-46c7-bac0-c89d815c70eb/IMG_2024.JPG",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "327250",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/b126b6ff-d5d7-44d6-93d0-7f28290943b2/IMG_0837.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "790141",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/cabe1c21-f176-4640-a93c-fe6f57c7baeb/IMG_9516.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "2431824",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/7b105af0-d5f6-4e8a-bbb5-eaf7652a3ef3/IMG_0387.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "1255245",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/c61e7346-198d-4c7c-abd4-47bb5cb4e109/IMG_1049.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "1482896",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/92963a7e-f3de-41ea-b950-c5899e176732/IMG_0445.JPG",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "291234",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/9bf8c408-1238-495c-96e1-1b1a80c6179e/DSC_3677.JPG",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "333454",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/6ef8e490-436c-45fe-be23-1778fc4ae425/IMG_0439.JPG",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "153263",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/b4119aa3-48e9-4d98-971e-136c570b4dcd/IMG_7479.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "1396115",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/cabe1c21-f176-4640-a93c-fe6f57c7baeb/IMG_9516.jpg",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "2431824",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/cabe1c21-f176-4640-a93c-fe6f57c7baeb/IMG_9516.jpg",
+  "chosen_source_page": "https://www.folksyfarmsteadvtx.com/",
+  "drop_reason": null
+}

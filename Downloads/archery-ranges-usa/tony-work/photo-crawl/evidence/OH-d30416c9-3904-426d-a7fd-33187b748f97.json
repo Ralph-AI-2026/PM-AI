@@ -1,0 +1,156 @@
+{
+  "id": "d30416c9-3904-426d-a7fd-33187b748f97",
+  "name": "Keeg's Outdoors",
+  "city": "Ridgeway",
+  "state": "OH",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/keegsoutdoors/",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/keegsoutdoors/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 16,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/292197675_451934493605127_4522492754427265401_n.jpg?stp=dst-jpg_tt6&cstp=mx959x959&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AyO6a3gy6PwQ7kNvwGNH6Y6&_nc_oc=AdqUiJJGFBEcWMpX82DmqqiB8vK65eMshETJH6bDpBjaTSaKfBOLIkAltwBGgzfQ67E&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=i091z9En7Dk1tg4F3S2p8A&_nc_ss=7b289&oh=00_AQAKsH-r8VUjB5vxh_GLOzDgBUd5AFbvCkLIi8mHV2Ak0g&oe=6A524C8F",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "46688",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/476760711_1158655176266385_2792154511561239885_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=D6nqW6y96NwQ7kNvwFNA2Vr&_nc_oc=AdrlGRpw2VwsWNOfxSNaVVfr7Z3EE6KcgbTpZKlLxiN9_5dIUJ6m0Eyv4flp14pvmb0&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=xliV9SDPECIyp996yTUONg&_nc_ss=7b289&oh=00_AQBjZ32gWQ4k6vFTU3VC4TNXhF9wr_E2uUSvmTPaKiUbXQ&oe=6A523C98",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2511B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2511",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/476760711_1158655176266385_2792154511561239885_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=D6nqW6y96NwQ7kNvwFNA2Vr&_nc_oc=AdrlGRpw2VwsWNOfxSNaVVfr7Z3EE6KcgbTpZKlLxiN9_5dIUJ6m0Eyv4flp14pvmb0&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=xliV9SDPECIyp996yTUONg&_nc_ss=7b289&oh=00_AQCrquT4jOv6NsNJqqe4PLM29WcL19ndFd3G_81IN-KtjQ&oe=6A523C98",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "72949",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yz/r/77rw1oPmYdg.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yn/r/frRvNd426Pd.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yH/r/e_4VJ-xHGZI.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/ym/r/PC5CJKNQPr9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yq/r/y0mkugUWQIp.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yQ/r/XlhMvfC5byg.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yM/r/KdbhJBITklZ.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t51.82787-15/670181782_18394843540152049_1460015271344686579_n.jpg?stp=c0.150.1365.1365a_dst-jpg_tt6&cstp=mx1365x1365&ctp=s851x315&_nc_cat=104&ccb=1-7&_nc_sid=09d16d&_nc_ohc=k6pfc5o9NUoQ7kNvwFQjk8Y&_nc_oc=AdoBnJTVxyOUf0xLZ2RwFcu_G0ZWT26hV-hCkzq1wBGniFEFn_KRG-qwhNfHTE-qPTY&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=xliV9SDPECIyp996yTUONg&_nc_ss=7b289&oh=00_AQD0YaRdZQnCiFje8Ooupk09wE4gHY_73U8PSiWMGakL5g&oe=6A5245F8",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "30119",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t51.82787-15/658790131_18393539995152049_5099315820995672200_n.jpg?stp=c0.150.1365.1365a_dst-jpg_tt6&cstp=mx1365x1365&ctp=s851x315&_nc_cat=100&ccb=1-7&_nc_sid=09d16d&_nc_ohc=lrvFIWwPBQYQ7kNvwG2JXSh&_nc_oc=Adom8wSguQkE4F6KIeDbnATnD0dBg8iVj53s4jkSOGDL7Du0OnsjBBDf_YWg1zYUAVM&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=xliV9SDPECIyp996yTUONg&_nc_ss=7b289&oh=00_AQDDgN0GoGEnaMUDhEQV8xnpaSojlGGk2EeMF-LfJ4UYbg&oe=6A525169",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "30989",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t51.82787-15/660480462_18392499538152049_4955369527645590602_n.jpg?stp=c0.150.1365.1365a_dst-jpg_tt6&cstp=mx1365x1365&ctp=s851x315&_nc_cat=111&ccb=1-7&_nc_sid=09d16d&_nc_ohc=lY63JkBzVAQQ7kNvwGR-1-m&_nc_oc=Adp_Ys9tqtG15qMoboeCQvYMo0Va5UbYSJTgzIWslw_0-0Y_Ju6LXkRSeC8VT-9Ps6I&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=xliV9SDPECIyp996yTUONg&_nc_ss=7b289&oh=00_AQCNMcrwV-ix4MSqmRplzy45qDXjnu9mGrwqhVaXPxb9Ww&oe=6A524CEF",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "30214",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t51.82787-15/655162415_18391067437152049_6030044704192485529_n.jpg?stp=c0.150.1365.1365a_dst-jpg_tt6&cstp=mx1365x1365&ctp=s851x315&_nc_cat=101&ccb=1-7&_nc_sid=09d16d&_nc_ohc=gJ41PxgVJT8Q7kNvwGs__vJ&_nc_oc=Adp36v0qeVVCukZk_FILOWqtKunNvxVyy1C7o2rOlpPR5SfCyaeernYD9l4dCMSFZVM&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=xliV9SDPECIyp996yTUONg&_nc_ss=7b289&oh=00_AQANsFlT3Bc-bBO4YP-xi9bz_7OWyU_GW-pp4fskc2lpfQ&oe=6A5239E2",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "30070",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t51.82787-15/640425307_18388745437152049_3071707454759006778_n.jpg?stp=c0.129.1326.1326a_dst-jpg_tt6&cstp=mx1326x1326&ctp=s851x315&_nc_cat=109&ccb=1-7&_nc_sid=09d16d&_nc_ohc=bHlOeGBXON0Q7kNvwEWIsH5&_nc_oc=AdpiMd60OCR97sTY1UYARQj-2MCsek_NZ7F1xH6k87eQxCJZh7MHruAnc3hzHRzF1D4&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=xliV9SDPECIyp996yTUONg&_nc_ss=7b289&oh=00_AQC1U6XseJq5UOVW5tj5qtzdguPznqzjQBxYEf_ty-sqng&oe=6A522AC3",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "30089",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t51.82787-15/637694378_18387539479152049_4272310787383874410_n.jpg?stp=c0.150.1365.1365a_dst-jpg_tt6&cstp=mx1365x1365&ctp=s851x315&_nc_cat=104&ccb=1-7&_nc_sid=09d16d&_nc_ohc=mH-ofba8tTwQ7kNvwFwPfQv&_nc_oc=Adqo0sFgeYaEkDJI-p99D-0nkq5ykc4HbXoPDXSSgWYA2WSpdVXB1xNF3DocO60dVXI&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=xliV9SDPECIyp996yTUONg&_nc_ss=7b289&oh=00_AQB9sG6yJYRhhKleucaOpP_NNELYIBFeEg8HxIdxQOgB6g&oe=6A521C84",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "30214",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/292197675_451934493605127_4522492754427265401_n.jpg?stp=dst-jpg_tt6&cstp=mx959x959&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AyO6a3gy6PwQ7kNvwGNH6Y6&_nc_oc=AdqUiJJGFBEcWMpX82DmqqiB8vK65eMshETJH6bDpBjaTSaKfBOLIkAltwBGgzfQ67E&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=i091z9En7Dk1tg4F3S2p8A&_nc_ss=7b289&oh=00_AQAKsH-r8VUjB5vxh_GLOzDgBUd5AFbvCkLIi8mHV2Ak0g&oe=6A524C8F",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "46688",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/292197675_451934493605127_4522492754427265401_n.jpg?stp=dst-jpg_tt6&cstp=mx959x959&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AyO6a3gy6PwQ7kNvwGNH6Y6&_nc_oc=AdqUiJJGFBEcWMpX82DmqqiB8vK65eMshETJH6bDpBjaTSaKfBOLIkAltwBGgzfQ67E&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=i091z9En7Dk1tg4F3S2p8A&_nc_ss=7b289&oh=00_AQAKsH-r8VUjB5vxh_GLOzDgBUd5AFbvCkLIi8mHV2Ak0g&oe=6A524C8F",
+  "chosen_source_page": "https://www.facebook.com/keegsoutdoors/",
+  "drop_reason": null
+}

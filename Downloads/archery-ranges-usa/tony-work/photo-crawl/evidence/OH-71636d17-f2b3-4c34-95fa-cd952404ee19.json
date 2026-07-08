@@ -1,0 +1,99 @@
+{
+  "id": "71636d17-f2b3-4c34-95fa-cd952404ee19",
+  "name": "On Target Outfitters - Findlay",
+  "city": "McComb",
+  "state": "OH",
+  "website": "https://ontargetoutfitters.org/findlay",
+  "facebook_url": "https://www.facebook.com/ontargetfindlay",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://ontargetoutfitters.org/findlay",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 8,
+      "candidates": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/62bca8404aee995eaf1d2b62/544891f3-5ca1-4770-a296-c3dbd93a8619/logoOrange.png?format=1500w",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/62bca8404aee995eaf1d2b62/9e0bf74c-aa70-43a0-901f-7b59800265a1/106399788_712678632915968_1252004498782419829_o.jpeg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "316374",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/62bca8404aee995eaf1d2b62/568edeed-7f00-4075-b4f8-0a6530e2ec27/IMG_8356.JPEG",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "1467236",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/62bca8404aee995eaf1d2b62/1fbcbffa-c1cb-4bd5-bb81-487d037c2082/IMG_5492.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "776670",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/62bca8404aee995eaf1d2b62/b59e6b53-2d3c-42e3-815a-be8c8f730886/Gift+Certificate.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "408548",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/62bca8404aee995eaf1d2b62/35a8508d-2932-456d-8750-63385cdd1519/tempImage7Hmy0z.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "1228993",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/62bca8404aee995eaf1d2b62/65a8994d-1238-441e-ab10-dab74491bcd6/BDA83B2C-3D9C-4CC8-9026-AA1265DBE72D.jpeg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "44983",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/62bca8404aee995eaf1d2b62/c33b008c-7156-43b9-9d2b-164b19055949/logoOrangfe+%281%29.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        }
+      ],
+      "chosen": {
+        "url": "https://images.squarespace-cdn.com/content/v1/62bca8404aee995eaf1d2b62/568edeed-7f00-4075-b4f8-0a6530e2ec27/IMG_8356.JPEG",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "1467236",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://images.squarespace-cdn.com/content/v1/62bca8404aee995eaf1d2b62/568edeed-7f00-4075-b4f8-0a6530e2ec27/IMG_8356.JPEG",
+  "chosen_source_page": "https://ontargetoutfitters.org/findlay",
+  "drop_reason": null
+}

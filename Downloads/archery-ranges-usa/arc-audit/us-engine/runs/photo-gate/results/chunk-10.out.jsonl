@@ -1,0 +1,40 @@
+{"id":"1aaafd0a-ec59-41ed-9382-b3b2e621156a", "verdict":"keep", "kind":"interior", "reason":"person shooting indoors"}
+{"id":"9471a72e-0fcd-4398-9c0c-06c7d787667c", "verdict":"reject", "kind":"other", "reason":"unrelated ymca promo banner"}
+{"id":"10e8ea59-9748-4788-b8bd-4e5e7312db5a", "verdict":"hold", "kind":"signage", "reason":"archery logo sign, unclear"}
+{"id":"57427e6f-4f43-4b95-b1ab-9a7a8c81fffc", "verdict":"keep", "kind":"3d", "reason":"3d archery event banner"}
+{"id":"b20ea0e9-e8ff-4bb9-99c3-74544dafecf1", "verdict":"keep", "kind":"range", "reason":"archery targets competition scene"}
+{"id":"33aaf0c7-48eb-42fe-8bbc-fa42e0d04495", "verdict":"reject", "kind":"other", "reason":"usa archery logo only"}
+{"id":"ec2924a1-05c1-43ed-a48f-de7921ddc61a", "verdict":"reject", "kind":"other", "reason":"archery equipment product"}
+{"id":"19c3d363-dbe7-459d-82f5-3067578355df", "verdict":"keep", "kind":"range", "reason":"person bow shooting snow"}
+{"id":"478f2aee-b462-4a15-a049-3ff5678b9563", "verdict":"reject", "kind":"other", "reason":"volunteer promo not archery"}
+{"id":"063da91d-2bee-411d-bc3a-4c87032e0cb3", "verdict":"hold", "kind":"other", "reason":"unclear placeholder image"}
+{"id":"b136c005-a852-47f9-a85e-da9891c6c675", "verdict":"keep", "kind":"range", "reason":"outdoor archery range activity"}
+{"id":"b252ad31-e27e-4d9d-a22e-d88d9fc8487a", "verdict":"hold", "kind":"other", "reason":"unclear facility context"}
+{"id":"530830a1-e99e-4fe0-8862-887e61126327", "verdict":"keep", "kind":"signage", "reason":"clear facility sign archery"}
+{"id":"14377472-ae40-4f8c-b364-6a623e2d38cf", "verdict":"keep", "kind":"range", "reason":"people shooting targets outdoor"}
+{"id":"ada1c5ac-34cb-4cf0-8536-4b47939f148e", "verdict":"hold", "kind":"exterior", "reason":"park entrance unclear facility"}
+{"id":"50822d7b-734c-4f5f-be49-9ac48e502e38", "verdict":"keep", "kind":"signage", "reason":"archery club sign sunset"}
+{"id":"f55082a5-72b3-46ab-a60d-c10f359d9a3c", "verdict":"reject", "kind":"other", "reason":"qr code image only"}
+{"id":"1fc23b12-7f11-4f4c-a849-8c379337c710", "verdict":"keep", "kind":"proshop", "reason":"indoor bow shop display"}
+{"id":"de3529b5-a012-4be8-bab0-d66b1ec5551d", "verdict":"keep", "kind":"proshop", "reason":"bow shop interior many"}
+{"id":"f58eb408-3d1e-4282-8917-f4bcf9b5f8dd", "verdict":"reject", "kind":"other", "reason":"logo graphic only"}
+{"id":"d4abfa83-0dae-4f8c-aa30-3110da5b3804", "verdict":"keep", "kind":"interior", "reason":"japanese kyudo archery"}
+{"id":"363e9cdf-cd68-4569-b046-bc7acff3c839", "verdict":"reject", "kind":"other", "reason":"logo branding only"}
+{"id":"c977f073-fe61-468f-96a6-61190fd9dff8", "verdict":"keep", "kind":"range", "reason":"outdoor archery mountain"}
+{"id":"0541ac39-b795-425a-9bfd-29a32cce2c32", "verdict":"keep", "kind":"range", "reason":"people archery shooting"}
+{"id":"68b31b48-9e85-4187-b834-47da4c9665c9", "verdict":"keep", "kind":"interior", "reason":"indoor archery facility"}
+{"id":"b493ba99-8d3e-49c1-93f2-24740875938a", "verdict":"keep", "kind":"interior", "reason":"indoor archery range"}
+{"id":"584834df-64d5-4ebc-9460-9a3e3d0efa89", "verdict":"keep", "kind":"interior", "reason":"compound bow shooting"}
+{"id":"e934e592-feb0-4d16-a87e-f8286c04b515", "verdict":"hold", "kind":"other", "reason":"empty field unclear"}
+{"id":"acd4e95f-afe3-4b6f-b0d0-132737c4dcfb", "verdict":"hold", "kind":"other", "reason":"tournament medal portrait"}
+{"id":"8ae66753-70cd-49d4-8740-dd1eabc81dda", "verdict":"hold", "kind":"other", "reason":"partial event poster"}
+{"id":"ffd6fe5b-a7f7-475b-8712-ffdcde9a91d5", "verdict":"hold", "kind":"other", "reason":"event logo partial"}
+{"id":"d97d9e3e-d8e1-4d26-aaac-9fcfe62bab64", "verdict":"reject", "kind":"other", "reason":"broadhead product only"}
+{"id":"9a999bce-8544-4829-a8f0-b9bfc297d0d0", "verdict":"keep", "kind":"range", "reason":"outdoor tournament event"}
+{"id":"8c641121-4454-4859-a59b-ce64f9b2aecb", "verdict":"keep", "kind":"range", "reason":"outdoor tournament event"}
+{"id":"eb85c9ad-b640-4c52-820b-4d45dd02b7d3", "verdict":"keep", "kind":"interior", "reason":"indoor archery facility"}
+{"id":"b8a1a44f-6387-4a1f-a29f-0dd94c2dc18e", "verdict":"keep", "kind":"range", "reason":"group archery facility"}
+{"id":"4445bdab-c558-47c6-a82b-1ce3c6905576", "verdict":"keep", "kind":"range", "reason":"kyudo activity outdoor"}
+{"id":"781cc185-ed7a-48f3-84ca-5f1e63c2953d", "verdict":"hold", "kind":"other", "reason":"image failed to load"}
+{"id":"65c9db21-3787-4503-9ac9-a66d6997c0aa", "verdict":"reject", "kind":"other", "reason":"logo graphic only"}
+{"id":"ec34ceed-3218-4289-924e-716adc23a91b", "verdict":"keep", "kind":"signage", "reason":"archery club sign tree"}

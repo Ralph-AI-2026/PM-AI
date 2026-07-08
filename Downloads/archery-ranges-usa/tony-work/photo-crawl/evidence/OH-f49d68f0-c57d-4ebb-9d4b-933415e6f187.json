@@ -1,0 +1,24 @@
+{
+  "id": "f49d68f0-c57d-4ebb-9d4b-933415e6f187",
+  "name": "Vance Outdoors",
+  "city": "Obetz",
+  "state": "OH",
+  "website": "https://www.vanceoutdoors.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.vanceoutdoors.com",
+      "reachable": false,
+      "fail_reason": "arlen-crawl exit 1: Patchright failed for https://www.vanceoutdoors.com (HTTP 403 \u2014 possible bot detection) \u2014 retrying with Camoufox\nError: Both engines failed for https://www.vanceoutdoors.com: patchright=HTTP 403 \u2014 possible bot detection, camoufox=Camoufox HTTP 403",
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "unreachable: arlen-crawl exit 1: Patchright failed for https://www.vanceoutdoors.com (HTTP 403 \u2014 possible bot detection) \u2014 retrying with Camoufox\nError: Both engines failed for https://www.vanceoutdoors.com: patchright=HTTP 403 \u2014 possible bot detection, camoufox=Camoufox HTTP 403"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "68afc88f-ed5e-4aa0-84e7-d1b7fc8654b7",
+  "name": "OE Archers",
+  "city": "Tipp City",
+  "state": "OH",
+  "website": "http://oeoutfitters.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://oeoutfitters.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 10,
+      "candidates": [
+        {
+          "url": "https://d3ue8e8tc2my2n.cloudfront.net/storefront/461/1758130455.png",
+          "tag": "og:image",
+          "gate": "reject",
+          "gate_reason": "not image/* (got application/octet-stream)",
+          "content_type": "application/octet-stream",
+          "content_length": "105448",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://oeoutfitters.com/img/preloader.gif",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .gif"
+        },
+        {
+          "url": "https://d3ue8e8tc2my2n.cloudfront.net/storefront/461/4_1758994219.jpeg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "not image/* (got application/octet-stream)",
+          "content_type": "application/octet-stream",
+          "content_length": "30458",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://d3ue8e8tc2my2n.cloudfront.net/storefront/461/5_1754000241.jpeg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "not image/* (got application/octet-stream)",
+          "content_type": "application/octet-stream",
+          "content_length": "136649",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://d3ue8e8tc2my2n.cloudfront.net/storefront/461/1_1782424322.jpeg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "not image/* (got application/octet-stream)",
+          "content_type": "application/octet-stream",
+          "content_length": "3660559",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://d3ue8e8tc2my2n.cloudfront.net/storefront/461/3_1762003135.jpeg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "not image/* (got application/octet-stream)",
+          "content_type": "application/octet-stream",
+          "content_length": "41584",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://d3ue8e8tc2my2n.cloudfront.net/storefront/461/brand-1.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (6803B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "6803",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://d3ue8e8tc2my2n.cloudfront.net/storefront/461/brand-2.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7744B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "7744",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://d3ue8e8tc2my2n.cloudfront.net/storefront/461/brand-3.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (12019B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "12019",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://d3ue8e8tc2my2n.cloudfront.net/storefront/461/brand-4.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (4983B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "4983",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "all candidates failed gate"
+}

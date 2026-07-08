@@ -1,0 +1,24 @@
+{
+  "id": "d420ad73-fb51-4c8f-ba6c-d6488d5652f9",
+  "name": "Triple Edge Archery Dayton",
+  "city": "Dayton",
+  "state": "TX",
+  "website": "http://tripleedgeusa.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://tripleedgeusa.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": "dead/parked marker: 'under construction'"
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "dead/parked: dead/parked marker: 'under construction'"
+}

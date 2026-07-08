@@ -1,0 +1,24 @@
+{
+  "id": "a108f3bc-8f01-4064-a0f5-df80ac67aee2",
+  "name": "Texas Shooting Stars",
+  "city": "Springtown",
+  "state": "TX",
+  "website": "http://wwwarcheryinsighttraining.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://wwwarcheryinsighttraining.com",
+      "reachable": false,
+      "fail_reason": "arlen-crawl exit 1: Patchright failed for http://wwwarcheryinsighttraining.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://wwwarcheryinsighttraining.com/\nCall log:\n  - navigating to \"http://wwwarcheryinsighttraining.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\nError: Both engines failed for http:/",
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "unreachable: arlen-crawl exit 1: Patchright failed for http://wwwarcheryinsighttraining.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://wwwarcheryinsighttraining.com/\nCall log:\n  - navigating to \"http://wwwarcheryinsighttraining.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\nError: Both engines failed for http:/"
+}

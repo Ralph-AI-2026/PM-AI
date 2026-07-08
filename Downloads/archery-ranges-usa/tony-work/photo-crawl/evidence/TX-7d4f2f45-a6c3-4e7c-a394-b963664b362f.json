@@ -1,0 +1,78 @@
+{
+  "id": "7d4f2f45-a6c3-4e7c-a394-b963664b362f",
+  "name": "Enduring Freedom Co.",
+  "city": "San Antonio",
+  "state": "TX",
+  "website": "https://enduringfreedomco.org",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://enduringfreedomco.org",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 5,
+      "candidates": [
+        {
+          "url": "https://img1.wsimg.com/isteam/ip/4109281c-00f7-4fe9-b66c-ffdc595a3b2f/blob-c7689ee.png",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "49078",
+          "head_method": "GET"
+        },
+        {
+          "url": "https://img1.wsimg.com/isteam/ip/4109281c-00f7-4fe9-b66c-ffdc595a3b2f/063a177b-b5da-4c1d-9c17-82e111f28c5d.JPG/:/cr=t:31.25%25,l:0%25,w:100%25,h:37.5%25/rs=w:1240,h:620,cg:true",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "121746",
+          "head_method": "GET"
+        },
+        {
+          "url": "https://img1.wsimg.com/isteam/ip/4109281c-00f7-4fe9-b66c-ffdc595a3b2f/IMG_1932.jpeg/:/cr=t:16.67%25,l:0%25,w:100%25,h:66.67%25/rs=w:600,h:300,cg:true",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "47132",
+          "head_method": "GET"
+        },
+        {
+          "url": "https://img1.wsimg.com/isteam/ip/4109281c-00f7-4fe9-b66c-ffdc595a3b2f/IMG_2399.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "43304",
+          "head_method": "GET"
+        },
+        {
+          "url": "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: unknown",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        }
+      ],
+      "chosen": {
+        "url": "https://img1.wsimg.com/isteam/ip/4109281c-00f7-4fe9-b66c-ffdc595a3b2f/blob-c7689ee.png",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "49078",
+        "head_method": "GET"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://img1.wsimg.com/isteam/ip/4109281c-00f7-4fe9-b66c-ffdc595a3b2f/blob-c7689ee.png",
+  "chosen_source_page": "https://enduringfreedomco.org",
+  "drop_reason": null
+}

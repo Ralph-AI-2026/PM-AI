@@ -1,0 +1,94 @@
+[1/50] TX SA Xtreme                                -> kept     (6.2s) https://kinetickidstx.org/wp-content/uploads/2018/10/Home-Page-Be-The-Reason.jpg
+[2/50] TX At Home On The Range Archery             -> kept     (3.8s) https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/baa555a4-5b9c-4dcf-afbc-fe6e885d3089/Copy+of+All+About+Archery+Camp+%281%29.png
+[3/50] TX Oakridge Archery                         -> dropped  (3.4s) dead/parked: dead/parked marker: 'coming soon'
+[4/50] TX Baytown Archery Club                     -> dropped  (41.3s) unreachable: arlen-crawl exit 1: Patchright failed for https://baytownarcheryclub.com/ (Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to "https://baytownarcheryclub.com/", waiting until "networkidle"
+) — retrying with Camoufox
+/home/jrpkennedy/arlen-crawl/.venv/lib/python3.14/site-packages/playwright/driver/package/
+[5/50] TX South Plains Archery Club                -> dropped  (30.8s) unreachable: arlen-crawl exit 1: Patchright failed for https://southplainsarchery.com (Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to "https://southplainsarchery.com/", waiting until "networkidle"
+) — retrying with Camoufox
+/home/jrpkennedy/arlen-crawl/.venv/lib/python3.14/site-packages/playwright/driver/package/l
+[6/50] TX Dalhart Bowhunters                       -> kept     (7.5s) https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/306778057_163191186363830_1095711847719969795_n.jpg?stp=dst-jpg_tt6&cstp=mx1169x1169&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5BSKmBNUUWIQ7kNvwEAGsak&_nc_oc=Adr1hULAEQLAqC9Pb9K9WQpfSt5gyPb33cb5FyIstMdk3ROImA32TYfPVBaSyf5RKXg&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=1WbVHDzoje7f_Fe1ffE4hg&_nc_ss=7b289&oh=00_AQCY8Yivv7CcDwJc1-CB5TCv-kMvd4b4EnPMRfLwXzebcA&oe=6A5217B3
+[7/50] TX Arrowstotle Archery                      -> dropped  (1.8s) all candidates failed gate
+[8/50] TX Team SPIDERx                             -> kept     (7.3s) https://static.wixstatic.com/media/368748_094bd51606cc4be8943075fed6db47f7~mv2.png/v1/fill/w_2500,h_1406,al_c/368748_094bd51606cc4be8943075fed6db47f7~mv2.png
+[9/50] TX Legacy Archery JOAD                      -> kept     (5.6s) http://static1.squarespace.com/static/632f5238215661299a923214/t/63321b1e62726c4bf23e1e75/1664228130196/LA-Black-Green.png?format=1500w
+[10/50] TX Enduring Freedom Co.                     -> kept     (46.9s) https://img1.wsimg.com/isteam/ip/4109281c-00f7-4fe9-b66c-ffdc595a3b2f/blob-c7689ee.png
+[11/50] TX Wylie Karate Archery Club                -> kept     (7.3s) https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/wylieMartialArts.png-698w.png
+[12/50] TX Arrow Minded Outdoors                    -> kept     (7.3s) https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/305959222_126145886843854_4407083949765937838_n.jpg?stp=dst-jpg_tt6&cstp=mx609x609&ctp=s609x609&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rS705u0Xuy4Q7kNvwHpihaN&_nc_oc=AdpMWcjiQMBiLjt97ss5b2lf0aFKYO6TeE5QhLTc-LEuOyKPT2ig4Du3Ci1TUVivEkI&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=UD45JxJHzmlg6qxnbJizDg&_nc_ss=79289&oh=00_AQCQVLS105Sf0xyYB-hRu5-BBl0ANrzmj9WWlpCajR-gww&oe=6A5229DF
+[13/50] TX Austin Archery Club                      -> kept     (3.5s) https://austinarcheryclub.com/wp-content/uploads/2025/02/Clubhouse-small.jpg
+[14/50] TX Buck & Doe's Mercantile                  -> dropped  (39.9s) all candidates failed gate
+[15/50] TX Lone Star Ranch Austin                   -> kept     (42.8s) https://www.lonestarranchtexas.com/wp-content/smush-webp/2026/06/Screenshot-2026-06-20-at-14.43.05-1-1608x1132.jpg.webp
+[16/50] TX Nocked & Loaded                          -> kept     (12.2s) https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/295302281_448573337279260_152880313605597434_n.jpg?stp=dst-jpg_tt6&cstp=mx385x385&ctp=s385x385&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TwW94ZayA6YQ7kNvwFS32Na&_nc_oc=Adp01E5LkxA906onoClAh6XVYob7FXTzI3WaH7L3_jhmcuZdupXvS5ODz4W6u_gLHzM&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=-1TVZn8k4GxV1dHeZ3p-fw&_nc_ss=79289&oh=00_AQC_SKqmJMVF7Z0mfInyrNEtwDIVtN9ZePVRu05dgg1Uyw&oe=6A524DCB
+[17/50] TX Ollie Liner Center                       -> dropped  (23.2s) all candidates failed gate
+[18/50] TX Texas Shooting Stars                     -> dropped  (5.4s) unreachable: arlen-crawl exit 1: Patchright failed for http://wwwarcheryinsighttraining.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://wwwarcheryinsighttraining.com/
+Call log:
+  - navigating to "http://wwwarcheryinsighttraining.com/", waiting until "networkidle"
+) — retrying with Camoufox
+Error: Both engines failed for http:/
+[19/50] TX Texas Archery                            -> dropped  (3.8s) dead/parked: dead/parked marker: 'this domain is for sale'
+[20/50] TX Home On The Range Archery                -> kept     (7.0s) https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/cabe1c21-f176-4640-a93c-fe6f57c7baeb/IMG_9516.jpg
+[21/50] TX Pearland Archery Club                    -> dropped  (32.9s) unreachable: arlen-crawl exit 1: Patchright failed for http://www.pearlandarcheryclub.com (Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to "http://www.pearlandarcheryclub.com/", waiting until "networkidle"
+) — retrying with Camoufox
+/home/jrpkennedy/arlen-crawl/.venv/lib/python3.14/site-packages/playwright/driver/p
+[22/50] TX Archers Haven                            -> dropped  (6.5s) unreachable: arlen-crawl exit 1: Patchright failed for http://www.archershaven.org (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.archershaven.org/
+Call log:
+  - navigating to "http://www.archershaven.org/", waiting until "networkidle"
+) — retrying with Camoufox
+Error: Both engines failed for http://www.archershaven.org: patc
+[23/50] TX Darkhorse Archery Bow Shop & Range       -> dropped  (33.7s) unreachable: arlen-crawl exit 1: Patchright failed for https://darkhorse-archery.com (Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to "https://darkhorse-archery.com/", waiting until "networkidle"
+) — retrying with Camoufox
+/home/jrpkennedy/arlen-crawl/.venv/lib/python3.14/site-packages/playwright/driver/package/lib
+[24/50] TX Sherwood Archery                         -> dropped  (6.3s) unreachable: arlen-crawl exit 1: Patchright failed for http://sherwoodtargetarchery.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://sherwoodtargetarchery.com/
+Call log:
+  - navigating to "http://sherwoodtargetarchery.com/", waiting until "networkidle"
+) — retrying with Camoufox
+Error: Both engines failed for http://sherwoodtar
+[25/50] TX Tejas Bowmen Archery Club                -> dropped  (6.9s) unreachable: arlen-crawl exit 1: Patchright failed for http://www.tejasbowmenarcheryclub.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.tejasbowmenarcheryclub.com/
+Call log:
+  - navigating to "http://www.tejasbowmenarcheryclub.com/", waiting until "networkidle"
+) — retrying with Camoufox
+Error: Both engines failed for htt
+[26/50] TX X10 Archery                              -> dropped  (2.6s) no img/og:image tags found
+[27/50] TX Gateway Archery Inc and Indoor Range     -> dropped  (12.2s) unreachable: arlen-crawl exit 1: Patchright failed for http://www.gatewayarchery.com/ (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.gatewayarchery.com/
+Call log:
+  - navigating to "http://www.gatewayarchery.com/", waiting until "networkidle"
+) — retrying with Camoufox
+Error: Both engines failed for http://www.gatewayarchery.
+[28/50] TX Texas Archery Spring                     -> kept     (53.2s) https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/630811727_1558074405801259_2466667632371097554_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9o43c90GeJwQ7kNvwEPdiaZ&_nc_oc=AdobPTQi_FCdYc8gEW9xGiEnE4XK7iPL3hfwUbkLvFgF8AKtD6TEJGWkapy4qc1eRlk&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=GTNncrrdnP2AfcHosepn2w&_nc_ss=7b289&oh=00_AQCkbXuZhXA9-oENJxaO-5oBxEGfVQrQoEwrAdgUy_kjxQ&oe=6A522091
+[29/50] TX Shady Oaks Gun Range                     -> kept     (12.1s) https://www.shadyoaksgunrange.com/wp-content/uploads/sogr_splash_slide_2021.jpg
+[30/50] TX A Place To Shoot San Antonio             -> dropped  (34.1s) unreachable: arlen-crawl exit 1: Patchright failed for https://www.aplacetoshoot.com (Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to "https://www.aplacetoshoot.com/", waiting until "networkidle"
+) — retrying with Camoufox
+/home/jrpkennedy/arlen-crawl/.venv/lib/python3.14/site-packages/playwright/driver/package/lib
+[31/50] TX Arrows for Christ Ministries/WWCC        -> kept     (6.4s) http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/37931459-10216616204503477-8017169173723480064-n_orig.jpg
+[32/50] TX Viking Archery Joad Club                 -> kept     (16.5s) http://Viking-Archery.com/images/customH.png
+[33/50] TX City of Carrollton Parks & Rec Departmen -> dropped  (19.8s) no img/og:image tags found
+[34/50] TX Bow Pros Archery & Outdoors              -> dropped  (8.4s) unreachable: arlen-crawl exit 1: Patchright failed for https://bowprosfbg.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bowprosfbg.com/
+Call log:
+  - navigating to "https://bowprosfbg.com/", waiting until "networkidle"
+) — retrying with Camoufox
+Error: Both engines failed for https://bowprosfbg.com: patchright=Page.goto: ne
+[35/50] TX Adrenaline Bow Hunts                     -> kept     (14.5s) https://static.wixstatic.com/media/ca351e_aa8aab1c74ec44e981b836dddac2e3bd%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/ca351e_aa8aab1c74ec44e981b836dddac2e3bd%7Emv2.jpg
+[36/50] TX Buck Branch Archery Club                 -> kept     (49.2s) https://scontent.fyzd1-2.fna.fbcdn.net/v/t1.6435-9/79585607_10105563328427123_7751119838344380416_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=0b1479&_nc_ohc=azwDZMLzZiwQ7kNvwGEzfbf&_nc_oc=AdrSyc1-CRZsnjl4EwPAtc2bO730Rwq-sspGd413C-T4Zc8JluZjCk0HZ9BytCqz71I&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=klyv0RXOr-PV3kJqCe1AvA&_nc_ss=7b289&oh=00_AQBnvLSYrwlRx8OVWhABxzHqoODDy3QZgPmhcIS-KiDYkw&oe=6A73CDB6
+[37/50] TX Cowtown Bowmen                           -> kept     (4.7s) https://cowtownbowmen.com/public_html/rangerules.JPG
+[38/50] TX Legacy Archery                           -> kept     (4.2s) http://static1.squarespace.com/static/632f5238215661299a923214/t/63321b1e62726c4bf23e1e75/1664228130196/LA-Black-Green.png?format=1500w
+[39/50] TX Tyler Archery Club                       -> dropped  (6.1s) all candidates failed gate
+[40/50] TX Panola Archery Club                      -> kept     (8.6s) https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/480282403_2793630360809260_7292768611858544780_n.jpg?stp=dst-jpg_tt6&cstp=mx1284x924&ctp=s1284x924&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=wn7gBf9tI9kQ7kNvwFds80R&_nc_oc=AdrMqp53TkHbrfx_DxhWBvTo-yNdiphGSW1oiRSR7FzanLsL4QX4W7ce9Y5DDeHZV0k&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=vs39P7FmjPsj2j_on5Vi3Q&_nc_ss=7b289&oh=00_AQDNz_vGwMw0JWlAemhqGj1ISAPUtcqLPq9qKcN5ytZb7g&oe=6A5226D7
+[41/50] TX Gateway 3D Adventures                    -> kept     (6.0s) https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/343159368_754341019523984_7823085618988397638_n.jpg?stp=dst-jpg_tt6&cstp=mx450x450&ctp=s450x450&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LpemLf7Vo7gQ7kNvwEtTTo9&_nc_oc=Adrgr8P2ABcquvQSzBeclZUdrraLsceyKNiRxGXFiCelZr5bl5EGiaEG6oCf7wiU3-Y&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=lWEOE0E5-9aJvYambZKrdA&_nc_ss=79289&oh=00_AQAAlMWJoH39gboBJMBnF3zvXgvMXf3Fk9eavX9psnEgKg&oe=6A524E80
+[42/50] TX Fletcha Brothers Archery Club            -> kept     (5.6s) https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/302068024_5330492903711459_8512501128108700755_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx681x960&ctp=s681x960&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mJ3DXt6g02MQ7kNvwHO55bC&_nc_oc=Adox41WQ-zBmqbEfkWz8atyxXlamWujhjZO-9emlqiGWQ8nSOUXaAPuy37Tu8xmVWU4&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=zL4g6h65waN5L744NjgqTQ&_nc_ss=7b289&oh=00_AQAxIIkFZ2x-ut8rKjRVikt19fZJc_1m0e8r6yxWnXoN-Q&oe=6A524F72
+[43/50] TX TAA - Plano                              -> kept     (6.0s) https://texasarchery.info/wp-content/uploads/2025/06/Texas-Archery-ClubSC-768x1013-1.png
+[44/50] TX Texas Archery Academy                    -> kept     (5.6s) https://texasarchery.info/wp-content/uploads/2025/06/Texas-Archery-ClubSC-768x1013-1.png
+[45/50] TX The Carriage Archery Club                -> dropped  (8.2s) all candidates failed gate
+[46/50] TX West Houston Archery                     -> kept     (11.8s) https://static.wixstatic.com/media/2d3fa2_3321b19bd7134c7593d8ade4329c4b66~mv2.jpg/v1/fill/w_1920,h_1200,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2d3fa2_3321b19bd7134c7593d8ade4329c4b66~mv2.jpg
+[47/50] TX Westlake Sports Center                   -> kept     (7.6s) https://www.cityofmesquite.com/ImageRepository/Document?documentID=22151
+[48/50] TX Golden Eagle Field Archers               -> kept     (7.2s) https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/327315645_574587117857528_7070611509119793614_n.jpg?stp=dst-jpg_tt6&cstp=mx640x640&ctp=s640x640&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XDMfb8OIXJoQ7kNvwEjkQE9&_nc_oc=AdoCOokZjNUyvtDb3zUjzR_j2RsRRFSI9Y-t-tJieL7mhn-9oV2bgi-mKVu3KmxjgiY&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=w2vjzRcPUclMrv0CjUXm-A&_nc_ss=7b289&oh=00_AQCP5YBoNWb_75mvR249u-3ixaT4ml_9rpALprOz6_6fLQ&oe=6A5238A7
+[49/50] TX Triple Edge Archery Dayton               -> dropped  (1.6s) dead/parked: dead/parked marker: 'under construction'
+[50/50] TX Huaco Bowmen Archery Club                -> kept     (41.5s) https://img1.wsimg.com/isteam/ip/20432bd1-41ff-467d-8ccb-b4e3ac6a3b15/blob-ba6c46b.png

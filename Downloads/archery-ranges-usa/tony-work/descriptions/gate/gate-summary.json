@@ -1,0 +1,93 @@
+{
+  "input_lines": 1667,
+  "kept": 1667,
+  "dropped_total": 0,
+  "dropped_by_reason": {},
+  "flagged_by_reason": {
+    "rows-with-any-flag": 29,
+    "superlative-claim": 28,
+    "day-of-week-hours-phrasing": 1
+  },
+  "kept_thin": 953,
+  "kept_rich": 714,
+  "thin_files": [
+    [
+      "desc-thin-batch-01.sql",
+      100
+    ],
+    [
+      "desc-thin-batch-02.sql",
+      100
+    ],
+    [
+      "desc-thin-batch-03.sql",
+      100
+    ],
+    [
+      "desc-thin-batch-04.sql",
+      100
+    ],
+    [
+      "desc-thin-batch-05.sql",
+      100
+    ],
+    [
+      "desc-thin-batch-06.sql",
+      100
+    ],
+    [
+      "desc-thin-batch-07.sql",
+      100
+    ],
+    [
+      "desc-thin-batch-08.sql",
+      100
+    ],
+    [
+      "desc-thin-batch-09.sql",
+      100
+    ],
+    [
+      "desc-thin-batch-10.sql",
+      53
+    ]
+  ],
+  "rich_files": [
+    [
+      "desc-rich-batch-01.sql",
+      100
+    ],
+    [
+      "desc-rich-batch-02.sql",
+      100
+    ],
+    [
+      "desc-rich-batch-03.sql",
+      100
+    ],
+    [
+      "desc-rich-batch-04.sql",
+      100
+    ],
+    [
+      "desc-rich-batch-05.sql",
+      100
+    ],
+    [
+      "desc-rich-batch-06.sql",
+      100
+    ],
+    [
+      "desc-rich-batch-07.sql",
+      100
+    ],
+    [
+      "desc-rich-batch-08.sql",
+      14
+    ]
+  ],
+  "thin_tuple_total": 953,
+  "rich_tuple_total": 714,
+  "thin_tuple_total_matches": true,
+  "rich_tuple_total_matches": true
+}

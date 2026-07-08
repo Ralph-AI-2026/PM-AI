@@ -1,0 +1,144 @@
+{
+  "id": "7c1c751b-266e-4af9-95c9-74e5ca336daa",
+  "name": "Adrenaline Bow Hunts",
+  "city": "Stockdale",
+  "state": "TX",
+  "website": "https://www.adrenalinebowhunts.com/",
+  "facebook_url": "https://www.facebook.com/AdrenalineBowHunts",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.adrenalinebowhunts.com/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 13,
+      "candidates": [
+        {
+          "url": "https://static.wixstatic.com/media/ca351e_aa8aab1c74ec44e981b836dddac2e3bd%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/ca351e_aa8aab1c74ec44e981b836dddac2e3bd%7Emv2.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "270460",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/ca351e_9ed26fbc826d4f82962b981273143f41~mv2.png/v1/fill/w_147,h_147,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLACK_BOWHUNT_LOGO.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/e1aa082f7c0747168d9cf43e77046142.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e1aa082f7c0747168d9cf43e77046142.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1365B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1365",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/4057345bcf57474b96976284050c00df.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/4057345bcf57474b96976284050c00df.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1536B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1536",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/ca351e_aa8aab1c74ec44e981b836dddac2e3bd~mv2.jpg/v1/fill/w_2880,h_1250,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/ca351e_aa8aab1c74ec44e981b836dddac2e3bd~mv2.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "255223",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/ca351e_5b0768b62114406090101ba1e41480e9~mv2.jpg/v1/fill/w_888,h_768,al_c,q_85,enc_avif,quality_auto/ca351e_5b0768b62114406090101ba1e41480e9~mv2.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "245772",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/7c4ca7_1811c471c33046f3b857f866c2692b01~mv2.png/v1/fill/w_49,h_63,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/7c4ca7_1811c471c33046f3b857f866c2692b01~mv2.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5562B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "5562",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/7c4ca7_094b4d7050e74d69b209c53857e690e7~mv2.png/v1/fill/w_49,h_63,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/7c4ca7_094b4d7050e74d69b209c53857e690e7~mv2.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2021B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "2021",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/7c4ca7_f7eabc78fce6462cb02b212fca9e01ab~mv2.png/v1/fill/w_49,h_63,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/7c4ca7_f7eabc78fce6462cb02b212fca9e01ab~mv2.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (3663B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "3663",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/7c4ca7_e907dc2b90ae4ca5a190585cc4923a3f~mv2.png/v1/fill/w_49,h_63,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/7c4ca7_e907dc2b90ae4ca5a190585cc4923a3f~mv2.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5014B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "5014",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/7c4ca7_71bf05baaec948de8aa8a951b57f9fc7~mv2.png/v1/fill/w_49,h_63,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/7c4ca7_71bf05baaec948de8aa8a951b57f9fc7~mv2.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (4390B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "4390",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/7c4ca7_125ae6944dd34a00ac0efc8d604a0814~mv2.png/v1/fill/w_49,h_63,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/7c4ca7_125ae6944dd34a00ac0efc8d604a0814~mv2.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (4727B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "4727",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/ca351e_9ed26fbc826d4f82962b981273143f41~mv2.png/v1/fill/w_204,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLACK_BOWHUNT_LOGO.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        }
+      ],
+      "chosen": {
+        "url": "https://static.wixstatic.com/media/ca351e_aa8aab1c74ec44e981b836dddac2e3bd%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/ca351e_aa8aab1c74ec44e981b836dddac2e3bd%7Emv2.jpg",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "270460",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://static.wixstatic.com/media/ca351e_aa8aab1c74ec44e981b836dddac2e3bd%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/ca351e_aa8aab1c74ec44e981b836dddac2e3bd%7Emv2.jpg",
+  "chosen_source_page": "https://www.adrenalinebowhunts.com/",
+  "drop_reason": null
+}

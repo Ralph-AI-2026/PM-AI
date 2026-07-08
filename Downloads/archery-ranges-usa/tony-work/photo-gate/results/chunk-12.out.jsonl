@@ -1,0 +1,40 @@
+{"id":"2acee6e6-7c7e-4cfc-84d5-d08112a4b5f5", "verdict":"hold", "kind":"other", "reason":"image failed to load"}
+{"id":"d826e08b-23ff-4a96-a448-651a9a230954", "verdict":"reject", "kind":"other", "reason":"payment processor logo"}
+{"id":"789b7daf-f09b-4dda-8298-7a85900af7be", "verdict":"keep", "kind":"signage", "reason":"archery event poster"}
+{"id":"0006c627-2e66-4eed-84c4-dd58b60c454f", "verdict":"reject", "kind":"other", "reason":"logo graphic only"}
+{"id":"0c4dc4ff-81b9-4289-9950-057a3186420a", "verdict":"keep", "kind":"interior", "reason":"indoor archery range"}
+{"id":"505b9dc4-a933-4b7a-81fc-1d51ec9eb955", "verdict":"keep", "kind":"exterior", "reason":"building exterior signage"}
+{"id":"f49d68f0-c57d-4ebb-9d4b-933415e6f187", "verdict":"keep", "kind":"proshop", "reason":"archery store interior"}
+{"id":"fbbb5e75-9480-44f7-a136-5ba53e2d5bb7", "verdict":"keep", "kind":"range", "reason":"outdoor archery event"}
+{"id":"556e3b10-fb37-437f-a115-3e6fe388aeaa", "verdict":"keep", "kind":"interior", "reason":"indoor archery range"}
+{"id":"24977840-bb94-4386-b59a-ddb2c7389fe8", "verdict":"keep", "kind":"range", "reason":"outdoor archery range"}
+{"id":"9914b16e-daf7-42de-bbd7-4ee7f605fe62", "verdict":"keep", "kind":"range", "reason":"outdoor archery event"}
+{"id":"a028edc4-cec2-42f6-84ca-2131f714659e", "verdict":"keep", "kind":"exterior", "reason":"club building exterior"}
+{"id":"47dbee01-a52d-4eff-9a14-14c41a2ab82a", "verdict":"keep", "kind":"signage", "reason":"bowhunter course sign"}
+{"id":"6f125025-988a-4527-b574-88593962be08", "verdict":"reject", "kind":"other", "reason":"hunting photo only"}
+{"id":"14c162cf-a09b-4697-85cc-a596023e98fe", "verdict":"reject", "kind":"other", "reason":"map image only"}
+{"id":"79801391-cc4a-41a7-9c92-e38d6589c97d", "verdict":"keep", "kind":"range", "reason":"person shooting bow"}
+{"id":"1465ca62-66c2-49dd-bdf2-688d37c8610d", "verdict":"reject", "kind":"other", "reason":"logo graphic only"}
+{"id":"b84b84fd-4539-4560-9f75-ddc31abc7376", "verdict":"reject", "kind":"other", "reason":"logo circular emblem"}
+{"id":"563a6b8a-8836-46b8-9640-1ff26a466048", "verdict":"reject", "kind":"shooting", "reason":"firearms gun range"}
+{"id":"875b0de1-0fd2-4f48-824b-23f5ee295250", "verdict":"reject", "kind":"other", "reason":"logo signage only"}
+{"id":"d59e285d-5475-4a53-b999-248aaacf8c24", "verdict":"keep", "kind":"interior", "reason":"indoor archery event"}
+{"id":"f4b968db-4c1f-49c1-8c0e-d0816ce563fe", "verdict":"reject", "kind":"other", "reason":"weather forecast page"}
+{"id":"ddbfe3a4-4549-4cb6-b43d-e47fe780b356", "verdict":"keep", "kind":"interior", "reason":"group with bows"}
+{"id":"c18e7336-a418-492c-8093-81e7cd8983eb", "verdict":"keep", "kind":"range", "reason":"archery competition range"}
+{"id":"c6ef1afe-d9f5-4847-a8f4-177414425013", "verdict":"keep", "kind":"interior", "reason":"indoor archery facility"}
+{"id":"7b69edcf-fa78-4cad-97af-51e395dd5f47", "verdict":"reject", "kind":"other", "reason":"logo graphic only"}
+{"id":"e2dffbb9-594d-4b55-ab8e-e71fa06c75f3", "verdict":"reject", "kind":"other", "reason":"clothing store interior"}
+{"id":"1bfa4df1-e651-4055-b6b2-4686afef533d", "verdict":"keep", "kind":"interior", "reason":"indoor archery facility"}
+{"id":"18c262cd-8746-4acd-9509-457907e9b017", "verdict":"keep", "kind":"interior", "reason":"person shooting bow"}
+{"id":"7bce1b16-ddae-4722-aaf8-43cd5739be90", "verdict":"keep", "kind":"range", "reason":"outdoor archery event"}
+{"id":"4a9869f3-40ab-4543-9c34-5cba8d8ded0f", "verdict":"reject", "kind":"other", "reason":"schedule text image"}
+{"id":"e41c5c9f-88d0-4231-8878-f36a83ba0829", "verdict":"keep", "kind":"range", "reason":"outdoor archery range"}
+{"id":"52a7050c-f453-49b0-a520-cad39e797fd9", "verdict":"hold", "kind":"other", "reason":"people outdoors unclear"}
+{"id":"50c929cd-f699-417d-8a82-3e2569ef4cb4", "verdict":"reject", "kind":"other", "reason":"karate class not archery"}
+{"id":"f7488f80-e1ca-4433-bb55-9271bec28d9c", "verdict":"reject", "kind":"shooting", "reason":"rifle range not archery"}
+{"id":"118b5bcc-7554-46a1-a12a-d11e3e3c324c", "verdict":"keep", "kind":"interior", "reason":"indoor archery facility"}
+{"id":"7f543134-d03f-4e54-90d1-98fe63e8bfbe", "verdict":"keep", "kind":"exterior", "reason":"building exterior signage"}
+{"id":"6143335c-7df8-44df-87aa-ca9cce8117b8", "verdict":"keep", "kind":"interior", "reason":"indoor archery facility"}
+{"id":"bbe7fcd8-3935-4337-b305-c0028a1a0567", "verdict":"keep", "kind":"other", "reason":"outdoor group photo"}
+{"id":"52066b07-153e-4db3-9b8e-b27ac71dfedf", "verdict":"reject", "kind":"other", "reason":"map image only"}

@@ -1,0 +1,147 @@
+{
+  "id": "abadf432-ab4d-4965-877f-9f028fb41b8b",
+  "name": "Noble Aim Shooting Sports",
+  "city": "Youngstown",
+  "state": "OH",
+  "website": "https://nobleaimshootingsports.org/",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://nobleaimshootingsports.org/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 16,
+      "candidates": [
+        {
+          "url": "https://www.nobleaimshootingsports.org/web/image/website/2/logo?unique=1cba791",
+          "tag": "og:image",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://www.nobleaimshootingsports.org/web/image/website/2/logo/300x300?unique=1cba791",
+          "tag": "twitter:image",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/website/2/logo/Noble%20Aim%20Shooting%20Sports?unique=1cba791",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/952-7fceb9b6/NobleAim_logo-texture_rgb.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/16824-93362ba6/CF15C5B4-31CC-49E0-8817-D14C17BAB8F1.jpeg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "582193",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/5618-4cdf94eb/tempImageR0KMRq.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/7025-f524c051/Austintown%20FOP%20Lodge%20126-2.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "25943",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/16676-2f752f23/BoltLogo_outerglow.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/7028-f4eca42b/67A85564-C722-4BB2-B493-15369C2CB2B4.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.nobleaimshootingsports.org/web/image/7089-6c966854/777B88BF-B1CC-42C0-AF22-4B3DD11C6C36_4_5005_c.jpeg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (11333B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "11333",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/16691-f0b57447/8F3BC798-239D-487D-A325-79308AD45318_4_5005_c.jpeg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (11074B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "11074",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/6831-d0b60506/MVS_1435_TM.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "387578",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/6830-dad8e804/MVS_1443_TM.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "396108",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/7090-6f82c31a/CF15C5B4-31CC-49E0-8817-D14C17BAB8F1.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/image/961-cc653c73/273C4E73-5080-40CC-A94F-A5EA626956DC.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://nobleaimshootingsports.org/web/static/img/odoo_logo_tiny.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        }
+      ],
+      "chosen": {
+        "url": "https://nobleaimshootingsports.org/web/image/16824-93362ba6/CF15C5B4-31CC-49E0-8817-D14C17BAB8F1.jpeg",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/png",
+        "content_length": "582193",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://nobleaimshootingsports.org/web/image/16824-93362ba6/CF15C5B4-31CC-49E0-8817-D14C17BAB8F1.jpeg",
+  "chosen_source_page": "https://nobleaimshootingsports.org/",
+  "drop_reason": null
+}

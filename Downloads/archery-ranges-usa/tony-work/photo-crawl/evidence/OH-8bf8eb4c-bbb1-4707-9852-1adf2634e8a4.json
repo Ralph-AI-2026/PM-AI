@@ -1,0 +1,66 @@
+{
+  "id": "8bf8eb4c-bbb1-4707-9852-1adf2634e8a4",
+  "name": "Meadow Ridge MetroPark archery range",
+  "city": "Hamilton",
+  "state": "OH",
+  "website": "https://www.yourmetroparks.net/archery",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.yourmetroparks.net/archery",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 5,
+      "candidates": [
+        {
+          "url": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://cdn.userway.org/widgetapp/images/wheel_left_wh.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.yourmetroparks.net/ResourcePackages/MBC/assets/dist/images/mbc-logo.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://www.yourmetroparks.net/images/default-source/parks/meadow-ridge-metropark/archery-range.png?Status=Master&sfvrsn=f37e40ea_1",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "1331648",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.yourmetroparks.net/ResourcePackages/MBC/assets/dist/images/mbc-footer-logo.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        }
+      ],
+      "chosen": {
+        "url": "https://www.yourmetroparks.net/images/default-source/parks/meadow-ridge-metropark/archery-range.png?Status=Master&sfvrsn=f37e40ea_1",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/png",
+        "content_length": "1331648",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://www.yourmetroparks.net/images/default-source/parks/meadow-ridge-metropark/archery-range.png?Status=Master&sfvrsn=f37e40ea_1",
+  "chosen_source_page": "https://www.yourmetroparks.net/archery",
+  "drop_reason": null
+}

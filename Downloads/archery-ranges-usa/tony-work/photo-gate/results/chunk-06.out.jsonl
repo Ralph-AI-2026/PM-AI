@@ -1,0 +1,40 @@
+{"id":"f81663b6-ba8f-4fa8-ab90-7df4fd20fa29", "verdict":"keep", "kind":"interior", "reason":"Archery people targets visible"}
+{"id":"1d012ea5-a5ba-4981-81ca-52aae666a88e", "verdict":"keep", "kind":"proshop", "reason":"Archery retail interior"}
+{"id":"9979eece-08c2-4c61-988c-3a1f134ddfc6", "verdict":"reject", "kind":"other", "reason":"Text image unrelated story"}
+{"id":"5fae99d0-7c78-4ad3-8ad4-09fc4c79c0bd", "verdict":"reject", "kind":"other", "reason":"Logo graphic not facility"}
+{"id":"9f9e2b93-082e-4295-bd85-7af760ae23e6", "verdict":"keep", "kind":"exterior", "reason":"Outdoor pavilion range"}
+{"id":"d9c94700-4925-4051-abba-23fc06d1d39e", "verdict":"hold", "kind":"other", "reason":"Ambiguous outdoor unclear archery"}
+{"id":"0c2f81fd-7f3a-4670-9a4c-c4995305c36d", "verdict":"reject", "kind":"other", "reason":"Club logo graphic"}
+{"id":"56e83152-ea3f-4f67-81c4-e522d04e7d28", "verdict":"keep", "kind":"interior", "reason":"People shooting bows indoors"}
+{"id":"7fb59553-47a9-4b98-beb0-fdf079e7a0be", "verdict":"keep", "kind":"3d", "reason":"3D course outdoor targets"}
+{"id":"e7955670-1a54-46e6-86ee-98dc61b41699", "verdict":"hold", "kind":"other", "reason":"Image too blurry unclear"}
+{"id":"1d4b5c22-0dba-4948-9781-3d5f44e4c496", "verdict":"reject", "kind":"other", "reason":"Poster promotional graphic"}
+{"id":"1371efa7-8e90-4017-b1a9-69b4449afee0", "verdict":"keep", "kind":"range", "reason":"People shooting bows outdoors"}
+{"id":"3bed6949-1a32-4a10-8764-7ddfec727915", "verdict":"keep", "kind":"signage", "reason":"Archery shop storefront sign"}
+{"id":"47c83d98-f9ac-4f82-ad79-f56ec996a63b", "verdict":"keep", "kind":"proshop", "reason":"Indoor crossbow pro-shop"}
+{"id":"29e87c2b-446b-40e0-af9c-a781ad30ba5e", "verdict":"reject", "kind":"other", "reason":"Schedule poster text"}
+{"id":"c07c43ab-1a1c-4e14-a1b1-a180d1e7a29c", "verdict":"keep", "kind":"interior", "reason":"Indoor range shooting lanes"}
+{"id":"831aaa3c-32d5-40b4-a548-13800f36f285", "verdict":"reject", "kind":"other", "reason":"Deer logo graphic"}
+{"id":"d474fc1b-ed9f-45e4-b2ea-cb76fbf44fbb", "verdict":"reject", "kind":"other", "reason":"Water sports unrelated subject"}
+{"id":"a939abfd-3527-4e2e-b18b-d067d2c28bd1", "verdict":"keep", "kind":"range", "reason":"Person archery event outdoor"}
+{"id":"9aa1e328-ffdb-4a7a-b058-72e3df09bdf1", "verdict":"keep", "kind":"interior", "reason":"Indoor venue group event"}
+{"id":"bcc75e06-011e-42e9-bf1c-c1ba31abe991", "verdict":"reject", "kind":"other", "reason":"Eagle logo graphic"}
+{"id":"9334e65b-cfd0-463b-9a42-3564ff3019a6", "verdict":"keep", "kind":"range", "reason":"Outdoor range flags visible"}
+{"id":"ee862a50-1312-4565-b289-b2712f5688e6", "verdict":"reject", "kind":"other", "reason":"Logo graphic not facility"}
+{"id":"896cdefc-33cf-4fe1-82ed-6577bfb3b535", "verdict":"keep", "kind":"range", "reason":"Group at competition event"}
+{"id":"1b04aa70-c070-44ba-b5fd-3ed2ec96e2c6", "verdict":"hold", "kind":"other", "reason":"Image blank or failed load"}
+{"id":"178e7c79-6395-48ba-9ad4-0770bd5d8e22", "verdict":"reject", "kind":"other", "reason":"Range schedule text image"}
+{"id":"989db56e-759f-454a-8faa-327f55fa60f6", "verdict":"reject", "kind":"other", "reason":"Scoring diagram chart"}
+{"id":"1eeb275a-a70a-4dca-93d0-af63fdedbcac", "verdict":"keep", "kind":"range", "reason":"Silhouette archer shooting"}
+{"id":"1fc2ebc5-6f32-4e65-915b-ed0e146fd30d", "verdict":"keep", "kind":"3d", "reason":"3D archery target"}
+{"id":"05e2dbf9-bbf9-4567-9ea5-8fea6d63e1da", "verdict":"reject", "kind":"other", "reason":"Logo graphic Arizona shaped"}
+{"id":"39c97ba6-65a3-4a9f-853f-c8cbf234e5a6", "verdict":"keep", "kind":"range", "reason":"Outdoor range group people"}
+{"id":"9052ba13-de5d-44cb-92b2-f51831c64a9f", "verdict":"reject", "kind":"other", "reason":"Wildlife club logo"}
+{"id":"268f374e-170e-41df-9f4a-38b9c14c1330", "verdict":"keep", "kind":"other", "reason":"Archery targets reused twice"}
+{"id":"9266e8dc-ba6c-4e39-9caa-9d9c371e719a", "verdict":"keep", "kind":"other", "reason":"Archery targets same reused"}
+{"id":"17b49529-ee38-4f69-aff9-62809c713d63", "verdict":"reject", "kind":"other", "reason":"Fitness studio fencing"}
+{"id":"20e820b1-f1bc-4041-962c-d7a9fb5a9c6b", "verdict":"keep", "kind":"interior", "reason":"Indoor electronic targets"}
+{"id":"2a41cf3a-7722-4aa7-8afc-f01566610881", "verdict":"reject", "kind":"other", "reason":"Fish game club logo"}
+{"id":"3f8831b8-cd25-4716-9864-cbbe26a9fc3b", "verdict":"keep", "kind":"interior", "reason":"Indoor range shooter"}
+{"id":"23c8a981-f77b-46f7-8768-c6a5bb199036", "verdict":"keep", "kind":"interior", "reason":"Indoor range shooter"}
+{"id":"71570d40-eadb-4b94-bdeb-6f64da76fdcf", "verdict":"reject", "kind":"shooting", "reason":"Gun club aerial property"}

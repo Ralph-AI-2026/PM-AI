@@ -1,0 +1,94 @@
+{
+  "id": "fa429fe2-8431-41eb-b3a1-12103d4df0ea",
+  "name": "Buck & Doe's Mercantile",
+  "city": "San Antonio",
+  "state": "TX",
+  "website": "https://buckdoes.com/",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://buckdoes.com/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 8,
+      "candidates": [
+        {
+          "url": "https://buckdoes.com/wp-content/uploads/2024/09/BD-Headers-_0011_JRP_3018-Edit-3.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "not image/* (got none)",
+          "content_type": "",
+          "content_length": "207946",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://buckdoes.com/wp-content/uploads/2024/09/BD-Headers-_0012_JRP_3625-Edit.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "not image/* (got none)",
+          "content_type": "",
+          "content_length": "64942",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://buckdoes.com/wp-content/uploads/2025/05/membership-scaled-1-1024x683.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "not image/* (got none)",
+          "content_type": "",
+          "content_length": "34448",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://buckdoes.com/wp-content/uploads/2024/09/Buck-and-Doe-Icon.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://buckdoes.com/wp-content/uploads/2024/09/image-3.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "not image/* (got none)",
+          "content_type": "",
+          "content_length": "7378",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://buckdoes.com/wp-content/uploads/2024/09/image-2-300x300.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "not image/* (got none)",
+          "content_type": "",
+          "content_length": "4714",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://buckdoes.com/wp-content/uploads/2024/09/image-4.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "not image/* (got none)",
+          "content_type": "",
+          "content_length": "7448",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://buckdoes.com/wp-content/uploads/2024/09/image-5.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "not image/* (got none)",
+          "content_type": "",
+          "content_length": "3578",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "all candidates failed gate"
+}

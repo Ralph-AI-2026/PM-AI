@@ -1,0 +1,24 @@
+{
+  "id": "e9cf9930-91e0-427c-a2b3-326c9ec94ccc",
+  "name": "Bow Pros Archery & Outdoors",
+  "city": "Stonewall",
+  "state": "TX",
+  "website": "https://bowprosfbg.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://bowprosfbg.com",
+      "reachable": false,
+      "fail_reason": "arlen-crawl exit 1: Patchright failed for https://bowprosfbg.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bowprosfbg.com/\nCall log:\n  - navigating to \"https://bowprosfbg.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\nError: Both engines failed for https://bowprosfbg.com: patchright=Page.goto: ne",
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "unreachable: arlen-crawl exit 1: Patchright failed for https://bowprosfbg.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bowprosfbg.com/\nCall log:\n  - navigating to \"https://bowprosfbg.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\nError: Both engines failed for https://bowprosfbg.com: patchright=Page.goto: ne"
+}

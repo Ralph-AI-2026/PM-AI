@@ -1,0 +1,24 @@
+{
+  "id": "0541ac39-b795-425a-9bfd-29a32cce2c32",
+  "name": "Sherwood Archery",
+  "city": "Bedias",
+  "state": "TX",
+  "website": "http://sherwoodtargetarchery.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://sherwoodtargetarchery.com",
+      "reachable": false,
+      "fail_reason": "arlen-crawl exit 1: Patchright failed for http://sherwoodtargetarchery.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://sherwoodtargetarchery.com/\nCall log:\n  - navigating to \"http://sherwoodtargetarchery.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\nError: Both engines failed for http://sherwoodtar",
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "unreachable: arlen-crawl exit 1: Patchright failed for http://sherwoodtargetarchery.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://sherwoodtargetarchery.com/\nCall log:\n  - navigating to \"http://sherwoodtargetarchery.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\nError: Both engines failed for http://sherwoodtar"
+}

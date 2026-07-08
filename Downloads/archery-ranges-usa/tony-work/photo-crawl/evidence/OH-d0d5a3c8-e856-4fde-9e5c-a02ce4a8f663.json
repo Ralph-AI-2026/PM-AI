@@ -1,0 +1,102 @@
+{
+  "id": "d0d5a3c8-e856-4fde-9e5c-a02ce4a8f663",
+  "name": "Ashland Bowmen",
+  "city": "Ashland",
+  "state": "OH",
+  "website": "http://acwcl.org",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://acwcl.org",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 9,
+      "candidates": [
+        {
+          "url": "http://acwcl.org/wp-content/uploads/2022/10/facebook.png",
+          "tag": "og:image",
+          "gate": "reject",
+          "gate_reason": "too small (9250B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "9250",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://acwcl.org/wp-content/uploads/2022/10/facebook.png",
+          "tag": "twitter:image",
+          "gate": "reject",
+          "gate_reason": "too small (9250B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "9250",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://acwcl.org/wp-content/uploads/2022/06/ACWCL-LOGO-300x163.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://acwcl.org/wp-content/uploads/2022/07/catfish-logo.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://acwcl.org/wp-content/uploads/2022/07/New-Logo-300x291.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://acwcl.org/wp-content/uploads/2022/06/NFM-LOGO-300x110.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://acwcl.org/wp-content/uploads/2026/02/Women-232x300.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "23476",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://acwcl.org/wp-content/uploads/2026/03/Catfish-203x300.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "19259",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://acwcl.org/wp-content/uploads/2023/10/Rentals-194x300.jpeg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "20019",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://acwcl.org/wp-content/uploads/2026/02/Women-232x300.jpg",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "23476",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://acwcl.org/wp-content/uploads/2026/02/Women-232x300.jpg",
+  "chosen_source_page": "http://acwcl.org",
+  "drop_reason": null
+}

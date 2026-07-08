@@ -1,0 +1,130 @@
+{
+  "id": "bcb0f73d-ccf3-46b5-aeda-7a83330de892",
+  "name": "Ollie Liner Center",
+  "city": "Plainview",
+  "state": "TX",
+  "website": "https://www.halecounty.org/county_offices/ollie_liner_center.php",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.halecounty.org/county_offices/ollie_liner_center.php",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 12,
+      "candidates": [
+        {
+          "url": "https://www.halecounty.org/county_offices/_assets_/images/logo.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://www.halecounty.org/county_offices/images/edit/edit_this_list.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 404: Not Found",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.halecounty.org/county_offices/images/edit/edit_small.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 404: Not Found",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.halecounty.org/county_offices/_assets_/images/triangle.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 404: Not Found",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.halecounty.org/county_offices/quickimage/flag%20-%20Copy.jpg?t=202603171943490",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 404: Not Found",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.halecounty.org/county_offices/quickimage/qlink-4.png?t=202210101455250",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 404: Not Found",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.halecounty.org/county_offices/quickimage/commissioners-court_copy_7%20-%20Copy.jpg?t=202010081739260",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 404: Not Found",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.halecounty.org/county_offices/quickimage/qlink-2.png?t=202105141712310",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 404: Not Found",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.halecounty.org/county_offices/quickimage/Scam%20Alert.jpg?t=202404111507340",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 404: Not Found",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.halecounty.org/county_offices/quickimage/commissioners-court_copy_7.jpg?t=202010201206120",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 404: Not Found",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.halecounty.org/county_offices/quickimage/SNOW%20STORM.jpeg?t=202601231407450",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 404: Not Found",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.halecounty.org/county_offices/quickimage/map%20for%20webpage.jpg?t=202602171845260",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 404: Not Found",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        }
+      ],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "all candidates failed gate"
+}

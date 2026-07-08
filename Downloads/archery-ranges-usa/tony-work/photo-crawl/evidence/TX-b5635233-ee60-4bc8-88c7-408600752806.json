@@ -1,0 +1,159 @@
+{
+  "id": "b5635233-ee60-4bc8-88c7-408600752806",
+  "name": "Dalhart Bowhunters",
+  "city": "Dalhart",
+  "state": "TX",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/dalhartbowhunters/",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/dalhartbowhunters/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 15,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/306778057_163191186363830_1095711847719969795_n.jpg?stp=dst-jpg_tt6&cstp=mx1169x1169&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5BSKmBNUUWIQ7kNvwEAGsak&_nc_oc=Adr1hULAEQLAqC9Pb9K9WQpfSt5gyPb33cb5FyIstMdk3ROImA32TYfPVBaSyf5RKXg&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=1WbVHDzoje7f_Fe1ffE4hg&_nc_ss=7b289&oh=00_AQCY8Yivv7CcDwJc1-CB5TCv-kMvd4b4EnPMRfLwXzebcA&oe=6A5217B3",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "37679",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/471312115_596433529706258_9157656619350733540_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=cv5-eGfm43EQ7kNvwG9wh15&_nc_oc=AdpzCvbVfcJQo3HAY2jm-xQAkC6X-zRSojBGwPHqoxaU_lh-QsXVGRbuNHsvFx6USm0&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=VYjlwkwl5Boa4FyyER6bZw&_nc_ss=7b289&oh=00_AQCaxZs6TwxasSPQDwCWwn56GToBjB6j1TQ3uPVVsZ5R5Q&oe=6A524168",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2068B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2068",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/471312115_596433529706258_9157656619350733540_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1070&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=cv5-eGfm43EQ7kNvwG9wh15&_nc_oc=AdpzCvbVfcJQo3HAY2jm-xQAkC6X-zRSojBGwPHqoxaU_lh-QsXVGRbuNHsvFx6USm0&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=VYjlwkwl5Boa4FyyER6bZw&_nc_ss=7b289&oh=00_AQC1RXMmK69AWQNJAKECrckjDCiP3iyjsUl3xrznPE5P2Q&oe=6A524168",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "49850",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yL/r/VLNVMYsRNQ9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/ya/r/3o9J8sZvP-9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yU/r/Ng23ZhjhWNZ.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/471312115_596433529706258_9157656619350733540_n.jpg?stp=c489.0.1070.1070a_dst-jpg_tt6&cstp=mx1070x1070&ctp=s160x160&_nc_cat=109&ccb=1-7&_nc_sid=578376&_nc_ohc=cv5-eGfm43EQ7kNvwG9wh15&_nc_oc=AdpzCvbVfcJQo3HAY2jm-xQAkC6X-zRSojBGwPHqoxaU_lh-QsXVGRbuNHsvFx6USm0&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=VYjlwkwl5Boa4FyyER6bZw&_nc_ss=7b289&oh=00_AQAYRnbD0i-DIB1kx4KPRb0YydYGEPvoNp_dsZNUmYuqwg&oe=6A524168",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5815B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "5815",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/306778057_163191186363830_1095711847719969795_n.jpg?stp=dst-jpg_tt6&cstp=mx1169x1169&ctp=s160x160&_nc_cat=109&ccb=1-7&_nc_sid=244524&_nc_ohc=5BSKmBNUUWIQ7kNvwEAGsak&_nc_oc=Adr1hULAEQLAqC9Pb9K9WQpfSt5gyPb33cb5FyIstMdk3ROImA32TYfPVBaSyf5RKXg&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=VYjlwkwl5Boa4FyyER6bZw&_nc_ss=7b289&oh=00_AQA-9T5uKVypkucOC4t1MbTBi9M_aZacz3aJWn5ZEvfPJg&oe=6A5217B3",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (4358B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "4358",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/486619906_2028687797652405_8334238806160172_n.jpg?stp=c0.59.612.612a_dst-jpg_tt6&cstp=mx612x612&ctp=s160x160&_nc_cat=108&ccb=1-7&_nc_sid=09d16d&_nc_ohc=MpcKIj3PsrYQ7kNvwHCla7g&_nc_oc=Adq8K7p7cygtQ2uUcxTKInpuhO5ahP5Flmbz-QkIiqvuEHnKyC50h8N2mCTTkz_1XmI&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=VYjlwkwl5Boa4FyyER6bZw&_nc_ss=7b289&oh=00_AQDHYU1YS2Rh3KnEQ8bWpgNoTTbKXuvizIyvpo7b2ATRhw&oe=6A524ED7",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (10386B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "10386",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/486180657_2028688090985709_462871324428015864_n.jpg?stp=c0.139.539.539a_dst-jpg_tt6&cstp=mx539x539&ctp=s160x160&_nc_cat=102&ccb=1-7&_nc_sid=09d16d&_nc_ohc=mypNzmoV4A8Q7kNvwGb0MoX&_nc_oc=AdrKksFjlz9-uXuFVZzPuAY8gulAtTvdNiFP5OIjuy9BZCNrWLCzh9HgkFmnOMX3-gc&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=VYjlwkwl5Boa4FyyER6bZw&_nc_ss=7b289&oh=00_AQBcDdeD2eLhgeIJhV7ildJE6ke_lwyfGzlDfruAiGhTuw&oe=6A522B47",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7536B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7536",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/486015773_2028687657652419_5652505258002252585_n.jpg?stp=c0.139.539.539a_dst-jpg_tt6&cstp=mx539x539&ctp=s160x160&_nc_cat=106&ccb=1-7&_nc_sid=09d16d&_nc_ohc=O1brYVA3HYUQ7kNvwGiAPTH&_nc_oc=AdoxRZCwzt5nY-8TfjfiZSdnvWmcUjLSGn_hGuxqF5Fi2NVFIc3sZcpe_iTP65mbQy0&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=VYjlwkwl5Boa4FyyER6bZw&_nc_ss=7b289&oh=00_AQCAT0M9N8kVW3VLJKeAGwYJJFH1r7pKMMGLTvQmUcuU7Q&oe=6A5246C9",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7067B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7067",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/486626049_2028405327680652_1180044732307219216_n.jpg?stp=c0.154.1582.1582a_dst-jpg_tt6&cstp=mx1582x1582&ctp=s160x160&_nc_cat=110&ccb=1-7&_nc_sid=3b8ee0&_nc_ohc=0_FPVotDsV8Q7kNvwF0NvCf&_nc_oc=AdqRylXWJ72doh59QCo4HEqwuc2igtNw6Yt6UX7TB1LlBinXJ7YBOsXGa6R-WIfQqnQ&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=VYjlwkwl5Boa4FyyER6bZw&_nc_ss=7b289&oh=00_AQBc8uEVKPsiKrIcte2qa8CWIv79zybfec_PX2PDvINYMg&oe=6A5239FA",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (10565B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "10565",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/486412470_2028405297680655_5627080881687105856_n.jpg?stp=c489.0.1070.1070a_dst-jpg_tt6&cstp=mx1070x1070&ctp=s160x160&_nc_cat=105&ccb=1-7&_nc_sid=578376&_nc_ohc=l80SwWNxyecQ7kNvwEISrvs&_nc_oc=AdouBD7GpnZN_Fqp34wKflJKtQooSfuoeassG7PEOjmnBMpsWOW4Cy0e3i_Kog9rykY&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=VYjlwkwl5Boa4FyyER6bZw&_nc_ss=7b289&oh=00_AQADySQ-oAuX4PNifPrsg9OOq0Wf8kFzaAXDU8wNdWl52A&oe=6A52290D",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5815B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "5815",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/454890323_1859431861244667_9189855966011864412_n.jpg?stp=dst-jpg_tt6&cstp=mx1169x1169&ctp=s160x160&_nc_cat=100&ccb=1-7&_nc_sid=d8ac62&_nc_ohc=rm0jjwwSnyQQ7kNvwGde7Aj&_nc_oc=AdrrfQBBfOw9nXKAVcTqFQ-w7uvzww5T1GzllevboR-ViNOreNsJFknlxsoeJzOo1x0&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=VYjlwkwl5Boa4FyyER6bZw&_nc_ss=7b289&oh=00_AQBDLqYkUeQBSMYi9nVwBh0kelEesg07orOO101eTZwTlA&oe=6A523E06",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (4358B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "4358",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "data:image/svg+xml,%3Csvg fill=",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: unknown",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/306778057_163191186363830_1095711847719969795_n.jpg?stp=dst-jpg_tt6&cstp=mx1169x1169&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5BSKmBNUUWIQ7kNvwEAGsak&_nc_oc=Adr1hULAEQLAqC9Pb9K9WQpfSt5gyPb33cb5FyIstMdk3ROImA32TYfPVBaSyf5RKXg&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=1WbVHDzoje7f_Fe1ffE4hg&_nc_ss=7b289&oh=00_AQCY8Yivv7CcDwJc1-CB5TCv-kMvd4b4EnPMRfLwXzebcA&oe=6A5217B3",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "37679",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/306778057_163191186363830_1095711847719969795_n.jpg?stp=dst-jpg_tt6&cstp=mx1169x1169&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5BSKmBNUUWIQ7kNvwEAGsak&_nc_oc=Adr1hULAEQLAqC9Pb9K9WQpfSt5gyPb33cb5FyIstMdk3ROImA32TYfPVBaSyf5RKXg&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=1WbVHDzoje7f_Fe1ffE4hg&_nc_ss=7b289&oh=00_AQCY8Yivv7CcDwJc1-CB5TCv-kMvd4b4EnPMRfLwXzebcA&oe=6A5217B3",
+  "chosen_source_page": "https://www.facebook.com/dalhartbowhunters/",
+  "drop_reason": null
+}

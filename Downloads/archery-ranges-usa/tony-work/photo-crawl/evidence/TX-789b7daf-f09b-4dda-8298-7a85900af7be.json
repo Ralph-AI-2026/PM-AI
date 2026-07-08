@@ -1,0 +1,41 @@
+{
+  "id": "789b7daf-f09b-4dda-8298-7a85900af7be",
+  "name": "Tyler Archery Club",
+  "city": "Tyler",
+  "state": "TX",
+  "website": "https://www.tylerarcheryclub.com/",
+  "facebook_url": "https://www.facebook.com/groups/471589112905973",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.tylerarcheryclub.com/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    },
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/groups/471589112905973",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 1,
+      "candidates": [
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/y0/r/U45qBJmWVHU.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        }
+      ],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "all candidates failed gate"
+}

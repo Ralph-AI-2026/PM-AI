@@ -1,0 +1,49 @@
+{
+  "id": "a301f6d5-1bd1-4d32-9a6a-e3499fcb0cad",
+  "name": "Westville Lake Archery and Golf",
+  "city": "Beloit",
+  "state": "OH",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/pages/Westville-Lake-Country-Club/120835077933719",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/pages/Westville-Lake-Country-Club/120835077933719",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 3,
+      "candidates": [
+        {
+          "url": "https://www.facebook.com/images/pages/finch/cover_placeholder-2x.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'placeholder'"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t1.30497-1/83245568_1845797888897938_3274147281632231424_n.png?stp=c81.0.275.275a_cp0_dst-png&cstp=mx275x275&ctp=s60x60&_nc_cat=104&ccb=1-7&_nc_sid=613f8e&_nc_ohc=dmD-50cP_3IQ7kNvwF3BF3l&_nc_oc=AdojLY8TD_7ySQ768GvvGm1qiI_CoA1H1eZObQzsLKDnchNK1QpEQZHT9wDj4IdghNo&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_ss=79289&oh=00_AQDo8byBDrOe06ia3ZGMNYArUFqL0ASeHgJVAe7Yp0UwiA&oe=6A73C354",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1735B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1735",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "data:image/svg+xml,%3Csvg fill=",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: unknown",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        }
+      ],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "all candidates failed gate"
+}

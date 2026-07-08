@@ -1,0 +1,24 @@
+{
+  "id": "d56ec3ac-4e85-4aa1-958b-2256f08721af",
+  "name": "True Sportsman Club",
+  "city": "Jacobsburgh",
+  "state": "OH",
+  "website": "https://truesportsmanclub.org",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://truesportsmanclub.org",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "no img/og:image tags found"
+}

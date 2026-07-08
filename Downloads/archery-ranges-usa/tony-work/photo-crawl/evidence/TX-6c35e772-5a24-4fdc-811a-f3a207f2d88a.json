@@ -1,0 +1,144 @@
+{
+  "id": "6c35e772-5a24-4fdc-811a-f3a207f2d88a",
+  "name": "Westlake Sports Center",
+  "city": "Mesquite",
+  "state": "TX",
+  "website": "https://www.cityofmesquite.com/3436/Westlake-Sports-Center",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.cityofmesquite.com/3436/Westlake-Sports-Center",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 13,
+      "candidates": [
+        {
+          "url": "https://www.cityofmesquite.com/Common/images/ajax-loader.gif",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .gif"
+        },
+        {
+          "url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=22148",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2356B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "2356",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=22149",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (10967B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "10967",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=22159",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "rejected content-type image/svg+xml",
+          "content_type": "image/svg+xml",
+          "content_length": "681",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=22151",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "326569",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=30669",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "20936",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=30665",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "136399",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=30666",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "47697",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: unknown",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=30668",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "105471",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.google.com/images/cleardot.gif",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .gif"
+        },
+        {
+          "url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=22162",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "rejected content-type image/svg+xml",
+          "content_type": "image/svg+xml",
+          "content_length": "715",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=26993",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2180B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "2180",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=22151",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "326569",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://www.cityofmesquite.com/ImageRepository/Document?documentID=22151",
+  "chosen_source_page": "https://www.cityofmesquite.com/3436/Westlake-Sports-Center",
+  "drop_reason": null
+}

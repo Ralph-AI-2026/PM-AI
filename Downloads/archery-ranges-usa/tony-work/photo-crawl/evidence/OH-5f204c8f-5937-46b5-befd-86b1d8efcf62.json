@@ -1,0 +1,144 @@
+{
+  "id": "5f204c8f-5937-46b5-befd-86b1d8efcf62",
+  "name": "Silver Creek Metro Park Archery Range",
+  "city": "Doylestown",
+  "state": "OH",
+  "website": "http://www.summitmetroparks.org/silver-creek-metro-park.aspx",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.summitmetroparks.org/silver-creek-metro-park.aspx",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 15,
+      "candidates": [
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/silver-creek-archery-range-banner.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "410460",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn-cookieyes.com/assets/images/close.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://cdn-cookieyes.com/assets/images/poweredbtcky.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/smp-logo-color.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/silver-creek-big-oak-area-banner.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "1047217",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/chippewa-trail-icon.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/silver-creek-boathouse-area-banner1-1024x609.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "593901",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/bridle-trail-blue-icon.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/bridle-trail-red-icon.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/silver-creek-cross-country-and-disc-golf-course-banner.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "475021",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/silver-creek-lakehouse-and-pheasant-run-area-banner.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "362831",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/miners-trail-icon.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/silver-creek-pheasant-run-banner.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "688662",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/pheasant-run-trail-icon.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.summitmetroparks.org/wp-content/uploads/silver-creek-pheasant-run-gallery-500x500.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "461497",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://www.summitmetroparks.org/wp-content/uploads/silver-creek-archery-range-banner.jpg",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "410460",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://www.summitmetroparks.org/wp-content/uploads/silver-creek-archery-range-banner.jpg",
+  "chosen_source_page": "http://www.summitmetroparks.org/silver-creek-metro-park.aspx",
+  "drop_reason": null
+}

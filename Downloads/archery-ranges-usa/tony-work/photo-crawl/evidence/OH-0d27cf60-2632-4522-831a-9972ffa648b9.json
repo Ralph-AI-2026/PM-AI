@@ -1,0 +1,159 @@
+{
+  "id": "0d27cf60-2632-4522-831a-9972ffa648b9",
+  "name": "Jaat Archery",
+  "city": "Upper Sandusky",
+  "state": "OH",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/jaatarchery419/",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/jaatarchery419/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 16,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t1.6435-1/184308256_154520870012572_228120022402657462_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1438&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CPEJjlV1JCIQ7kNvwGMep7L&_nc_oc=AdpYujpwsvpA727tDrjU0GJf0SbF1SefAC6uWoFSY9GmuFkJSL_SgtbqphHz-qv6BkQ&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=tX0TNMnYiC3lPHN96Qsydw&_nc_ss=79289&oh=00_AQDEqFV4F8QTatpKtkyY3kV_ZKaJ4IhcEHE2hXRLaJkcHg&oe=6A73CAB3",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "66071",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t1.6435-9/68781318_2460387910688496_4892699578211500032_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=urAhu9JKIngQ7kNvwHet9N4&_nc_oc=AdobLJj_YzDx0zwTvPZMV3_qMX99wP4LODS013pmNkEyBAwgtamTMbcU5dYRFolGMgI&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=biqd7W4QIZODrSvyl_cIAQ&_nc_ss=79289&oh=00_AQBDXOg5vJTdlzwijCPucxi83j5_t_izNm1CEWND4jeecA&oe=6A73E8AC",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2861B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2861",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t1.6435-9/68781318_2460387910688496_4892699578211500032_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=urAhu9JKIngQ7kNvwHet9N4&_nc_oc=AdobLJj_YzDx0zwTvPZMV3_qMX99wP4LODS013pmNkEyBAwgtamTMbcU5dYRFolGMgI&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=biqd7W4QIZODrSvyl_cIAQ&_nc_ss=79289&oh=00_AQB2AS9aChQrBqKZwzJnNHpVP7hXjXIUesJYSP8GT0ZZkA&oe=6A73E8AC",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "75349",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yL/r/VLNVMYsRNQ9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yH/r/tL0h0V4PmET.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/y-/r/aa_l5zrpN2S.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/y2/r/U8mmifbPI69.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yf/r/xHO_YGUAcdB.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yU/r/Ng23ZhjhWNZ.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/663287130_1515869557211023_3503260095985390878_n.jpg?stp=c267.0.1515.1515a_dst-jpg_tt6&cstp=mx1515x1515&ctp=s160x160&_nc_cat=107&ccb=1-7&_nc_sid=8a6525&_nc_ohc=1BtXQIuxwpcQ7kNvwHJyfQN&_nc_oc=AdpdM40zlIIpPnVx5w5P2ws0pdK9uLhfu0iNnH-HIS7-piKMeKEpL-N0JlhbLKENpKg&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=biqd7W4QIZODrSvyl_cIAQ&_nc_ss=79289&oh=00_AQBhy2Qv-6Zs8JPRn_peMTGYV9kOY-hFFBMjnvElafEdog&oe=6A523F1B",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5181B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "5181",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/658420105_1507340568063922_1077699542162037120_n.jpg?stp=c70.0.1276.1276a_dst-jpg_tt6&cstp=mx1276x1276&ctp=s160x160&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=7psM-fdQFzgQ7kNvwFt4gTc&_nc_oc=Adq5LvpOKWUTwtPLkzbtlghyPOsW9U1QY3wJvmi_7d2H2x0277O8_fCpZuue3qKMviQ&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=biqd7W4QIZODrSvyl_cIAQ&_nc_ss=79289&oh=00_AQDgg2Ljq0p-HA-a4WoaH2w7sEhjCw1rGRGSgaojJHPJsg&oe=6A523F10",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (8541B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "8541",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/583108112_1394938672637446_8168865308256238738_n.jpg?stp=c256.0.1536.1536a_dst-jpg_tt6&cstp=mx1536x1536&ctp=s160x160&_nc_cat=109&ccb=1-7&_nc_sid=8a6525&_nc_ohc=R9t30bRFPqoQ7kNvwGPgZWX&_nc_oc=Adq4EPCe9Ij17pg_9r5lyP1-4X_Oom_S9zK7692zhKebVNswV9G6MFi1FQDnusOhMoI&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=biqd7W4QIZODrSvyl_cIAQ&_nc_ss=79289&oh=00_AQAPFfan5qccff_NktfR34lnOxIzkBzrZXC9vxN1EUVOYg&oe=6A523586",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (9306B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "9306",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/581869905_1394938525970794_3116000225797109552_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1079x1080&ctp=s160x160&_nc_cat=110&ccb=1-7&_nc_sid=8a6525&_nc_ohc=K9ToktKg6NsQ7kNvwEEbc9n&_nc_oc=Adq1-pbamrCLx1as-e5dPnEyHDnCD9ErPPEzDH36zTs3939_QOUg7h-Y50LrfJFlwF0&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=biqd7W4QIZODrSvyl_cIAQ&_nc_ss=79289&oh=00_AQCHoJx5KrS0zk4y35nCF1UNZepOfRyL22IFlYo7DXL2CA&oe=6A521D8E",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (8027B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "8027",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/582070801_1394938609304119_5313769831746396399_n.jpg?stp=c256.0.1536.1536a_dst-jpg_tt6&cstp=mx1536x1536&ctp=s160x160&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=shkqMZi-4uUQ7kNvwHQ2-KL&_nc_oc=AdqjSDknNZ_Js3VkZzvcWljcaQAEnPBWjqUfUqgVsUnR16OFMNKqzNUix0ONvdoWmDE&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=biqd7W4QIZODrSvyl_cIAQ&_nc_ss=79289&oh=00_AQAGqxcO7EgwHicFfqKddhIO7b7ambxiEc5OcEpTQbryNA&oe=6A524DC5",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (9395B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "9395",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/553353396_1346533490811298_4072216903661403328_n.jpg?stp=c0.169.1536.1536a_dst-jpg_tt6&cstp=mx1536x1536&ctp=s160x160&_nc_cat=104&ccb=1-7&_nc_sid=8a6525&_nc_ohc=NsnAjHhOpp4Q7kNvwH1uedl&_nc_oc=AdoWB2DVPgMi1BuF5B0h0SNBGAd_cDS_LFblLlD82WpD8DpxBDMkf16YTqWCzngCWLI&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=biqd7W4QIZODrSvyl_cIAQ&_nc_ss=79289&oh=00_AQCOYS5tsjtsfLw08tfczBPejSxN5tmNhde1sYOxGHfVkA&oe=6A522DFD",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (6987B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "6987",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/540567239_1325071502957497_4167344679249029462_n.jpg?stp=c256.0.1536.1536a_dst-jpg_tt6&cstp=mx1536x1536&ctp=s160x160&_nc_cat=100&ccb=1-7&_nc_sid=8a6525&_nc_ohc=GtsxirP5m_IQ7kNvwGEPyy8&_nc_oc=Adpa_uEcx7clDZHVNbTUvVDo9EDBMHBGSnle9QtFPg0Ft2-EjjYZ1Q90VYoiPIuwrj0&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=biqd7W4QIZODrSvyl_cIAQ&_nc_ss=79289&oh=00_AQB5iv3oxax-z6_Fc2FivH_jB3OPQVK4HBC5-DguwloOGw&oe=6A524628",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5559B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "5559",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t1.6435-1/184308256_154520870012572_228120022402657462_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1438&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CPEJjlV1JCIQ7kNvwGMep7L&_nc_oc=AdpYujpwsvpA727tDrjU0GJf0SbF1SefAC6uWoFSY9GmuFkJSL_SgtbqphHz-qv6BkQ&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=tX0TNMnYiC3lPHN96Qsydw&_nc_ss=79289&oh=00_AQDEqFV4F8QTatpKtkyY3kV_ZKaJ4IhcEHE2hXRLaJkcHg&oe=6A73CAB3",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "66071",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t1.6435-1/184308256_154520870012572_228120022402657462_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1438&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CPEJjlV1JCIQ7kNvwGMep7L&_nc_oc=AdpYujpwsvpA727tDrjU0GJf0SbF1SefAC6uWoFSY9GmuFkJSL_SgtbqphHz-qv6BkQ&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=tX0TNMnYiC3lPHN96Qsydw&_nc_ss=79289&oh=00_AQDEqFV4F8QTatpKtkyY3kV_ZKaJ4IhcEHE2hXRLaJkcHg&oe=6A73CAB3",
+  "chosen_source_page": "https://www.facebook.com/jaatarchery419/",
+  "drop_reason": null
+}

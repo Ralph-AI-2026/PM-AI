@@ -1,0 +1,75 @@
+{
+  "id": "9925011c-f1aa-4238-97fd-4ea6f3b540d1",
+  "name": "Geauga Bowman",
+  "city": "Chardon",
+  "state": "OH",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/GeaugaBowmen/",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/GeaugaBowmen/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 5,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/299499409_539840897936696_4918028472366065817_n.jpg?stp=dst-jpg_tt6&cstp=mx255x255&ctp=s255x255&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZhQMlo3nSswQ7kNvwGUq89f&_nc_oc=AdpfUX5x9ypuD7tHwm2n3NpafkgMpBz-P23FrpBR372pyo6gJLDds695dm-0I_ccvx8&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=nyx3ojnT4mU8eCj2lyzbGw&_nc_ss=7b289&oh=00_AQDro90SAGdJE2-ko3SC9lzyKKqHbqTSijXiKLoVBKSquw&oe=6A521CDC",
+          "tag": "og:image",
+          "gate": "reject",
+          "gate_reason": "too small (6384B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "6384",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/739786354_1511368834117226_6394605823669493310_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1080x2048&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=psxXcfFUZfoQ7kNvwGFYKUO&_nc_oc=AdpnA0ax6KBngCvPXAkN2ZT2U4aiJn-fKilgEwEQ-luxJnKpoheI_6nJ_mfXX5u8hsQ&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=QK4falwxhxcEIgl14WPU0Q&_nc_ss=7b289&oh=00_AQBuzMbCx6vd4ERm4uCoQCwS9r89pvrqfLIojOgiToNtHQ&oe=6A522EB1",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "416449",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "data:image/svg+xml,%3Csvg fill=",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: unknown",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.facebook.com/images/icons/FBLogo_Blueprint.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://scontent.xx.fbcdn.net/hads-ak-prn2/1487645_6012475414660_1439393861_n.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (79B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "79",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/739786354_1511368834117226_6394605823669493310_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1080x2048&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=psxXcfFUZfoQ7kNvwGFYKUO&_nc_oc=AdpnA0ax6KBngCvPXAkN2ZT2U4aiJn-fKilgEwEQ-luxJnKpoheI_6nJ_mfXX5u8hsQ&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=QK4falwxhxcEIgl14WPU0Q&_nc_ss=7b289&oh=00_AQBuzMbCx6vd4ERm4uCoQCwS9r89pvrqfLIojOgiToNtHQ&oe=6A522EB1",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "416449",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/739786354_1511368834117226_6394605823669493310_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1080x2048&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=psxXcfFUZfoQ7kNvwGFYKUO&_nc_oc=AdpnA0ax6KBngCvPXAkN2ZT2U4aiJn-fKilgEwEQ-luxJnKpoheI_6nJ_mfXX5u8hsQ&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=QK4falwxhxcEIgl14WPU0Q&_nc_ss=7b289&oh=00_AQBuzMbCx6vd4ERm4uCoQCwS9r89pvrqfLIojOgiToNtHQ&oe=6A522EB1",
+  "chosen_source_page": "https://www.facebook.com/GeaugaBowmen/",
+  "drop_reason": null
+}

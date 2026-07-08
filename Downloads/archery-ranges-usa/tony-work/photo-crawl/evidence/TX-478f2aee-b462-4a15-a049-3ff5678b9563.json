@@ -1,0 +1,111 @@
+{
+  "id": "478f2aee-b462-4a15-a049-3ff5678b9563",
+  "name": "SA Xtreme",
+  "city": "San Antonio",
+  "state": "TX",
+  "website": "https://kinetickidstx.org/",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://kinetickidstx.org/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 11,
+      "candidates": [
+        {
+          "url": "https://kinetickidstx.org/wp-content/themes/foundation-robot/images/assets/kinetic-kids-25-years-logo.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://kinetickidstx.org/wp-content/uploads/2018/10/Home-Page-Lend-a-Hand.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "245228",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://kinetickidstx.org/wp-content/uploads/2018/10/Home-Page-Be-The-Reason.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "363746",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://kinetickidstx.org/wp-content/uploads/2018/10/Home-Page-Join-Our-Team.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "295434",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://kinetickidstx.org/wp-content/uploads/2026/02/Spirit-Store-Website-Icon-150x150.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'icon'"
+        },
+        {
+          "url": "https://kinetickidstx.org/wp-content/uploads/2024/06/100K-Website-Icon-1-150x150.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'icon'"
+        },
+        {
+          "url": "https://kinetickidstx.org/wp-content/uploads/2026/05/Mahjong-Website-Icon-150x150.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'icon'"
+        },
+        {
+          "url": "https://kinetickidstx.org/wp-content/uploads/2024/05/W.R.R.-Website-Icon-150x150.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'icon'"
+        },
+        {
+          "url": "https://kinetickidstx.org/wp-content/uploads/2023/03/2023R-SAP-Logo-Red-2-Color-150x150.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://kinetickidstx.org/wp-content/uploads/2019/08/2019-Xtreme-Logo.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://kinetickidstx.org/wp-content/uploads/2016/01/hp-grid-1.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "119327",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://kinetickidstx.org/wp-content/uploads/2018/10/Home-Page-Be-The-Reason.jpg",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "363746",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://kinetickidstx.org/wp-content/uploads/2018/10/Home-Page-Be-The-Reason.jpg",
+  "chosen_source_page": "https://kinetickidstx.org/",
+  "drop_reason": null
+}

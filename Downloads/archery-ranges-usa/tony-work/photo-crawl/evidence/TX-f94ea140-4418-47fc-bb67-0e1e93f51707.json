@@ -1,0 +1,76 @@
+{
+  "id": "f94ea140-4418-47fc-bb67-0e1e93f51707",
+  "name": "Texas Archery Spring",
+  "city": "Spring",
+  "state": "TX",
+  "website": "https://texarchery.com",
+  "facebook_url": "https://www.facebook.com/TexasArchery/",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://texarchery.com",
+      "reachable": false,
+      "fail_reason": "subprocess timeout >45s",
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    },
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/TexasArchery/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 4,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/630811727_1558074405801259_2466667632371097554_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9o43c90GeJwQ7kNvwEPdiaZ&_nc_oc=AdobPTQi_FCdYc8gEW9xGiEnE4XK7iPL3hfwUbkLvFgF8AKtD6TEJGWkapy4qc1eRlk&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=GTNncrrdnP2AfcHosepn2w&_nc_ss=7b289&oh=00_AQCkbXuZhXA9-oENJxaO-5oBxEGfVQrQoEwrAdgUy_kjxQ&oe=6A522091",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "21371",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/489503847_1299386075003428_3279900994403042736_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=xpaAluopkwIQ7kNvwFHbo01&_nc_oc=AdoULvGLAs7gdgladhPrZL3DZ8ydH6zUN8-1S1R2_9IevrnogizAI3CkYLKSXzvNHJU&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=Q1Iaa94yC7bGQWF893Q1qQ&_nc_ss=7b289&oh=00_AQDOQ9WiCl_CB3wpM3YKHNScBTrUPeF4EpzuDSjiZlKlew&oe=6A5244F9",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1908B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "1908",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/489503847_1299386075003428_3279900994403042736_n.jpg?stp=dst-jpg_tt6&cstp=mx1227x2048&ctp=s1227x2048&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=xpaAluopkwIQ7kNvwFHbo01&_nc_oc=AdoULvGLAs7gdgladhPrZL3DZ8ydH6zUN8-1S1R2_9IevrnogizAI3CkYLKSXzvNHJU&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=Q1Iaa94yC7bGQWF893Q1qQ&_nc_ss=7b289&oh=00_AQDxYjuDzOyq7P8RKGnliijduqxcBjV13XLOyYRW8J5Log&oe=6A5244F9",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "146452",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.facebook.com/images/icons/FBLogo_Blueprint.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/630811727_1558074405801259_2466667632371097554_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9o43c90GeJwQ7kNvwEPdiaZ&_nc_oc=AdobPTQi_FCdYc8gEW9xGiEnE4XK7iPL3hfwUbkLvFgF8AKtD6TEJGWkapy4qc1eRlk&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=GTNncrrdnP2AfcHosepn2w&_nc_ss=7b289&oh=00_AQCkbXuZhXA9-oENJxaO-5oBxEGfVQrQoEwrAdgUy_kjxQ&oe=6A522091",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "21371",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/630811727_1558074405801259_2466667632371097554_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9o43c90GeJwQ7kNvwEPdiaZ&_nc_oc=AdobPTQi_FCdYc8gEW9xGiEnE4XK7iPL3hfwUbkLvFgF8AKtD6TEJGWkapy4qc1eRlk&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=GTNncrrdnP2AfcHosepn2w&_nc_ss=7b289&oh=00_AQCkbXuZhXA9-oENJxaO-5oBxEGfVQrQoEwrAdgUy_kjxQ&oe=6A522091",
+  "chosen_source_page": "https://www.facebook.com/TexasArchery/",
+  "drop_reason": null
+}

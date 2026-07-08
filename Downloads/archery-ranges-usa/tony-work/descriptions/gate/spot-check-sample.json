@@ -1,0 +1,157 @@
+[
+  {
+    "id": "5f0822cd-1039-4198-9e7b-ab98506a79a6",
+    "description": "Archery Central LLC is a commercial operation in Idaho that pairs a pro shop with lessons, confirmed features that put it in a fuller-service tier than a bare-bones range. The exact city isn't specified in this listing, so anyone interested should confirm the location directly rather than assume where in Idaho it sits. The pro shop plus lessons combination generally means equipment and structured instruction are both handled in-house, useful for someone new to the sport who wants gear and guidance from the same place. No 3D course or range yardage is confirmed here. Reach out to Archery Central LLC directly to pin down the exact address, hours, and what the lesson program covers.",
+    "chunk": {
+      "id": "5f0822cd-1039-4198-9e7b-ab98506a79a6",
+      "name": "Archery Central LLC",
+      "facility_type": "commercial",
+      "city": null,
+      "state": "Idaho",
+      "existing": null,
+      "pro_shop": true,
+      "course_3d": false,
+      "field_course": false,
+      "lessons": true,
+      "range_yards": null,
+      "lanes": null
+    },
+    "csv_row": {
+      "name": "Archery Central LLC",
+      "city": "",
+      "state": "Idaho",
+      "facility_type": "commercial",
+      "has_pro_shop": "True",
+      "has_3d_course": "False",
+      "has_field_course": "False",
+      "lessons_available": "True",
+      "number_of_lanes": "",
+      "range_length_yards": "",
+      "description": ""
+    }
+  },
+  {
+    "id": "cc282baa-010a-465b-ae6f-0cf50277675a",
+    "description": "Tripp County Range Robins serves Colome, South Dakota, a small community in a rural stretch of the state where a dedicated archery club fills a real gap for local shooters. Running as a club rather than a commercial operation, it most likely operates on a membership or scheduled-access basis, common for archery groups in low-population South Dakota counties where a range keeps going through member involvement rather than paid staff. Beyond its name and location, specific program and facility details aren't published, so anyone interested in shooting with the group should reach out directly to confirm current access, meeting times, and how to join.",
+    "chunk": {
+      "id": "cc282baa-010a-465b-ae6f-0cf50277675a",
+      "name": "Tripp County Range Robins",
+      "facility_type": "club",
+      "city": "Colome",
+      "state": "South Dakota",
+      "existing": "Archery range located in Colome, SD.",
+      "pro_shop": false,
+      "course_3d": false,
+      "field_course": false,
+      "lessons": false,
+      "range_yards": null,
+      "lanes": null
+    },
+    "csv_row": {
+      "name": "Tripp County Range Robins",
+      "city": "Colome",
+      "state": "South Dakota",
+      "facility_type": "club",
+      "has_pro_shop": "False",
+      "has_3d_course": "False",
+      "has_field_course": "False",
+      "lessons_available": "False",
+      "number_of_lanes": "",
+      "range_length_yards": "",
+      "description": "Archery range located in Colome, SD."
+    }
+  },
+  {
+    "id": "b09fa655-c2a4-4676-b8a3-cec33b20c261",
+    "description": "Copendero Indoor Archery, Pistol & Rifle Range in Conroe, north of Houston, combines archery with firearms shooting under one indoor roof, the kind of multi-discipline setup that lets a single membership or visit cover more than one shooting sport. Indoor archery ranges like this typically offer a controlled, weather-proof environment for practicing form and accuracy year-round, which matters in the Gulf Coast heat and humidity around Conroe. Because it's a commercial facility rather than a club, walk-in visitors and first-timers are generally the intended audience rather than a closed membership. Specific lane counts, pricing, and rental equipment availability aren't published here, so archers in the Conroe or greater Houston area should contact the range directly to plan a visit.",
+    "chunk": {
+      "id": "b09fa655-c2a4-4676-b8a3-cec33b20c261",
+      "name": "Copendero Indoor Archery, Pistol & Rifle Range",
+      "facility_type": "commercial",
+      "city": "Conroe",
+      "state": "Texas",
+      "existing": "Archery range located in Conroe, TX.",
+      "pro_shop": false,
+      "course_3d": false,
+      "field_course": false,
+      "lessons": false,
+      "range_yards": null,
+      "lanes": null
+    },
+    "csv_row": {
+      "name": "Copendero Indoor Archery, Pistol & Rifle Range",
+      "city": "Conroe",
+      "state": "Texas",
+      "facility_type": "commercial",
+      "has_pro_shop": "False",
+      "has_3d_course": "False",
+      "has_field_course": "False",
+      "lessons_available": "False",
+      "number_of_lanes": "",
+      "range_length_yards": "",
+      "description": "Archery range located in Conroe, TX."
+    }
+  },
+  {
+    "id": "87c5f69b-5d08-498e-afcb-c3519f94d9ca",
+    "description": "Ephrata sits in the irrigated farm country of central Washington's Columbia Basin, and Columbia Basin Archers takes its name from that same agricultural region east of the Cascades. As a volunteer-run club, it depends on its own members to keep the range going rather than paid staff, common for small clubs serving rural Grant County communities. Public information on the club's course type, hours, and membership process isn't currently available, which is typical for clubs that operate mostly by word of mouth in smaller towns. Archers in or passing through the Ephrata area who want to shoot locally, join a league, or just find out when the range is open should reach out to the club directly for current details.",
+    "chunk": {
+      "id": "87c5f69b-5d08-498e-afcb-c3519f94d9ca",
+      "name": "Columbia Basin Archers",
+      "facility_type": "volunteer_club",
+      "city": "Ephrata",
+      "state": "Washington",
+      "existing": "Archery range located in Ephrata, WA.",
+      "pro_shop": false,
+      "course_3d": false,
+      "field_course": false,
+      "lessons": false,
+      "range_yards": null,
+      "lanes": null
+    },
+    "csv_row": {
+      "name": "Columbia Basin Archers",
+      "city": "Ephrata",
+      "state": "Washington",
+      "facility_type": "volunteer_club",
+      "has_pro_shop": "False",
+      "has_3d_course": "False",
+      "has_field_course": "False",
+      "lessons_available": "False",
+      "number_of_lanes": "",
+      "range_length_yards": "",
+      "description": "Archery range located in Ephrata, WA."
+    }
+  },
+  {
+    "id": "fc847f7b-156c-4f00-8786-c3858bccfeb8",
+    "description": "The Quiver in Bentonville, Arkansas operates as a USA Archery-affiliated hybrid facility running both a Junior Olympic Archery Development (JOAD) program for younger archers and a separate Adult Archery Program for grown-ups looking for structured instruction. Bentonville has grown fast in recent years alongside the broader Northwest Arkansas region, and a facility offering both youth and adult pathways under one roof suggests it's built to serve families rather than a single narrow group of shooters. USA Archery affiliation generally means coaching follows the organization's recognized standards. No lane counts or additional amenities are listed here, so confirming current session times and enrollment for either program is best done directly with The Quiver.",
+    "chunk": {
+      "id": "fc847f7b-156c-4f00-8786-c3858bccfeb8",
+      "name": "The Quiver",
+      "facility_type": "hybrid",
+      "city": "Bentonville",
+      "state": "Arkansas",
+      "existing": "USA Archery affiliated club. Programs: Junior Olympic Archery Development (JOAD), Adult Archery Program",
+      "pro_shop": false,
+      "course_3d": false,
+      "field_course": false,
+      "lessons": false,
+      "range_yards": null,
+      "lanes": null
+    },
+    "csv_row": {
+      "name": "The Quiver",
+      "city": "Bentonville",
+      "state": "Arkansas",
+      "facility_type": "hybrid",
+      "has_pro_shop": "False",
+      "has_3d_course": "False",
+      "has_field_course": "False",
+      "lessons_available": "False",
+      "number_of_lanes": "",
+      "range_length_yards": "",
+      "description": "USA Archery affiliated club. Programs: Junior Olympic Archery Development (JOAD), Adult Archery Program"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "id": "6c9513ce-6359-40f3-b412-6c22afb167d8",
+  "name": "Cowtown Bowmen",
+  "city": "FORT WORTH",
+  "state": "TX",
+  "website": "http://www.cowtownbowmen.com/",
+  "facebook_url": "https://www.facebook.com/cowtownbowmen",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.cowtownbowmen.com/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 2,
+      "candidates": [
+        {
+          "url": "http://www.cowtownbowmen.com/newctb1_s1b_new.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "78986",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cowtownbowmen.com/public_html/rangerules.JPG",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "201189",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://cowtownbowmen.com/public_html/rangerules.JPG",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "201189",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://cowtownbowmen.com/public_html/rangerules.JPG",
+  "chosen_source_page": "http://www.cowtownbowmen.com/",
+  "drop_reason": null
+}

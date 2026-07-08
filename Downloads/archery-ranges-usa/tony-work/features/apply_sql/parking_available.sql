@@ -1,0 +1,1 @@
+UPDATE public.ranges SET parking_available=true, updated_at=now() WHERE id IN ('ab7ca2e7-6556-4ed5-9a08-f1ddcc66243a') AND is_claimed=false AND (parking_available IS NULL OR parking_available=false);

@@ -1,0 +1,156 @@
+{
+  "id": "363e9cdf-cd68-4569-b046-bc7acff3c839",
+  "name": "Shady Oaks Gun Range",
+  "city": "Cedar Park",
+  "state": "TX",
+  "website": "https://www.shadyoaksgunrange.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.shadyoaksgunrange.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 15,
+      "candidates": [
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/sogr_splash_slide_2021.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "319334",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/banner1g.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "28087",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/HomeSpecialOffer.gif",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .gif"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/SOS_PoweredBy.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "48202",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/beretta-49x60.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2840B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2840",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/browning-49x60.gif",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .gif"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/bushmaster-49x60.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1541B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "1541",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/colt-49x60.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2029B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2029",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/cz-usa-49x60.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1412B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "1412",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/new_eaa_logo-49x60.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/FN-herstal-49x60.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2742B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2742",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/Glock-Logo-49x60.gif",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .gif"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/heckler-koch-49x60.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1944B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "1944",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/Kahr-Arms-49x60.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1711B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "1711",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/kel-tec-49x60.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1828B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "1828",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://www.shadyoaksgunrange.com/wp-content/uploads/sogr_splash_slide_2021.jpg",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "319334",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://www.shadyoaksgunrange.com/wp-content/uploads/sogr_splash_slide_2021.jpg",
+  "chosen_source_page": "https://www.shadyoaksgunrange.com",
+  "drop_reason": null
+}

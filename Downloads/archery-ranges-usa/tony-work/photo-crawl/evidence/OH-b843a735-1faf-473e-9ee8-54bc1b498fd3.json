@@ -1,0 +1,96 @@
+{
+  "id": "b843a735-1faf-473e-9ee8-54bc1b498fd3",
+  "name": "Nocking Point Deadeyes",
+  "city": "bryan",
+  "state": "OH",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/100093949609083/",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/100093949609083/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 7,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/356244638_112865375188449_1153098072650019144_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qFkp6HdB2NUQ7kNvwGdNZM4&_nc_oc=AdpyppRwXBmczeAN_gcblr12Lqjw0hxvq7B-CLPqSlikVPhw9M3LPoqwcuUlJZuAO18&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=JG-KdHIfWBcNqxYE7TKWkQ&_nc_ss=79289&oh=00_AQDB0Yec3zGB4AyFGydRQmxA45aWlfkxgRBU7-AjhNsSDw&oe=6A523B13",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "41126",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/505109552_593962550412060_7938077563789679770_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=dCGvrrYEZxwQ7kNvwGxZ5Zm&_nc_oc=Adpl79BfMVO0PhwMkqYmWflEQqfIWNKAH1sF1fYJ8cvWU0Uuye0U1yAWn-5JWO5M1fc&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=Mwr1_KlsNhBrstuP5vgo3w&_nc_ss=79289&oh=00_AQCStMLNjRbJKfpYZCWZCJvXobgLKJu6SecesEQCOTAi9A&oe=6A522692",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2961B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2961",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/505109552_593962550412060_7938077563789679770_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=dCGvrrYEZxwQ7kNvwGxZ5Zm&_nc_oc=Adpl79BfMVO0PhwMkqYmWflEQqfIWNKAH1sF1fYJ8cvWU0Uuye0U1yAWn-5JWO5M1fc&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=Mwr1_KlsNhBrstuP5vgo3w&_nc_ss=79289&oh=00_AQANoIEjQZ2YXX1hLTC_seEjxqKHUGeXmzchf40ClIEUGg&oe=6A522692",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "218696",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/738703826_1635144358618053_8561012118595859241_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Z2d5LRVbNIsQ7kNvwHWJ4FP&_nc_oc=AdqwLgOiGDw3WLW5Kpww0zRL4XQEPGIYORdyhFIbBx8xaxbxCvQowMFl6HMKgAMC-As&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=boJnWZ3z3QGlotuqwYC5Gg&_nc_ss=79289&oh=00_AQAlY6k6uemJX8sj7mtPAsYIS-2AEvNiKpG-pZUUlfQFXQ&oe=6A5234E7",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "80940",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/images/emoji.php/v9/t93/1/16/1f1fa_1f1f8.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (508B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "508",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/images/emoji.php/v9/t1e/1/16/1f3f9.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (614B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "614",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.xx.fbcdn.net/hads-ak-prn2/1487645_6012475414660_1439393861_n.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (79B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "79",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/356244638_112865375188449_1153098072650019144_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qFkp6HdB2NUQ7kNvwGdNZM4&_nc_oc=AdpyppRwXBmczeAN_gcblr12Lqjw0hxvq7B-CLPqSlikVPhw9M3LPoqwcuUlJZuAO18&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=JG-KdHIfWBcNqxYE7TKWkQ&_nc_ss=79289&oh=00_AQDB0Yec3zGB4AyFGydRQmxA45aWlfkxgRBU7-AjhNsSDw&oe=6A523B13",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "41126",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/356244638_112865375188449_1153098072650019144_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qFkp6HdB2NUQ7kNvwGdNZM4&_nc_oc=AdpyppRwXBmczeAN_gcblr12Lqjw0hxvq7B-CLPqSlikVPhw9M3LPoqwcuUlJZuAO18&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=JG-KdHIfWBcNqxYE7TKWkQ&_nc_ss=79289&oh=00_AQDB0Yec3zGB4AyFGydRQmxA45aWlfkxgRBU7-AjhNsSDw&oe=6A523B13",
+  "chosen_source_page": "https://www.facebook.com/100093949609083/",
+  "drop_reason": null
+}

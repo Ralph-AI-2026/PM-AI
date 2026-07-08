@@ -1,0 +1,159 @@
+{
+  "id": "db0d9b44-876e-49a2-89d6-cf5425ad4359",
+  "name": "Lone Eagle Archers",
+  "city": "Beaver",
+  "state": "OH",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/p/Lone-Eagle-Archery-100057157551801/",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/p/Lone-Eagle-Archery-100057157551801/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 16,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/641324064_1423457499569488_2584159560692400630_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1084&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=esTcQnKA6QoQ7kNvwG1_YYY&_nc_oc=AdqDAItHnwFFi5dRNUkxfIbc3_2OsGYzo-JXsWLBRpPpr6bulq7RPcv2E-MUt0B3Doc&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=e1h2mJhKPNIv-MfwoCyyVg&_nc_ss=7b289&oh=00_AQBF5L-9ixGc8u4hltTYVetbbqobbvNMZEDCPg8NzJxjRw&oe=6A52451A",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "63516",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/571546574_1334182315163674_6072630593411619470_n.jpg?stp=cp6_dst-jpg_fb50_s320x320_tt6&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=WZO5GRyIdHIQ7kNvwEi-8bc&_nc_oc=AdqUZlyHxwnPdoDvYMA7z4Dk8-JFNe_J8CyR_pMcSuY3cQzPv7FIbBPF-T_SX-1UXlI&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=6j5DuLi6RAKJbulE9tdY-w&_nc_ss=7b289&oh=00_AQDOqid1m0CngLv7btWe_uGkvUUPJ-Pwm-oSI3UN72zX2Q&oe=6A523AAD",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2664B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2664",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/571546574_1334182315163674_6072630593411619470_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx640x1386&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=WZO5GRyIdHIQ7kNvwEi-8bc&_nc_oc=AdqUZlyHxwnPdoDvYMA7z4Dk8-JFNe_J8CyR_pMcSuY3cQzPv7FIbBPF-T_SX-1UXlI&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=6j5DuLi6RAKJbulE9tdY-w&_nc_ss=7b289&oh=00_AQA0FRq4akB6mU7ct8129kFY0h9Oc-VIMqx7s0GXhxiNRg&oe=6A523AAD",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "45805",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yL/r/VLNVMYsRNQ9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yH/r/tL0h0V4PmET.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/y-/r/aa_l5zrpN2S.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/ya/r/3o9J8sZvP-9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yf/r/xHO_YGUAcdB.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yU/r/Ng23ZhjhWNZ.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/704107797_1493203699261534_1910471965389318878_n.jpg?stp=c0.169.1536.1536a_dst-jpg_tt6&cstp=mx1536x1536&ctp=s160x160&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=ulpuxZz8IJ8Q7kNvwGKUY38&_nc_oc=Adp_2DafrZjR_F2xjgk99qV-iLEI1muL7Jb--mdycmuNYHYc3fXQYZijG8LOKiGeJGk&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=6j5DuLi6RAKJbulE9tdY-w&_nc_ss=7b289&oh=00_AQA337JDM4xlJqNZnwVWqsRUMn0feSZwchL0_guWyi49dA&oe=6A5250F5",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (4691B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "4691",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/663268773_1458425989405972_9074461486998971029_n.jpg?stp=c0.355.924.924a_cp6_dst-jpegr_tt6&cstp=mx924x924&ctp=s160x160&_nc_cat=108&ccb=1-7&_nc_sid=8a6525&_nc_ohc=K2cn4Xc2-k8Q7kNvwGIDI8T&_nc_oc=AdqZn_3tylz7i0l-oQYwq70H7405sHRkBUsXTQx-bUR7hLOyy2Bq6sWMv2tauUg-N8U&_nc_zt=23&se=-1&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=6j5DuLi6RAKJbulE9tdY-w&_nc_ss=7b289&oh=00_AQCKlaI8WoxgW2diLHga1XTiHCMRx6_8Bv6UjkhNt-iHbg&oe=6A523859",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7553B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7553",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/668256352_1458425949405976_3144339540068620240_n.jpg?stp=c0.355.924.924a_cp6_dst-jpegr_tt6&cstp=mx924x924&ctp=s160x160&_nc_cat=102&ccb=1-7&_nc_sid=8a6525&_nc_ohc=6DQK5aC1O84Q7kNvwF4XUpG&_nc_oc=AdpbEDocvJFAtOM9yJMr4Arn8_IMUhd153B0mjBqApfzAKmDbLUAkWYC6cK53YyW4xE&_nc_zt=23&se=-1&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=6j5DuLi6RAKJbulE9tdY-w&_nc_ss=7b289&oh=00_AQAon9fqn3CV9l_jAN_r9k1MyH8wuRNyQy72nBhXn48HqA&oe=6A525030",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7954B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7954",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/666191842_1458425902739314_3508874677858378587_n.jpg?stp=c0.355.924.924a_cp6_dst-jpegr_tt6&cstp=mx924x924&ctp=s160x160&_nc_cat=110&ccb=1-7&_nc_sid=8a6525&_nc_ohc=qWZ_dNg_aeQQ7kNvwGkWGTn&_nc_oc=Adoa0wMNnf0mjxyYfTolzG8hQo1ZNrOG80dG-9tgEVJIanrrHKE2O1EHOCOK8eGTQv4&_nc_zt=23&se=-1&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=6j5DuLi6RAKJbulE9tdY-w&_nc_ss=7b289&oh=00_AQAVfBtQ7z_xiIkAiN5EHIADCrL0tw8JO3TZ16Fh7kUqIA&oe=6A524439",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (8262B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "8262",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/666851598_1458425846072653_4269102659013933476_n.jpg?stp=c0.355.924.924a_cp6_dst-jpegr_tt6&cstp=mx924x924&ctp=s160x160&_nc_cat=108&ccb=1-7&_nc_sid=8a6525&_nc_ohc=GFg_o30OJnEQ7kNvwFuu2Ug&_nc_oc=Adp6cC-hR_0gw66XRj5H2_AMbrvv0bgKC1aa9JsxXuqzVh5MhihuFgJAB7nPkAlwTJA&_nc_zt=23&se=-1&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=6j5DuLi6RAKJbulE9tdY-w&_nc_ss=7b289&oh=00_AQCGz7up2uA8_WuHBl9ifjLRZS401oLoKMcorPVyEQKGZQ&oe=6A5249B0",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7903B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7903",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/663270856_1458425786072659_2946921410384266769_n.jpg?stp=c0.355.924.924a_cp6_dst-jpegr_tt6&cstp=mx924x924&ctp=s160x160&_nc_cat=109&ccb=1-7&_nc_sid=8a6525&_nc_ohc=0O6o723g5-sQ7kNvwGxSUay&_nc_oc=Adpn3dvmB_evvalzJ9RhhSyPB5XUodgZPZrQMXfgHb_bPRoPrlxK5XmJcLzt4RAHqPQ&_nc_zt=23&se=-1&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=6j5DuLi6RAKJbulE9tdY-w&_nc_ss=7b289&oh=00_AQBi1YsxYAnt9vMMWOegQlu8tnLx2o0tObE2TdD1dcJy6g&oe=6A52356D",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7728B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7728",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/660309710_1452029850045586_3747920361324816582_n.jpg?stp=c153.0.335.335a_dst-jpg_tt6&cstp=mx335x335&ctp=s160x160&_nc_cat=109&ccb=1-7&_nc_sid=8a6525&_nc_ohc=y8Q-hyiQycAQ7kNvwHgaVXf&_nc_oc=AdoMW2cOu7DDweWsT0N-vcjSqEda6bEL7jRQVNGkFfoBT9u1xJksWdW1BFO_wYSKStc&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=6j5DuLi6RAKJbulE9tdY-w&_nc_ss=7b289&oh=00_AQDikW1vK5I_r6WW29wAozIWF6cbTG4uZ0nBDHLxZ0_Phg&oe=6A5250D1",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5473B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "5473",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/641324064_1423457499569488_2584159560692400630_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1084&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=esTcQnKA6QoQ7kNvwG1_YYY&_nc_oc=AdqDAItHnwFFi5dRNUkxfIbc3_2OsGYzo-JXsWLBRpPpr6bulq7RPcv2E-MUt0B3Doc&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=e1h2mJhKPNIv-MfwoCyyVg&_nc_ss=7b289&oh=00_AQBF5L-9ixGc8u4hltTYVetbbqobbvNMZEDCPg8NzJxjRw&oe=6A52451A",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "63516",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/641324064_1423457499569488_2584159560692400630_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1084&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=esTcQnKA6QoQ7kNvwG1_YYY&_nc_oc=AdqDAItHnwFFi5dRNUkxfIbc3_2OsGYzo-JXsWLBRpPpr6bulq7RPcv2E-MUt0B3Doc&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=e1h2mJhKPNIv-MfwoCyyVg&_nc_ss=7b289&oh=00_AQBF5L-9ixGc8u4hltTYVetbbqobbvNMZEDCPg8NzJxjRw&oe=6A52451A",
+  "chosen_source_page": "https://www.facebook.com/p/Lone-Eagle-Archery-100057157551801/",
+  "drop_reason": null
+}

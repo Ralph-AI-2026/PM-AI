@@ -1,0 +1,24 @@
+{
+  "id": "27093d58-a7f2-49ac-848a-bfe93147b754",
+  "name": "A Place To Shoot San Antonio",
+  "city": "San Antonio",
+  "state": "TX",
+  "website": "https://www.aplacetoshoot.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.aplacetoshoot.com",
+      "reachable": false,
+      "fail_reason": "arlen-crawl exit 1: Patchright failed for https://www.aplacetoshoot.com (Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.aplacetoshoot.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\n/home/jrpkennedy/arlen-crawl/.venv/lib/python3.14/site-packages/playwright/driver/package/lib",
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "unreachable: arlen-crawl exit 1: Patchright failed for https://www.aplacetoshoot.com (Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.aplacetoshoot.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\n/home/jrpkennedy/arlen-crawl/.venv/lib/python3.14/site-packages/playwright/driver/package/lib"
+}

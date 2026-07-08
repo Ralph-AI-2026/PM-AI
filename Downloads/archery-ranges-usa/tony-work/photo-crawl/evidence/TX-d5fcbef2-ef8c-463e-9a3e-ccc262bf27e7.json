@@ -1,0 +1,159 @@
+{
+  "id": "d5fcbef2-ef8c-463e-9a3e-ccc262bf27e7",
+  "name": "Gateway 3D Adventures",
+  "city": "Venus",
+  "state": "TX",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/gateway3dadventures/",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/gateway3dadventures/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 16,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/343159368_754341019523984_7823085618988397638_n.jpg?stp=dst-jpg_tt6&cstp=mx450x450&ctp=s450x450&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LpemLf7Vo7gQ7kNvwEtTTo9&_nc_oc=Adrgr8P2ABcquvQSzBeclZUdrraLsceyKNiRxGXFiCelZr5bl5EGiaEG6oCf7wiU3-Y&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=lWEOE0E5-9aJvYambZKrdA&_nc_ss=79289&oh=00_AQAAlMWJoH39gboBJMBnF3zvXgvMXf3Fk9eavX9psnEgKg&oe=6A524E80",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "24887",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/482349460_1140343947888358_150095998404591314_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=BlUgv0wd4lkQ7kNvwHQ8Vmt&_nc_oc=AdqYqTxumGP49RYN_FULDc-ircPEq7-0tvLG_K-F-XgpcRO_-lUgIdXVyjtU1PNbqhs&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=HLOVKyF-H70I_V8r2OWQWg&_nc_ss=79289&oh=00_AQC6i4H4NzVVtQIfOJ9vF05g4OhPBRBcy_8mZq5jAcg85A&oe=6A523B9B",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2029B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2029",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/482349460_1140343947888358_150095998404591314_n.jpg?stp=dst-jpg_tt6&cstp=mx458x193&ctp=s458x193&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=BlUgv0wd4lkQ7kNvwHQ8Vmt&_nc_oc=AdqYqTxumGP49RYN_FULDc-ircPEq7-0tvLG_K-F-XgpcRO_-lUgIdXVyjtU1PNbqhs&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=HLOVKyF-H70I_V8r2OWQWg&_nc_ss=79289&oh=00_AQCw6Zcl5CHlCLXVULzCWjglCHZUkURBG0ae858IeNqUTg&oe=6A523B9B",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "16915",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yL/r/VLNVMYsRNQ9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yH/r/tL0h0V4PmET.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/y-/r/aa_l5zrpN2S.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/ya/r/3o9J8sZvP-9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/y2/r/U8mmifbPI69.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yi/r/slRk63CkQm-.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/654244522_1438771524712264_2953566286600279183_n.jpg?stp=c0.124.1275.1275a_dst-jpg_tt6&cstp=mx1275x1275&ctp=s160x160&_nc_cat=102&ccb=1-7&_nc_sid=09d16d&_nc_ohc=YshPYHbLk2YQ7kNvwHZO0w0&_nc_oc=AdrNgF8CKdSP4y7k6L8qfG7ljyHPu-vuYt1csng1HdkC3WJgflhXUGPLymTRqVPGjHg&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=HLOVKyF-H70I_V8r2OWQWg&_nc_ss=79289&oh=00_AQC59Hz3SmEi41kEOzebv94b_yOAOjflZjIVUqHQOqWBPw&oe=6A524F51",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7099B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7099",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/495467219_1183719070217512_8777885345926468607_n.jpg?stp=c0.169.1537.1537a_dst-jpg_tt6&cstp=mx1537x1537&ctp=s160x160&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=TA7Aert_rMQQ7kNvwE-GxeG&_nc_oc=AdpbDm8WIPAtt3Xf5EVj1rVCDTSAtfPU9GnvL8qJndhkGS5ziroAGTWXTOwOj1--1DI&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=HLOVKyF-H70I_V8r2OWQWg&_nc_ss=79289&oh=00_AQCOfjhezaQ-meZ4msuT2zfbJcQ37aYIa43m4pbSPXIfkQ&oe=6A524B65",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7657B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7657",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/492390378_1178209960768423_3734374144119866295_n.jpg?stp=c0.101.974.974a_dst-jpg_tt6&cstp=mx974x974&ctp=s160x160&_nc_cat=107&ccb=1-7&_nc_sid=8a6525&_nc_ohc=7MMwl7qGhMYQ7kNvwEV8rZv&_nc_oc=AdqxR5eDiM_j8bYH_4gWubAeEMLTYIqiTaEVoVqLO4Uh3jNqPPmXy3FEU-z9I8qzkms&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=HLOVKyF-H70I_V8r2OWQWg&_nc_ss=79289&oh=00_AQBvZpwP80-nCU0KRFXnvDQPMXLCsTF7TBB7WT8isqGqMA&oe=6A522CDC",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7120B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7120",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/487434616_1155331173056302_7114287968596816141_n.jpg?stp=c0.109.1170.1170a_dst-jpg_tt6&cstp=mx1170x1170&ctp=s160x160&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=VgvQGcSEAzcQ7kNvwHFzga7&_nc_oc=AdqBK6ITPvJgqyYSnWtHf9wUpwy0_mMNqL_NIhQe5p6NcgQGMyZY8-1lhf1Rr4dWcHg&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=HLOVKyF-H70I_V8r2OWQWg&_nc_ss=79289&oh=00_AQBu0cLhf4HeWEIuP_Ws3fD1KH56NUPsER0YtYJQoieR1Q&oe=6A5245C1",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7690B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7690",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/485593242_1145246377398115_6772566135245926852_n.jpg?stp=c0.361.955.955a_dst-jpg_tt6&cstp=mx955x955&ctp=s160x160&_nc_cat=100&ccb=1-7&_nc_sid=8a6525&_nc_ohc=iU_Bt13-160Q7kNvwGKQKAW&_nc_oc=AdpsRioY3Yvjm0CIgLIp3FQNRYSJJTBPb-jjquYVxOK3qCTSVccJAG7gCHaYV6UbiU8&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=HLOVKyF-H70I_V8r2OWQWg&_nc_ss=79289&oh=00_AQAOYtssbgZW5aXpruL7ct0N64fO3XulyfQBn73K2qGDVw&oe=6A525056",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7681B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7681",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/482349460_1140343947888358_150095998404591314_n.jpg?stp=c133.0.193.193a_dst-jpg_tt6&cstp=mx193x193&ctp=s160x160&_nc_cat=110&ccb=1-7&_nc_sid=578376&_nc_ohc=BlUgv0wd4lkQ7kNvwHQ8Vmt&_nc_oc=AdqYqTxumGP49RYN_FULDc-ircPEq7-0tvLG_K-F-XgpcRO_-lUgIdXVyjtU1PNbqhs&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=HLOVKyF-H70I_V8r2OWQWg&_nc_ss=79289&oh=00_AQC-SA510bpBRuHLbDD3qe4UEB32aRVXVagEoPuJup3UCQ&oe=6A523B9B",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5683B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "5683",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/343159368_754341019523984_7823085618988397638_n.jpg?stp=dst-jpg_tt6&cstp=mx450x450&ctp=s160x160&_nc_cat=103&ccb=1-7&_nc_sid=244524&_nc_ohc=LpemLf7Vo7gQ7kNvwEtTTo9&_nc_oc=Adrgr8P2ABcquvQSzBeclZUdrraLsceyKNiRxGXFiCelZr5bl5EGiaEG6oCf7wiU3-Y&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=HLOVKyF-H70I_V8r2OWQWg&_nc_ss=79289&oh=00_AQB1O427xhj5kmdY7wWwdGFBP36pQcqP-0PKfi_3R47xxA&oe=6A524E80",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7147B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7147",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/343159368_754341019523984_7823085618988397638_n.jpg?stp=dst-jpg_tt6&cstp=mx450x450&ctp=s450x450&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LpemLf7Vo7gQ7kNvwEtTTo9&_nc_oc=Adrgr8P2ABcquvQSzBeclZUdrraLsceyKNiRxGXFiCelZr5bl5EGiaEG6oCf7wiU3-Y&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=lWEOE0E5-9aJvYambZKrdA&_nc_ss=79289&oh=00_AQAAlMWJoH39gboBJMBnF3zvXgvMXf3Fk9eavX9psnEgKg&oe=6A524E80",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "24887",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/343159368_754341019523984_7823085618988397638_n.jpg?stp=dst-jpg_tt6&cstp=mx450x450&ctp=s450x450&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LpemLf7Vo7gQ7kNvwEtTTo9&_nc_oc=Adrgr8P2ABcquvQSzBeclZUdrraLsceyKNiRxGXFiCelZr5bl5EGiaEG6oCf7wiU3-Y&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=lWEOE0E5-9aJvYambZKrdA&_nc_ss=79289&oh=00_AQAAlMWJoH39gboBJMBnF3zvXgvMXf3Fk9eavX9psnEgKg&oe=6A524E80",
+  "chosen_source_page": "https://www.facebook.com/gateway3dadventures/",
+  "drop_reason": null
+}

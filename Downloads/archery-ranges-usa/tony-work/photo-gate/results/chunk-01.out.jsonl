@@ -1,0 +1,40 @@
+{"id":"e95b8255-f9e0-4973-98c5-ef176dbbe2ef", "verdict":"keep", "kind":"shooting", "reason":"person shooting outdoors"}
+{"id":"6aa34313-f629-425c-ba96-1f1d0043a895", "verdict":"reject", "kind":"other", "reason":"logo with tree graphic"}
+{"id":"c898aa43-03f5-47a4-892e-2c3a660823ca", "verdict":"reject", "kind":"other", "reason":"fishing not archery"}
+{"id":"627277f6-c231-42b4-9465-2a94770ce079", "verdict":"reject", "kind":"other", "reason":"club logo graphic"}
+{"id":"393683d1-b710-4ded-8cc6-16f476868cf1", "verdict":"keep", "kind":"proshop", "reason":"archery outfitter interior"}
+{"id":"dc2b4319-5e5d-4f27-bcea-e79faad56459", "verdict":"keep", "kind":"signage", "reason":"interior range signage"}
+{"id":"618b1fe0-a1ae-48ab-b959-b4d5dc7f96c0", "verdict":"keep", "kind":"exterior", "reason":"outdoor range group"}
+{"id":"aa82af5e-0fdc-4ece-a603-375b4e7d8b7f", "verdict":"reject", "kind":"other", "reason":"logo with elk"}
+{"id":"5384da93-70fc-44e7-a365-ccfa84f59a4f", "verdict":"keep", "kind":"interior", "reason":"indoor range shooting"}
+{"id":"1e6eecf4-ffa6-4813-aeec-2c0239db050c", "verdict":"reject", "kind":"other", "reason":"armed women logo"}
+{"id":"f95e0094-e5fb-49be-bb21-3ad37f776d2e", "verdict":"keep", "kind":"interior", "reason":"indoor range shooting"}
+{"id":"a2b28d76-4537-4eb8-ae80-02a8e1a5db32", "verdict":"reject", "kind":"other", "reason":"cafe grill unrelated"}
+{"id":"3a547261-99a8-4eae-8f68-c89b70e5e103", "verdict":"keep", "kind":"signage", "reason":"header with club name"}
+{"id":"9f8352d8-d1c1-4bd8-836f-eac14a7ff2fe", "verdict":"reject", "kind":"other", "reason":"event poster flyer"}
+{"id":"a6c67a83-e3d8-42ba-b31a-226fd28cb99b", "verdict":"reject", "kind":"other", "reason":"gift card graphic"}
+{"id":"c02e14fd-f29b-46fe-b02c-aa9f5061b7fa", "verdict":"reject", "kind":"other", "reason":"club logo shield"}
+{"id":"760dd0a3-8501-426a-bcb0-b03a63a49add", "verdict":"reject", "kind":"other", "reason":"firearms gun club"}
+{"id":"ebbbefcf-b504-4407-b670-a32e8409d087", "verdict":"hold", "kind":"other", "reason":"outdoor event ambiguous"}
+{"id":"dd40a801-2aa0-43c9-9a76-04bf0b227127", "verdict":"reject", "kind":"other", "reason":"archery logo graphic"}
+{"id":"da356d5f-5ebf-48ec-91b6-82ca38c3af76", "verdict":"keep", "kind":"range", "reason":"close up target arrows"}
+{"id":"3da6af54-0e73-465d-942d-ea0f27798c38", "verdict":"keep", "kind":"interior", "reason":"indoor range shooting"}
+{"id":"5a4246be-d7f8-4e41-b6c9-487d864b0987", "verdict":"hold", "kind":"other", "reason":"camping setup ambiguous"}
+{"id":"53138fd8-bd49-47df-9f3f-4c85de10e5df", "verdict":"reject", "kind":"other", "reason":"archery logo ram"}
+{"id":"ef4c61ca-b86a-4077-9542-62ef32b24d54", "verdict":"keep", "kind":"interior", "reason":"indoor range facility"}
+{"id":"4f2790ff-cb0d-4dac-8e38-5cfa639133ca", "verdict":"keep", "kind":"3d", "reason":"3d course forest"}
+{"id":"5a5f379d-cf84-40b1-867b-61d0c4a157ec", "verdict":"keep", "kind":"range", "reason":"outdoor range targets"}
+{"id":"efcf0c31-904e-4d67-846a-88a376cbcceb", "verdict":"keep", "kind":"3d", "reason":"forest archery shoot"}
+{"id":"1273c6f9-ab07-4cf5-a31d-1cc89f058fca", "verdict":"keep", "kind":"range", "reason":"archery range shooting"}
+{"id":"e3404ac6-9bea-4e1d-ba69-430267d43fa4", "verdict":"keep", "kind":"signage", "reason":"mobile trailer archery"}
+{"id":"9cde02b4-415e-425f-b2f4-0da3cffbb965", "verdict":"reject", "kind":"other", "reason":"portrait headshot"}
+{"id":"1ea33692-2b2c-48c7-8db6-845377b27632", "verdict":"keep", "kind":"shooting", "reason":"child with bow target"}
+{"id":"06315a01-d040-45b9-988e-7a180fca722b", "verdict":"keep", "kind":"proshop", "reason":"archery store interior"}
+{"id":"34f86114-65a4-4d3a-b05a-06d4982e5869", "verdict":"keep", "kind":"3d", "reason":"forest 3d archery"}
+{"id":"2e750efe-10d5-441d-b4ba-d7cd1554f631", "verdict":"keep", "kind":"range", "reason":"outdoor range targets"}
+{"id":"72a6e39d-d125-4a80-b36e-9a92820c9638", "verdict":"hold", "kind":"other", "reason":"building exterior unclear"}
+{"id":"ae6081bb-3d38-4833-b929-978f3af6e2c9", "verdict":"hold", "kind":"other", "reason":"close up equipment ambiguous"}
+{"id":"eb782f81-a187-493c-b890-1ceb0b98faf6", "verdict":"keep", "kind":"interior", "reason":"indoor range facility"}
+{"id":"515aa5d7-74f5-4929-9807-f50529a76fb8", "verdict":"reject", "kind":"other", "reason":"club logo graphic"}
+{"id":"4002326b-bbc2-45d6-bdeb-c2d55cf20af5", "verdict":"keep", "kind":"range", "reason":"outdoor range targets"}
+{"id":"976d0586-1cf4-47cd-bcf5-615ddc1ef696", "verdict":"keep", "kind":"3d", "reason":"3d forest course text"}

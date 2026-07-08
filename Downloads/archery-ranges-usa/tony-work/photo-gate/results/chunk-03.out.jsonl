@@ -1,0 +1,40 @@
+{"id":"a389e17c-c5db-40f8-8584-9a345bbdba98","verdict":"keep","kind":"interior","reason":"team photo at archery club"}
+{"id":"6aef00a1-52de-45cf-b5b7-fdb1e3d57a63","verdict":"reject","kind":"other","reason":"logo/emblem graphic only"}
+{"id":"20120c65-d508-4a2b-892f-c3034414e2e6","verdict":"reject","kind":"shooting","reason":"firearms/guns, not archery"}
+{"id":"af81d804-4348-4cb2-8832-f0c061c8ce87","verdict":"keep","kind":"range","reason":"archer shooting at target"}
+{"id":"2b317b47-c120-496e-8ad2-0574f4c2bd28","verdict":"keep","kind":"interior","reason":"indoor archery facility"}
+{"id":"d0d5a3c8-e856-4fde-9e5c-a02ce4a8f663","verdict":"reject","kind":"other","reason":"event poster, not facility"}
+{"id":"7ea657aa-838f-4ab4-b474-61d8a93bffca","verdict":"keep","kind":"range","reason":"archer shooting outdoors"}
+{"id":"d4cd48c7-bce7-4609-9dcc-e77c9bb18a4a","verdict":"keep","kind":"range","reason":"outdoor archery range"}
+{"id":"aacd5f2b-b2b7-497e-a12e-603ddbc6df3f","verdict":"keep","kind":"range","reason":"outdoor range with targets"}
+{"id":"683e130b-e8fc-4cd3-b765-1002d6a51a53","verdict":"keep","kind":"range","reason":"collage of archery scenes"}
+{"id":"09bb7ade-1233-4ea2-bc62-16804d2a28e5","verdict":"keep","kind":"range","reason":"facility collage with logo"}
+{"id":"4503935f-5550-467a-b299-97be9c499e16","verdict":"reject","kind":"shooting","reason":"gun range indoor facility"}
+{"id":"87a3a049-57fa-4d62-91c5-3e0bd4446fb8","verdict":"keep","kind":"range","reason":"archery promo image"}
+{"id":"1e3cdb6a-cc5d-471f-87ea-e9b2502b3c7e","verdict":"reject","kind":"other","reason":"hours poster text only"}
+{"id":"b089a4b4-3481-48cc-8488-25f5f9a3fab6","verdict":"keep","kind":"interior","reason":"indoor archery facility"}
+{"id":"8198ad55-fe36-4e7d-aa86-72c3ab32f974","verdict":"reject","kind":"other","reason":"generic target icon"}
+{"id":"9f306f76-1328-4550-8c5d-c8954a69f9d7","verdict":"keep","kind":"range","reason":"outdoor archery range"}
+{"id":"6450d7cb-b6bf-4999-bf1b-5656e8719e86","verdict":"keep","kind":"proshop","reason":"pro shop interior images"}
+{"id":"8f471dbb-aa53-4c87-9f2f-556531d585c8","verdict":"reject","kind":"other","reason":"logo/graphic only"}
+{"id":"af0d267f-3970-4b5e-b120-43d39fe98443","verdict":"reject","kind":"other","reason":"promotional flyer, not photo"}
+{"id":"3a22623d-6db1-4627-a80b-e4065259fb67","verdict":"keep","kind":"3d","reason":"outdoor 3d course"}
+{"id":"adc004d7-2d85-4e2a-9c62-3f21d941ff50","verdict":"keep","kind":"3d","reason":"person shooting 3d outdoor"}
+{"id":"5cc8a0df-a074-4180-873b-5d14406bcba1","verdict":"keep","kind":"interior","reason":"indoor archery facility"}
+{"id":"94bc6cd9-45b9-4fde-8792-10cbdfa8c926","verdict":"hold","kind":"other","reason":"bow storage, unclear if range"}
+{"id":"7c273903-8f82-4e23-bea5-b10dbc5d1530","verdict":"keep","kind":"range","reason":"outdoor archery facility"}
+{"id":"1a84b5da-c683-48af-b330-d269574db0ae","verdict":"keep","kind":"interior","reason":"indoor archery facility"}
+{"id":"67d928f5-869b-4134-9552-dc38fcf71ee1","verdict":"hold","kind":"other","reason":"image failed to load"}
+{"id":"63cf3f87-5b88-4576-ac93-02e5fa2d6a0c","verdict":"keep","kind":"range","reason":"outdoor archery range"}
+{"id":"79f0d232-ef8e-44fa-bdf4-d1a45c1efc41","verdict":"keep","kind":"range","reason":"archery target station"}
+{"id":"dd175aa1-66ea-4f1d-8bb3-08709d3deb64","verdict":"keep","kind":"interior","reason":"indoor facility, equipment"}
+{"id":"98b807a6-b55a-44f1-b45b-b2766dbd1ce5","verdict":"keep","kind":"interior","reason":"indoor archery academy"}
+{"id":"d12cf706-0b11-412a-a505-a6b90482e2e9","verdict":"keep","kind":"range","reason":"archery target close-up"}
+{"id":"f7b2a865-6771-4a73-acf7-21aa662c6ed3","verdict":"reject","kind":"other","reason":"hours poster text only"}
+{"id":"31e8fd96-f877-4c14-a7c9-38b4ee8c14d8","verdict":"reject","kind":"other","reason":"hours poster text only"}
+{"id":"cefe5ec0-5e09-4d68-a92e-54d0593b72f3","verdict":"reject","kind":"shooting","reason":"gun range aerial view"}
+{"id":"614bac2d-3f79-43f0-bc0f-0fa2d972f1a6","verdict":"keep","kind":"3d","reason":"wildlife 3d targets"}
+{"id":"802d776a-72e0-42b6-b5ce-45fbbd907115","verdict":"reject","kind":"other","reason":"event poster graphic"}
+{"id":"f126821c-88a1-4e7b-8d3f-3af641a8afae","verdict":"reject","kind":"other","reason":"logo/arrow graphic"}
+{"id":"cd3ba984-4a45-41f5-ab89-8c31ab447d44","verdict":"reject","kind":"other","reason":"logo/text graphic"}
+{"id":"d94e21cd-b5e6-4365-bb07-33b741243f40","verdict":"reject","kind":"other","reason":"emblem logo only"}

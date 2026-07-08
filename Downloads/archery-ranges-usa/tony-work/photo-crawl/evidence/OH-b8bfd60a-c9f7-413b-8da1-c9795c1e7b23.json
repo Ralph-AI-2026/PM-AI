@@ -1,0 +1,156 @@
+{
+  "id": "b8bfd60a-c9f7-413b-8da1-c9795c1e7b23",
+  "name": "McCormic Archery",
+  "city": "Ashland",
+  "state": "OH",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/p/McCormic-Archery-LLC-100057528486384/",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/p/McCormic-Archery-LLC-100057528486384/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 16,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/300500195_512647107329568_8853840370761112628_n.jpg?stp=dst-jpg_tt6&cstp=mx461x461&ctp=s461x461&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aj9bGuRgyW4Q7kNvwHUZloQ&_nc_oc=AdossbudjVwyd0i0vFbORJ1vKtKZGNZI4geVW_nKTGyGlaKqgDbWAAgnslK8Gh06SoI&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=r-7hS_Bu0--JoYuSfzX7Xw&_nc_ss=79289&oh=00_AQB5301sQ6DcgdJ3UeAqQIOXV_mV6CrfvI7cRIoCyXWeLg&oe=6A524343",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "26320",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/472802844_1032957868631820_2368565429518462317_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=0c6Iq0uwQvAQ7kNvwGjQGgW&_nc_oc=AdoYmy75dRoHeLahVGSE8syz18nO_-KZjOfI3O8oOqDEDMZEoJhIkVDVjSa2sv2fnlI&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=65ieDgk-OLEpQx3Z07cGdg&_nc_ss=79289&oh=00_AQAg4qeQfBLhWN0sLg4yUsLRFqbDtS33mONeUri8kWoCWA&oe=6A524D19",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2566B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2566",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/472802844_1032957868631820_2368565429518462317_n.jpg?stp=dst-jpg_tt6&cstp=mx1242x766&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=0c6Iq0uwQvAQ7kNvwGjQGgW&_nc_oc=AdoYmy75dRoHeLahVGSE8syz18nO_-KZjOfI3O8oOqDEDMZEoJhIkVDVjSa2sv2fnlI&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=65ieDgk-OLEpQx3Z07cGdg&_nc_ss=79289&oh=00_AQBkoeUbgJGF9m9t6Gj7jb5TENfa1n0jiTIL-hzdDlUkHQ&oe=6A524D19",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "96665",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yL/r/VLNVMYsRNQ9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yH/r/tL0h0V4PmET.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/y-/r/aa_l5zrpN2S.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/ya/r/3o9J8sZvP-9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yi/r/slRk63CkQm-.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yf/r/xHO_YGUAcdB.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yU/r/Ng23ZhjhWNZ.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/661085221_1377076090886661_6727853929195146006_n.jpg?stp=c76.0.168.168a_dst-jpg_tt6&cstp=mx168x168&ctp=s160x160&_nc_cat=109&ccb=1-7&_nc_sid=09d16d&_nc_ohc=pjjMLa8b90IQ7kNvwH78dGi&_nc_oc=AdptXCAccPsc6PoANmh88EP8QgNpK-FgXMSuQz_MPhwsGwKJcsfQBwEmotCvEcbniZQ&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=65ieDgk-OLEpQx3Z07cGdg&_nc_ss=79289&oh=00_AQDas1QTdT3sTw-oCSy2k5NAijKE8cCXAoHM7ydRPcIQ0w&oe=6A523EA6",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5508B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "5508",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/644208368_1350558386871765_8421201865001968304_n.jpg?stp=c0.55.794.794a_cp6_dst-jpg_tt6&cstp=mx794x794&ctp=s160x160&_nc_cat=104&ccb=1-7&_nc_sid=09d16d&_nc_ohc=dHHEdidzxSYQ7kNvwHV2vX2&_nc_oc=AdpZbOfHk2T4nOeBIgbyTaDyalUDFCZwcTJqFKfV5tfu-FbHMDsSovMlnAH614v9RZo&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=65ieDgk-OLEpQx3Z07cGdg&_nc_ss=79289&oh=00_AQBtGXXlBkF02K5c0dEZ9L6n-lJYEkZdQyvU_nLKrCBjnw&oe=6A5231AA",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7760B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7760",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/645452255_1349022483692022_8595537097755361366_n.jpg?stp=c0.184.721.721a_dst-jpg_tt6&cstp=mx721x721&ctp=s160x160&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=hx9GIrLk6_MQ7kNvwHYAeBQ&_nc_oc=AdoqPdff1uYI45SNpyM6C-SmNxCDkpqnE38APw3apn_goNW98Ox_-jxWkEhOlHUHQ14&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=65ieDgk-OLEpQx3Z07cGdg&_nc_ss=79289&oh=00_AQBz2nrUfVl0aA2i0Xl2LrnJlfILri6DC3hsPmgZTnpHqQ&oe=6A521DE3",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (8264B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "8264",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/643297597_1349020713692199_6543288119088454670_n.jpg?stp=c256.0.1536.1536a_dst-jpg_tt6&cstp=mx1536x1536&ctp=s160x160&_nc_cat=109&ccb=1-7&_nc_sid=8a6525&_nc_ohc=11UBbp5xuuUQ7kNvwHBEoSR&_nc_oc=AdpzEcRFYspIyG5t8X96oGUmg-VklzcsxFQOmWrgjut0MdqdL9cOzKhlaQeVK2W6inE&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=65ieDgk-OLEpQx3Z07cGdg&_nc_ss=79289&oh=00_AQCYt9IifX8rdgrOr-Ykg_cizlanetJWZXdggQ9jbmAQ-w&oe=6A523965",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7013B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7013",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/642168270_1349020720358865_7380845124814243084_n.jpg?stp=c256.0.1536.1536a_dst-jpg_tt6&cstp=mx1536x1536&ctp=s160x160&_nc_cat=111&ccb=1-7&_nc_sid=8a6525&_nc_ohc=a2rVbEOOFykQ7kNvwHfq_D-&_nc_oc=AdpXJpPb8J_MtTcDlRnX4SWn_iehiMmVjZAMAWnY6XuJMTtCyiqxv4lZUCFXTwCy8Zg&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=65ieDgk-OLEpQx3Z07cGdg&_nc_ss=79289&oh=00_AQCpJSPtvWce_NPGl5PCPbZJE8otrdVTXpq35_e1hJuFjg&oe=6A521C47",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (6985B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "6985",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/634366393_1336708351590102_7211513841897518001_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s160x160&_nc_cat=107&ccb=1-7&_nc_sid=8a6525&_nc_ohc=XptOPyg1bvUQ7kNvwHLJ9pr&_nc_oc=AdpifPuC7UWcxyOmCiPy4O2-P-V4PEi7xkhoNkarm93Mqu8VFTEvSTi5c26jv47aEP4&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=65ieDgk-OLEpQx3Z07cGdg&_nc_ss=79289&oh=00_AQCZaurFNZkSuiUVdeAWCGBHC84nZUZ4IKv0lgewT5Xs5g&oe=6A52258C",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7690B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7690",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/300500195_512647107329568_8853840370761112628_n.jpg?stp=dst-jpg_tt6&cstp=mx461x461&ctp=s461x461&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aj9bGuRgyW4Q7kNvwHUZloQ&_nc_oc=AdossbudjVwyd0i0vFbORJ1vKtKZGNZI4geVW_nKTGyGlaKqgDbWAAgnslK8Gh06SoI&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=r-7hS_Bu0--JoYuSfzX7Xw&_nc_ss=79289&oh=00_AQB5301sQ6DcgdJ3UeAqQIOXV_mV6CrfvI7cRIoCyXWeLg&oe=6A524343",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "26320",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/300500195_512647107329568_8853840370761112628_n.jpg?stp=dst-jpg_tt6&cstp=mx461x461&ctp=s461x461&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aj9bGuRgyW4Q7kNvwHUZloQ&_nc_oc=AdossbudjVwyd0i0vFbORJ1vKtKZGNZI4geVW_nKTGyGlaKqgDbWAAgnslK8Gh06SoI&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=r-7hS_Bu0--JoYuSfzX7Xw&_nc_ss=79289&oh=00_AQB5301sQ6DcgdJ3UeAqQIOXV_mV6CrfvI7cRIoCyXWeLg&oe=6A524343",
+  "chosen_source_page": "https://www.facebook.com/p/McCormic-Archery-LLC-100057528486384/",
+  "drop_reason": null
+}

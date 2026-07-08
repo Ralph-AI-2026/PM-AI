@@ -1,0 +1,40 @@
+{"id":"6b5930f2-af3b-4e77-8431-fbbf47d42ec1", "verdict":"keep", "kind":"shooting", "reason":"girl shooting compound bow"}
+{"id":"5988ed09-32c3-4f19-aab9-e5f6191ad0b0", "verdict":"reject", "kind":"other", "reason":"generic blue texture stock"}
+{"id":"c74def98-4d46-45cd-83db-eebd87f5d3e4", "verdict":"reject", "kind":"other", "reason":"logo/graphic only"}
+{"id":"7f1faa5b-9954-4885-91a1-606c871f4c13", "verdict":"reject", "kind":"other", "reason":"hand-drawn sketch text"}
+{"id":"a1678864-e549-4f37-ba9d-effaf971f8b0", "verdict":"keep", "kind":"range", "reason":"outdoor event with bows"}
+{"id":"b6667471-a85e-437a-93e9-1266fd11f260", "verdict":"keep", "kind":"shooting", "reason":"person shooting compound bow"}
+{"id":"af02ba90-621d-4137-bcc6-2709fa17f867", "verdict":"keep", "kind":"interior", "reason":"indoor range multiple people"}
+{"id":"e23b6c86-5c0e-4550-9c79-0dcc0e3bb6c8", "verdict":"keep", "kind":"exterior", "reason":"facility exterior signage"}
+{"id":"be9f1b15-ba8b-47ff-b437-1ec3916b4c96", "verdict":"keep", "kind":"shooting", "reason":"person child shooting outdoors"}
+{"id":"90f08c54-d1e2-4b11-b02b-f90c2b9abdb0", "verdict":"keep", "kind":"exterior", "reason":"outdoor range facility"}
+{"id":"9f1b0df2-e646-498c-abf8-901b344910a2", "verdict":"reject", "kind":"other", "reason":"headshot portrait only"}
+{"id":"65abfed6-4596-4e67-8254-8fd2563f8325", "verdict":"reject", "kind":"other", "reason":"gun club not archery"}
+{"id":"a33e19f7-5b67-4f02-8cac-0bcfb78f892c", "verdict":"reject", "kind":"other", "reason":"logo/graphic only"}
+{"id":"6fb86a2a-9ca7-4372-a46f-5c8479158c18", "verdict":"keep", "kind":"proshop", "reason":"indoor facility person"}
+{"id":"ff46a64d-b0e5-4747-92f7-23fd62df93af", "verdict":"reject", "kind":"other", "reason":"logo/graphic only"}
+{"id":"2423c8b9-cc99-4e50-aa70-6e07d2032ae7", "verdict":"reject", "kind":"other", "reason":"logo/graphic only"}
+{"id":"2079d363-812b-4762-b7da-c2ff27eda5ed", "verdict":"reject", "kind":"other", "reason":"logo/graphic only"}
+{"id":"965b4492-c5b4-43a4-8426-b1c59ecb78e9", "verdict":"keep", "kind":"interior", "reason":"indoor range shooting people"}
+{"id":"170ecbc5-4a14-4856-a714-4f7fba53cc36", "verdict":"keep", "kind":"3d", "reason":"outdoor 3d course shooting"}
+{"id":"ce90d8c3-1ff7-46bb-9816-79bb4b807c97", "verdict":"reject", "kind":"other", "reason":"video screenshot overlay"}
+{"id":"5b157b54-0d38-4198-b311-3fbcbe6e306b", "verdict":"keep", "kind":"range", "reason":"compound bow archery"}
+{"id":"0b9747f8-e21e-49c3-8b56-57d9cc97d294", "verdict":"keep", "kind":"interior", "reason":"indoor range many people"}
+{"id":"95bd8d28-249c-46c5-bde7-e3685a9cbf1b", "verdict":"keep", "kind":"exterior", "reason":"storefront signage"}
+{"id":"3b74d924-c436-41e1-82a3-9ff15171ca8f", "verdict":"reject", "kind":"other", "reason":"logo/graphic only"}
+{"id":"6893669b-b2b7-436e-abd7-537b19943a5d", "verdict":"reject", "kind":"other", "reason":"logo/graphic only"}
+{"id":"c3e9fdd7-d20d-46f1-aa00-bfc5a4c460ab", "verdict":"keep", "kind":"range", "reason":"outdoor archery event"}
+{"id":"98850897-1be2-4ff2-b9e0-4a78595df23a", "verdict":"keep", "kind":"exterior", "reason":"business signage"}
+{"id":"6b344de9-8169-48a6-a9bc-b8eac1dd46fb", "verdict":"reject", "kind":"other", "reason":"logo/graphic only"}
+{"id":"6636f20b-4729-41da-85a0-e0efce2a518d", "verdict":"keep", "kind":"interior", "reason":"indoor range facility"}
+{"id":"9922bec9-5cf8-40f1-b153-95a47a490306", "verdict":"keep", "kind":"range", "reason":"outdoor archery event"}
+{"id":"3c9ee2e3-0496-4f59-ab2c-ca7b03ad11a4", "verdict":"keep", "kind":"shooting", "reason":"outdoor bow shooting"}
+{"id":"446a8afe-b82f-4d39-9fd6-7277de12a403", "verdict":"keep", "kind":"interior", "reason":"indoor archery tag game"}
+{"id":"c6f09f82-9888-4faf-9af5-63f90bbad453", "verdict":"keep", "kind":"exterior", "reason":"facility storefront"}
+{"id":"e2cb2169-d13c-4f10-a9e3-a636946e70f0", "verdict":"keep", "kind":"exterior", "reason":"business storefront"}
+{"id":"f154bd69-9d4e-44c3-8de5-f41cc7ef8ce5", "verdict":"keep", "kind":"interior", "reason":"indoor facility space"}
+{"id":"3d6079e3-a85c-4943-9979-eda2199cc396", "verdict":"keep", "kind":"interior", "reason":"indoor range children"}
+{"id":"286bafe2-73be-4e99-bbd3-5c1ba30a8ae6", "verdict":"keep", "kind":"shooting", "reason":"person shooting compound"}
+{"id":"0195ec40-a9d5-498f-a1b1-ce981dcbe74a", "verdict":"keep", "kind":"range", "reason":"horseback archery shooting"}
+{"id":"712d7184-93e3-4b83-9f7e-f064059fe95b", "verdict":"keep", "kind":"interior", "reason":"indoor range with people"}
+{"id":"b9c9ada1-0d7f-4a7a-87cf-446a5800b52c", "verdict":"keep", "kind":"range", "reason":"outdoor field archery collage"}

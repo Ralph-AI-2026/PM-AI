@@ -1,0 +1,150 @@
+{
+  "id": "9fcff797-0707-4cf8-b605-6b589ddfdade",
+  "name": "Arrows for Christ Ministries/WWCC",
+  "city": "Waxahachie",
+  "state": "TX",
+  "website": "http://www.wagonwheelcowboychurch.org/arrows-for-christ.html",
+  "facebook_url": "https://www.facebook.com/groups/arrowsforchrist/",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.wagonwheelcowboychurch.org/arrows-for-christ.html",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 13,
+      "candidates": [
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/37931459-10216616204503477-8017169173723480064-n_orig.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "127053",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/37944220-10216616207223545-6104173994007592960-n.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "38165",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/37944823-10216616209703607-5683401768914911232-n.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "36783",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/37969480-2214979298517587-720664923511717888-o.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "53096",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/37981322-10216616211823660-7101073450013294592-n.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "35898",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/37991210-10216615062594930-2972791064517148672-o.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "41620",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/37994165-2214975721851278-6410532950374350848-o.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "38581",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/40172459-2268806346468215-384709012500774912-o.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "26642",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/40229449-2268807146468135-3056896024640487424-o.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "22927",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/40353131-10212186838973502-5591234927543713792-o.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "33858",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/40371505-10212186843333611-1051230624796377088-o.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "36730",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/40141537-2268807273134789-3502843226308476928-o.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "25891",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/40152184-2268947099787473-6846233897672376320-o.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "104906",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/37931459-10216616204503477-8017169173723480064-n_orig.jpg",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "127053",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "http://www.wagonwheelcowboychurch.org/uploads/7/7/0/5/7705744/37931459-10216616204503477-8017169173723480064-n_orig.jpg",
+  "chosen_source_page": "http://www.wagonwheelcowboychurch.org/arrows-for-christ.html",
+  "drop_reason": null
+}

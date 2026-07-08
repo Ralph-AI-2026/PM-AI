@@ -1,0 +1,156 @@
+{
+  "id": "d08498c8-18e5-4b65-832d-db694a3d17e2",
+  "name": "Nocking Point Outfitters",
+  "city": "bryan",
+  "state": "OH",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/NockingPointOutfitters/",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/NockingPointOutfitters/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 16,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-1/305573564_454709066702327_1306276624275832458_n.jpg?stp=dst-jpg_tt6&cstp=mx539x536&ctp=s539x536&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vmkYacwhND0Q7kNvwFYVxL7&_nc_oc=Adpe1M4AkgX3Wo1MyaYYZnnT0PQZNUm7N00ZAvKv5zwNSrzEWF4U7B-5UQmllFNBv6I&_nc_zt=24&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=ygAenIWeKDX24L0VA_0GLg&_nc_ss=79289&oh=00_AQAocXZYoSR4Ox3zDEeGi3B7aDRIIE6YuhvGSfi4JxN0zA&oe=6A522BAE",
+          "tag": "og:image",
+          "gate": "reject",
+          "gate_reason": "too small (13779B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "13779",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/598102952_1304659858373906_3838800229179727515_n.jpg?stp=cp6_dst-jpg_fb50_s320x320_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Xdr6GZb0OloQ7kNvwF1eyZJ&_nc_oc=Adpeud58rR3dfYK30JyLPYVWH9FhovD7NmYW3a8v_PcgNLo51-aDm3A4BgYHwSiFkUw&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=TwkB2qagSU9ybu6jP9kgRQ&_nc_ss=79289&oh=00_AQBxL1I_HwcqzhMZW4udRSXWoGTr1wJd9APq8okeEKHJsA&oe=6A5240D4",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2660B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2660",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/598102952_1304659858373906_3838800229179727515_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Xdr6GZb0OloQ7kNvwF1eyZJ&_nc_oc=Adpeud58rR3dfYK30JyLPYVWH9FhovD7NmYW3a8v_PcgNLo51-aDm3A4BgYHwSiFkUw&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=TwkB2qagSU9ybu6jP9kgRQ&_nc_ss=79289&oh=00_AQD3t_3USlLaJoMdL9pxpWCCo27RubwVfbvCawH3zybPZQ&oe=6A5240D4",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "120088",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yL/r/VLNVMYsRNQ9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yH/r/tL0h0V4PmET.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/y-/r/aa_l5zrpN2S.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/ya/r/3o9J8sZvP-9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yi/r/slRk63CkQm-.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yf/r/xHO_YGUAcdB.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yU/r/Ng23ZhjhWNZ.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.99422-6/739175262_1069043912114271_3728221749078048358_n.png?stp=c0.169.1024.1024a_dst-jpg_tt6&cstp=mx1024x1024&ctp=s160x160&_nc_cat=105&ccb=1-7&_nc_sid=8a6525&_nc_ohc=rc1abE4Jt5gQ7kNvwGEZ4un&_nc_oc=Ado3F1dTIq8-qQbhK4DU3NMWUwYfH9cuFlHbGM1eqg-saoL_78bpuvmIrV2rDmzffrE&_nc_zt=14&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=TwkB2qagSU9ybu6jP9kgRQ&_nc_ss=79289&oh=00_AQBtUjsG2OoyOAbxiyf_I8RSsDu4SLtchlleeBZRYm3WRg&oe=6A522D92",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (10801B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "10801",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.99422-6/740544505_1449581710684598_6839754482362689396_n.png?stp=c0.169.1024.1024a_dst-jpg_tt6&cstp=mx1024x1024&ctp=s160x160&_nc_cat=109&ccb=1-7&_nc_sid=8a6525&_nc_ohc=3-EmKj0JkTEQ7kNvwHkse4Y&_nc_oc=AdppUxYJLpb2F6aD8wbBTHpPV3zWd8D7fFl34GwX0sYsNMLhNLJL-avHpb16kjUKQrA&_nc_zt=14&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=TwkB2qagSU9ybu6jP9kgRQ&_nc_ss=79289&oh=00_AQD1TNqradZxAMzT1HiCw0QMdC7K6qXShBkiW86vmmBQPQ&oe=6A524729",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (8905B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "8905",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.99422-6/739243707_2111671463028517_1912453294836313330_n.png?stp=dst-jpg_tt6&cstp=mx1275x1269&ctp=s160x160&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=kYwToPuqHG8Q7kNvwGW1f6X&_nc_oc=AdrNElh75-gJyaSfY0Y80oo7xXHJ5qThweTSDr3sLnXFrOE1vE2grZR0145ryg6ZXTM&_nc_zt=14&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=TwkB2qagSU9ybu6jP9kgRQ&_nc_ss=79289&oh=00_AQCFhV1Ikvm959hgQIeavpXRge89eAj9PzyxsL44qN1skg&oe=6A522297",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5905B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "5905",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.99422-6/740052742_1576290147458105_1434504146985235074_n.png?stp=c0.220.1320.1320a_dst-jpg_tt6&cstp=mx1320x1320&ctp=s160x160&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=9yx53lnv4n0Q7kNvwGRMyT-&_nc_oc=AdrYhcugRDMv8uTzk6Lx9JCC45VLq8LJjzsALS5_2dNuzoM6_gXcx5W50fMvzeDwmsw&_nc_zt=14&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=TwkB2qagSU9ybu6jP9kgRQ&_nc_ss=79289&oh=00_AQArHHg_ZAnzBwabKmByUo0FBM3uKNnWxkt7mOpjNDc4eg&oe=6A5232AF",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (9481B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "9481",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.99422-6/735945567_1493487025396499_3764936463180339608_n.png?stp=c0.169.1536.1536a_dst-jpg_tt6&cstp=mx1536x1536&ctp=s160x160&_nc_cat=104&ccb=1-7&_nc_sid=8a6525&_nc_ohc=D95RquVfVhYQ7kNvwEgJRil&_nc_oc=Ado1uEuvbEZgRxSqyhy5Ze95ghXgnA1obzmvGC0UkILsUeRtBdENKd5VcbksbHY2zXg&_nc_zt=14&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=TwkB2qagSU9ybu6jP9kgRQ&_nc_ss=79289&oh=00_AQB9F0y8sFh9m3CtzANmNeps2Wxvc4DsL17Y7ktS9vnouQ&oe=6A52273C",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (8024B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "8024",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.99422-6/736778552_1509758403932452_6463281152041120534_n.png?stp=c137.0.180.180a_dst-jpg_tt6&cstp=mx180x180&ctp=s160x160&_nc_cat=104&ccb=1-7&_nc_sid=8a6525&_nc_ohc=iTnF6d7qtfsQ7kNvwERIYPf&_nc_oc=AdpXPfMlAHWz6yjEW5WrPJttDCVbwJycD_gWLdXis1vRiPGUqKTxHpvfuIEbqPlJGjk&_nc_zt=14&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=TwkB2qagSU9ybu6jP9kgRQ&_nc_ss=79289&oh=00_AQBXRyypEv8nDaoQzll_lB707OvcRxD3X_SKUEWo6llRdg&oe=6A524BD5",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (3090B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "3090",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/598102952_1304659858373906_3838800229179727515_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Xdr6GZb0OloQ7kNvwF1eyZJ&_nc_oc=Adpeud58rR3dfYK30JyLPYVWH9FhovD7NmYW3a8v_PcgNLo51-aDm3A4BgYHwSiFkUw&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=TwkB2qagSU9ybu6jP9kgRQ&_nc_ss=79289&oh=00_AQD3t_3USlLaJoMdL9pxpWCCo27RubwVfbvCawH3zybPZQ&oe=6A5240D4",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "120088",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/598102952_1304659858373906_3838800229179727515_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Xdr6GZb0OloQ7kNvwF1eyZJ&_nc_oc=Adpeud58rR3dfYK30JyLPYVWH9FhovD7NmYW3a8v_PcgNLo51-aDm3A4BgYHwSiFkUw&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=TwkB2qagSU9ybu6jP9kgRQ&_nc_ss=79289&oh=00_AQD3t_3USlLaJoMdL9pxpWCCo27RubwVfbvCawH3zybPZQ&oe=6A5240D4",
+  "chosen_source_page": "https://www.facebook.com/NockingPointOutfitters/",
+  "drop_reason": null
+}

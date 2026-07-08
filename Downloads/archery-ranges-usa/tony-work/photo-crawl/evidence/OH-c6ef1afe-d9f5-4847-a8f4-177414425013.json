@@ -1,0 +1,117 @@
+{
+  "id": "c6ef1afe-d9f5-4847-a8f4-177414425013",
+  "name": "Wildwood Bowmen",
+  "city": "Delta",
+  "state": "OH",
+  "website": "https://www.wildwoodarchery.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.wildwoodarchery.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 10,
+      "candidates": [
+        {
+          "url": "http://static1.squarespace.com/static/66868d2d4697d5738cca067b/t/6686a7da1124f576f21ebe96/1720100826487/WW_Logo_Landscape_Cream.png?format=1500w",
+          "tag": "og:image",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/66868d2d4697d5738cca067b/d2dba571-6761-4be1-9a8d-3bdaf3a38518/WW_Logo_Landscape_Cream.png?format=1500w",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/66868d2d4697d5738cca067b/0362a4cc-6f03-4c2c-8a17-7eff8cdcc3ab/2022_08_31_In_Devon-06222.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "436841",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/66868d2d4697d5738cca067b/7208e457-8947-4c45-aa78-c5b0d6a1838f/ww_leafdividergraphics.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "183856",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/66868d2d4697d5738cca067b/f72b0a72-fd65-4dc2-918f-5a87982d670e/2022_08_31_In_Devon-06257.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "479376",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/66868d2d4697d5738cca067b/0020600e-b242-4e9c-8674-8cc2af6ad4fb/target.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "63015",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/66868d2d4697d5738cca067b/1774451556669-4353YSZ2HBVT23EL35T0/image-asset.jpeg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "236917",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/66868d2d4697d5738cca067b/1774451558104-124UPUKBTGFHPEO1M4QV/image-asset.jpeg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "212379",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/66868d2d4697d5738cca067b/1774451558982-SGXOB31833FD7W98GGVR/image-asset.jpeg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "166007",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/66868d2d4697d5738cca067b/1774451559982-VFYMJT6T2G2SYNYB5WSJ/image-asset.jpeg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "366689",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://images.squarespace-cdn.com/content/v1/66868d2d4697d5738cca067b/f72b0a72-fd65-4dc2-918f-5a87982d670e/2022_08_31_In_Devon-06257.jpg",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "479376",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://images.squarespace-cdn.com/content/v1/66868d2d4697d5738cca067b/f72b0a72-fd65-4dc2-918f-5a87982d670e/2022_08_31_In_Devon-06257.jpg",
+  "chosen_source_page": "https://www.wildwoodarchery.com",
+  "drop_reason": null
+}

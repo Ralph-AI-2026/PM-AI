@@ -1,0 +1,24 @@
+{
+  "id": "c07c43ab-1a1c-4e14-a1b1-a180d1e7a29c",
+  "name": "Gateway Archery Inc and Indoor Range",
+  "city": "FORT WORTH",
+  "state": "TX",
+  "website": "http://www.gatewayarchery.com/",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.gatewayarchery.com/",
+      "reachable": false,
+      "fail_reason": "arlen-crawl exit 1: Patchright failed for http://www.gatewayarchery.com/ (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.gatewayarchery.com/\nCall log:\n  - navigating to \"http://www.gatewayarchery.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\nError: Both engines failed for http://www.gatewayarchery.",
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "unreachable: arlen-crawl exit 1: Patchright failed for http://www.gatewayarchery.com/ (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.gatewayarchery.com/\nCall log:\n  - navigating to \"http://www.gatewayarchery.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\nError: Both engines failed for http://www.gatewayarchery."
+}

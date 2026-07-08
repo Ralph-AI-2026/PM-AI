@@ -1,0 +1,162 @@
+{
+  "id": "a1a50d6e-dbc2-4146-b847-362285197881",
+  "name": "Ohio Archery Learning Center",
+  "city": "Chesterland",
+  "state": "OH",
+  "website": "https://ohioarcherycenter.com/",
+  "facebook_url": "https://www.facebook.com/ohioarcherylearningcenter",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://ohioarcherycenter.com/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 16,
+      "candidates": [
+        {
+          "url": "https://www.ohioarcherycenter.com/parts/thumbnail.png",
+          "tag": "og:image",
+          "gate": "reject",
+          "gate_reason": "too small (8519B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "8519",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://ohioarcherycenter.com/parts/mastLogoMobile.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://www.ohioarcherycenter.com/parts/iconFacebook.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'icon'"
+        },
+        {
+          "url": "https://www.ohioarcherycenter.com/parts/iconInstagramwhite.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'icon'"
+        },
+        {
+          "url": "https://www.ohioarcherycenter.com/parts/iconTwitter.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'icon'"
+        },
+        {
+          "url": "https://www.ohioarcherycenter.com/parts/iconLinkedIn.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'icon'"
+        },
+        {
+          "url": "https://ohioarcherycenter.com/banner/IMG_2717.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "80477",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://ohioarcherycenter.com/banner/IMG_0456-small.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "180298",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://ohioarcherycenter.com/banner/JohnPfoh-2025TargetNaionals.jpeg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "88961",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://ohioarcherycenter.com/banner/Jeanine_Hubbell_2025.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "3095077",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://ohioarcherycenter.com/banner/DSC_1261.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "607542",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://ohioarcherycenter.com/banner/IndoorNationals2025.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "1452046",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://ohioarcherycenter.com/banner/Pan-American-Masters-World-Masters-Games-Vancover-Archery_1-1536x1025.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "251011",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://ohioarcherycenter.com/banner/2024 Group Shoot-small.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: URL can't contain control characters. '/banner/2024 Group Shoot-small.jpg' (found at least ' ')",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://ohioarcherycenter.com/banner/2024PanAmericaMastersGames.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "1789372",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://ohioarcherycenter.com/banner/IMG_1075-small.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "140059",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://ohioarcherycenter.com/banner/Jeanine_Hubbell_2025.jpg",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "3095077",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://ohioarcherycenter.com/banner/Jeanine_Hubbell_2025.jpg",
+  "chosen_source_page": "https://ohioarcherycenter.com/",
+  "drop_reason": null
+}

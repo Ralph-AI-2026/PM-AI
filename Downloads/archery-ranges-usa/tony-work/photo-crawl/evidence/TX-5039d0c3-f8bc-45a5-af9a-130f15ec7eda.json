@@ -1,0 +1,114 @@
+{
+  "id": "5039d0c3-f8bc-45a5-af9a-130f15ec7eda",
+  "name": "Team SPIDERx",
+  "city": "Spring",
+  "state": "TX",
+  "website": "http://teamspiderx.com",
+  "facebook_url": "https://www.facebook.com/TexasArcheryLearningCenter",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://teamspiderx.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 9,
+      "candidates": [
+        {
+          "url": "https://static.wixstatic.com/media/368748_094bd51606cc4be8943075fed6db47f7~mv2.png/v1/fill/w_2500,h_1406,al_c/368748_094bd51606cc4be8943075fed6db47f7~mv2.png",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "6042581",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/368748_c822cbd585da44dc9fa586ae074dbbd8~mv2.png/v1/fill/w_103,h_114,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Texas%20Archery%20SpiderX%20Red%20v2_edited.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (8562B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "8562",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/368748_d5987176e1f64051a725d6cfee401af8~mv2.png/v1/fill/w_148,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Texas%20Archery%20SpiderX%20Red%20v2_edited.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5097B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "5097",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/368748_000640af4f4940e18c39b60f47e4b05c~mv2.png/v1/fill/w_175,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Texas%20Archery%20SpiderX%20Red%20v2_edited_edit.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7076B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "7076",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_37,h_37,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e316f544f9094143b9eac01f1f19e697.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1462B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1462",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/a1b09fe8b7f04378a9fe076748ad4a6a.png/v1/fill/w_37,h_37,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a1b09fe8b7f04378a9fe076748ad4a6a.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1976B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1976",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/368748_ecda7d4ad9c44574b08d9ed3c6a3e6cf~mv2.png/v1/fill/w_37,h_37,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/368748_ecda7d4ad9c44574b08d9ed3c6a3e6cf~mv2.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2708B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "2708",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/368748_3fa8e56227944873b0cd15e5fb7d382e~mv2.png/v1/fill/w_37,h_37,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/368748_3fa8e56227944873b0cd15e5fb7d382e~mv2.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2404B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "2404",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/368748_094bd51606cc4be8943075fed6db47f7~mv2.png/v1/fill/w_940,h_414,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/New%20Facebook%20Banner.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "839271",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://static.wixstatic.com/media/368748_094bd51606cc4be8943075fed6db47f7~mv2.png/v1/fill/w_2500,h_1406,al_c/368748_094bd51606cc4be8943075fed6db47f7~mv2.png",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/png",
+        "content_length": "6042581",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://static.wixstatic.com/media/368748_094bd51606cc4be8943075fed6db47f7~mv2.png/v1/fill/w_2500,h_1406,al_c/368748_094bd51606cc4be8943075fed6db47f7~mv2.png",
+  "chosen_source_page": "http://teamspiderx.com",
+  "drop_reason": null
+}

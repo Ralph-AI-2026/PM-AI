@@ -1,0 +1,40 @@
+{"id":"8661084c-eb25-4f9a-87c9-274f3ff266f4", "verdict":"keep", "kind":"signage", "reason":"Sign with club name"}
+{"id":"733f8dc0-2880-49dd-af2c-95a73f4fe270", "verdict":"keep", "kind":"interior", "reason":"Bows displayed on walls"}
+{"id":"cf7e6179-3812-4345-92b2-34593b693f8a", "verdict":"keep", "kind":"shooting", "reason":"Person shooting with bow"}
+{"id":"2490dd6d-f5e3-4c5e-915b-7b6173798dee", "verdict":"reject", "kind":"other", "reason":"Deer trophy, not archery"}
+{"id":"82d36da5-100e-4d8b-b8bf-2ac0eae7cf3e", "verdict":"keep", "kind":"proshop", "reason":"Person working on bow"}
+{"id":"ff653b09-620e-40aa-ba36-6372f2ab6167", "verdict":"keep", "kind":"signage", "reason":"Club sign with archery logo"}
+{"id":"687c4735-9e47-4a4b-b9d4-50e4023de9ce", "verdict":"keep", "kind":"signage", "reason":"Sign with bow icon"}
+{"id":"07d381df-b2ed-438e-a4cc-00434d2aac20", "verdict":"keep", "kind":"interior", "reason":"Indoor bows display"}
+{"id":"12c438e5-2211-411f-b459-c9494d54829d", "verdict":"keep", "kind":"range", "reason":"People at archery targets"}
+{"id":"1556e200-a89b-4461-b488-cd4b4e5db71c", "verdict":"reject", "kind":"other", "reason":"Logo graphic overlay"}
+{"id":"ed379690-bde9-4248-9c53-4dec5ae9b096", "verdict":"keep", "kind":"interior", "reason":"People at indoor range"}
+{"id":"5b9d531f-0028-4fd0-ae7a-44c4bb1327c1", "verdict":"keep", "kind":"shooting", "reason":"Bowhunter with bow"}
+{"id":"fc3b7f08-8e51-4246-8ddf-180448fb4ceb", "verdict":"reject", "kind":"other", "reason":"Text poster graphic"}
+{"id":"15f040ad-7776-4d8e-8f17-f32810d5334b", "verdict":"keep", "kind":"shooting", "reason":"Indoor archery shooting"}
+{"id":"8e3aad28-4ca1-4133-9e8b-f7cd012acbe1", "verdict":"keep", "kind":"shooting", "reason":"3D archery target shot"}
+{"id":"df8aa85f-7e3f-4814-832d-be885648c3a4", "verdict":"keep", "kind":"3d", "reason":"3D archery shoot event"}
+{"id":"9a0b86a4-c2ac-47ec-8231-19cf88691ff9", "verdict":"hold", "kind":"other", "reason":"Ambiguous tent setup"}
+{"id":"980615b4-4ec4-4b28-96ae-66f91360d6cf", "verdict":"keep", "kind":"3d", "reason":"3D target shooting outdoors"}
+{"id":"16bb6d3e-06c2-4b43-8a5f-5cb1f437d2c5", "verdict":"keep", "kind":"signage", "reason":"Park sign exterior"}
+{"id":"d2d250e8-31ef-432e-a3e6-fe89e9f71b86", "verdict":"keep", "kind":"exterior", "reason":"Banner with club name"}
+{"id":"4e541918-0242-426c-96c2-dff844173620", "verdict":"keep", "kind":"shooting", "reason":"Group shooting outdoors"}
+{"id":"e580a6fe-f885-47d3-a66f-3be461a59483", "verdict":"keep", "kind":"shooting", "reason":"Line of archers shooting"}
+{"id":"0ebe9d02-4157-4535-b121-0e1d74196118", "verdict":"keep", "kind":"interior", "reason":"Indoor archery facility"}
+{"id":"d867e74e-62ed-487c-84d2-c7bc78ede8e6", "verdict":"keep", "kind":"exterior", "reason":"Sports shop storefront"}
+{"id":"df9757ef-a30c-4bd6-a81e-d4728cf833aa", "verdict":"reject", "kind":"other", "reason":"House, unrelated"}
+{"id":"8389ab91-d79f-4c24-a661-23fd3c5743eb", "verdict":"keep", "kind":"3d", "reason":"3D archery range setup"}
+{"id":"bee43279-c648-45bc-9ef5-ac3a36e8bc06", "verdict":"keep", "kind":"other", "reason":"Arrows displayed"}
+{"id":"9ad39b77-2ec0-48e4-8ee4-d6ef5076c527", "verdict":"reject", "kind":"other", "reason":"Logo graphic only"}
+{"id":"27fb8c67-8aba-462b-a376-e2f4b3de5cfb", "verdict":"reject", "kind":"other", "reason":"Hunting tree stand"}
+{"id":"78c06752-01ef-4965-95a6-100debb3d471", "verdict":"keep", "kind":"interior", "reason":"Bow display indoors"}
+{"id":"87131988-c054-43cf-9b68-86d4d03dbfb6", "verdict":"reject", "kind":"other", "reason":"Logo graphic only"}
+{"id":"bfeca7fa-345e-4086-b53c-e36e55d94019", "verdict":"reject", "kind":"other", "reason":"Event poster flyer"}
+{"id":"2b27ea1b-5e59-4b2d-a346-53362f43830e", "verdict":"keep", "kind":"shooting", "reason":"Indoor archery shooting"}
+{"id":"23243335-288e-469e-91a2-0ea8aea86a03", "verdict":"keep", "kind":"shooting", "reason":"Bowhunter in woods"}
+{"id":"2f6d935b-9c60-48e1-929a-f584f80f42a5", "verdict":"keep", "kind":"interior", "reason":"Indoor archery range"}
+{"id":"5db414ee-8dca-4695-9636-08a479b21902", "verdict":"reject", "kind":"other", "reason":"Police range likely firearms"}
+{"id":"b55c1b48-8528-4f32-bba2-695d1145ea9d", "verdict":"keep", "kind":"3d", "reason":"3D archery target"}
+{"id":"f5e259fd-40fe-489f-887d-ef7658f03ab0", "verdict":"keep", "kind":"shooting", "reason":"Group with archery gear"}
+{"id":"be634da3-4ded-4911-9e70-46bfcd7347d4", "verdict":"keep", "kind":"range", "reason":"Outdoor archery range"}
+{"id":"a88e9d90-db1c-42a6-b9e5-d96ad7f62cf6", "verdict":"keep", "kind":"exterior", "reason":"Range sign and fence"}

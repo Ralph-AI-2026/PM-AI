@@ -1,0 +1,135 @@
+{
+  "id": "50c929cd-f699-417d-8a82-3e2569ef4cb4",
+  "name": "Wylie Karate Archery Club",
+  "city": "Wylie",
+  "state": "TX",
+  "website": "http://www.wyliekarate.com",
+  "facebook_url": "https://facebook.com/241522355880369",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.wyliekarate.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 12,
+      "candidates": [
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/wylie_martial_arts_kanji_logo_web-1920w.jpg",
+          "tag": "og:image",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/self-defense+best+logo-131h.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/Pic--2861-29-7ce1fa1a-224d21da-378w.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpg",
+          "content_length": "23938",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/MSH_DSC_0274-53116276-428w.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpg",
+          "content_length": "19890",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/MSH_Customers--28Full-Family-29--2865-of-70-29-428w.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpg",
+          "content_length": "21474",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/MSH_Customers+%28Full+Family%29+%2858+of+70%29-326w.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpg",
+          "content_length": "18690",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/wylie_martial_arts_after_school-435w.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpg",
+          "content_length": "24812",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/after_school_buses-698w.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpg",
+          "content_length": "60790",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/martialArtsForKids.png-698w.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "760503",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/wylieMartialArts.png-698w.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "896478",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/IMG_8316-3264x2448-698w.JPG",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpg",
+          "content_length": "61470",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/martial_arts_outside_practice-698w.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpg",
+          "content_length": "93030",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/wylieMartialArts.png-698w.png",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/png",
+        "content_length": "896478",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://lirp.cdn-website.com/289e5bf5/dms3rep/multi/opt/wylieMartialArts.png-698w.png",
+  "chosen_source_page": "http://www.wyliekarate.com",
+  "drop_reason": null
+}

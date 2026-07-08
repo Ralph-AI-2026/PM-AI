@@ -1,0 +1,24 @@
+{
+  "id": "219931bd-df9f-4d3a-bb1c-a514720dd2a1",
+  "name": "Pearland Archery Club",
+  "city": "Pearland",
+  "state": "TX",
+  "website": "http://www.pearlandarcheryclub.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.pearlandarcheryclub.com",
+      "reachable": false,
+      "fail_reason": "arlen-crawl exit 1: Patchright failed for http://www.pearlandarcheryclub.com (Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://www.pearlandarcheryclub.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\n/home/jrpkennedy/arlen-crawl/.venv/lib/python3.14/site-packages/playwright/driver/p",
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "unreachable: arlen-crawl exit 1: Patchright failed for http://www.pearlandarcheryclub.com (Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://www.pearlandarcheryclub.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\n/home/jrpkennedy/arlen-crawl/.venv/lib/python3.14/site-packages/playwright/driver/p"
+}

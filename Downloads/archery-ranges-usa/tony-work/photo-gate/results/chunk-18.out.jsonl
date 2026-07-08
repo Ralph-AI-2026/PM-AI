@@ -1,0 +1,40 @@
+{"id":"a12b5e3a-5f2a-4ab5-bf31-e5d40311a9e2", "verdict":"reject", "kind":"other", "reason":"logo/graphic image"}
+{"id":"e8e22d8e-6b64-458a-9de8-8cda695005c6", "verdict":"keep", "kind":"shooting", "reason":"person shooting archery"}
+{"id":"138b3fd1-8443-4bfc-82f2-e2d247967635", "verdict":"hold", "kind":"other", "reason":"ambiguous facility unclear"}
+{"id":"ef1ce22c-51de-4f69-81e0-994124fcc1f1", "verdict":"keep", "kind":"shooting", "reason":"person with bow"}
+{"id":"f02d43a8-90f8-4b14-a6ca-e3968c428b86", "verdict":"reject", "kind":"other", "reason":"likely gun range"}
+{"id":"f2da02bb-95e6-402e-a662-d46c7ecc80cc", "verdict":"keep", "kind":"3d", "reason":"person with bow outdoor"}
+{"id":"c84b0ed6-569a-46ea-859e-e3ffcab2753e", "verdict":"reject", "kind":"other", "reason":"headshot/portrait"}
+{"id":"674069d6-caae-4c3e-b12b-fdf9b2a67575", "verdict":"keep", "kind":"interior", "reason":"indoor archery range"}
+{"id":"9f552eef-dcce-40e1-9da5-fe9d32d7eeef", "verdict":"keep", "kind":"shooting", "reason":"person with bow outdoor"}
+{"id":"75bdc897-455a-45a0-b05d-bbd8141be640", "verdict":"keep", "kind":"range", "reason":"outdoor archery event"}
+{"id":"b0de9a64-709d-4fdf-af6e-3009bdaaba8d", "verdict":"keep", "kind":"proshop", "reason":"archery shop interior"}
+{"id":"d5fcbef2-ef8c-463e-9a3e-ccc262bf27e7", "verdict":"keep", "kind":"3d", "reason":"archery shooting activity"}
+{"id":"9925011c-f1aa-4238-97fd-4ea6f3b540d1", "verdict":"keep", "kind":"interior", "reason":"person shooting bow"}
+{"id":"236a5339-113b-446a-981d-a150cc1000b6", "verdict":"keep", "kind":"interior", "reason":"indoor archery range"}
+{"id":"07c5b416-2de0-4f96-a9f9-0664ba03d0e9", "verdict":"keep", "kind":"interior", "reason":"indoor archery shooting"}
+{"id":"de91b9d6-3666-4844-8e74-11d834cf7fe9", "verdict":"reject", "kind":"other", "reason":"logo/graphic image"}
+{"id":"fbde2a55-4ed1-4ece-a7e3-07e795530c20", "verdict":"reject", "kind":"other", "reason":"logo/graphic image"}
+{"id":"6f8f53ce-c741-4b50-aacc-1e1b7624982d", "verdict":"keep", "kind":"exterior", "reason":"facility building signage"}
+{"id":"dc911ad7-8e48-4b4d-b1ac-357659f9b063", "verdict":"keep", "kind":"range", "reason":"outdoor archery event"}
+{"id":"312dc519-3fa3-4b1c-8de8-22d4973cc45b", "verdict":"keep", "kind":"range", "reason":"outdoor archery facility"}
+{"id":"6ed7ebc9-c33d-4a42-b7d1-05403ca9d8c7", "verdict":"keep", "kind":"interior", "reason":"indoor archery shooting"}
+{"id":"18904e39-b159-41ce-a205-0cabe7fd8d57", "verdict":"keep", "kind":"range", "reason":"outdoor facility pavilion"}
+{"id":"3119d93a-3495-4f7d-848b-cf8623e81e84", "verdict":"keep", "kind":"interior", "reason":"indoor archery range"}
+{"id":"bf3a84e8-ea70-4642-89a7-0327c628f27e", "verdict":"reject", "kind":"other", "reason":"unrelated wildlife photo"}
+{"id":"03ce3bc7-a28a-49f3-89b7-2525a83341b6", "verdict":"keep", "kind":"interior", "reason":"person shooting bow"}
+{"id":"31a062d8-c757-4650-a900-e1383053a5a2", "verdict":"reject", "kind":"other", "reason":"hunting trophy photo"}
+{"id":"628fb1ce-34fc-42df-8356-c2301befbc61", "verdict":"hold", "kind":"other", "reason":"ambiguous outdoor gathering"}
+{"id":"7f3feca6-662f-4a3c-9568-e6d29079d3a2", "verdict":"keep", "kind":"shooting", "reason":"group with bows"}
+{"id":"0e7ad46d-c3eb-4682-a78e-61633c0d39e0", "verdict":"reject", "kind":"other", "reason":"generic waterfront photo"}
+{"id":"0228dfbf-c5f2-4e4b-b608-ffde29ad46a3", "verdict":"keep", "kind":"3d", "reason":"person at 3D target"}
+{"id":"c6ed2be2-1b6b-4570-9025-c693e1e60606", "verdict":"keep", "kind":"range", "reason":"outdoor archery event"}
+{"id":"53f2c765-7e22-4b70-ac3f-65be275f8727", "verdict":"keep", "kind":"interior", "reason":"indoor archery bows"}
+{"id":"4b351405-84b4-42de-a936-2aea90153958", "verdict":"reject", "kind":"other", "reason":"logo/graphic image"}
+{"id":"679fe5f3-def1-4b70-9a21-07d3bc2b13c2", "verdict":"reject", "kind":"other", "reason":"selfie/portrait"}
+{"id":"cc263737-423b-4833-82c8-93a6d80e48f1", "verdict":"keep", "kind":"proshop", "reason":"archery equipment"}
+{"id":"ac0efe0a-fbde-49b3-a699-d2db480d5a63", "verdict":"keep", "kind":"shooting", "reason":"person shooting field"}
+{"id":"c8e3345b-dd7e-4fc1-a295-2defadc34d95", "verdict":"reject", "kind":"other", "reason":"rock formations unrelated"}
+{"id":"6ac93918-5c89-42fb-8fce-3f845df63995", "verdict":"reject", "kind":"other", "reason":"poster/flyer graphic"}
+{"id":"2ba6828d-36c4-4bbb-a6bf-ee92726e5908", "verdict":"keep", "kind":"proshop", "reason":"pro shop interior"}
+{"id":"e92747d4-507d-447d-9610-cf069054d19a", "verdict":"keep", "kind":"interior", "reason":"gym with archery targets"}

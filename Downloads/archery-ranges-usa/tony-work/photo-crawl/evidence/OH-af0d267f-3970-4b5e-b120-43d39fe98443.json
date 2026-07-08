@@ -1,0 +1,168 @@
+{
+  "id": "af0d267f-3970-4b5e-b120-43d39fe98443",
+  "name": "Bear Arms Armory & Archery",
+  "city": "Swanton",
+  "state": "OH",
+  "website": "https://www.beararmstac.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.beararmstac.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 15,
+      "candidates": [
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1954579-935c2dcecb43ae10b2f914eeb0a2f096.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "21452",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1954774-5e773caada75b7beaa6a6e90865e1f49.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "43657",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1954721-f69a5eecd2d23be57f644dcc9613c66b.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "24916",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-2322363-1b6442bd4bfe59f2dd13fe36180c23da.webp",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/webp",
+          "content_length": "85182",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1947422-4a4a8c167f70d29f579e1e7a2325866e.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "51507",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1947856-ab59a9fbc1d99dbc176cf5c17bfcdf9b.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (8777B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "8777",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1947897-530ff3e62db3745a63806fc660fc037b.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "79537",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1947968-e29796d410273370eb542406cb53d102.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5887B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "5887",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1947987-839d89794065467e2b9aa23f510b0e3d.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "56978",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1948014-6fda92cd0572fe4a16c3c1bd39db19c1.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "27295",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1948091-6fbe79ed16e5a632158dec718f4520f5.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "30192",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1954817-cefd1e527846bbe529d5f6fdcaae20a1.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "44051",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1952487-ad5f90ef4b88b71348feb80371a8f82e.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1096B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1096",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1952481-721b0e2b142898aaf71289ac5b3edc73.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1533B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1533",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://cdn20.coreware.com/cache/image-full-1952476-a95d1019b8d43abbba1c91caa84f5fe0.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1124B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1124",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://cdn20.coreware.com/cache/image-full-2322363-1b6442bd4bfe59f2dd13fe36180c23da.webp",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/webp",
+        "content_length": "85182",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://cdn20.coreware.com/cache/image-full-2322363-1b6442bd4bfe59f2dd13fe36180c23da.webp",
+  "chosen_source_page": "https://www.beararmstac.com",
+  "drop_reason": null
+}

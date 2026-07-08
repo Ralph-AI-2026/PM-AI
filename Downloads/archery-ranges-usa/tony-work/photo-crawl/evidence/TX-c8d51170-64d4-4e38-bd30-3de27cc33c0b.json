@@ -1,0 +1,100 @@
+{
+  "id": "c8d51170-64d4-4e38-bd30-3de27cc33c0b",
+  "name": "The Carriage Archery Club",
+  "city": "Houston",
+  "state": "TX",
+  "website": "https://thecarriagehtx.com/",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://thecarriagehtx.com/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 9,
+      "candidates": [
+        {
+          "url": "https://thecarriagehtx.com/wp-content/uploads/2024/10/The-Carriage-Archery-Club-interior-straight-down-the-line-scaled.jpg",
+          "tag": "og:image",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 403: Forbidden",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://thecarriagehtx.com/wp-content/uploads/2024/07/Carriage-full-tan-Logo-horizontal.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://thecarriagehtx.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 403: Forbidden",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://thecarriagehtx.com/wp-content/uploads/2024/10/The-Carriage-Archery-Club-interior-detail9-1024x1018.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 403: Forbidden",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://thecarriagehtx.com/wp-content/uploads/2024/10/The-Carriage-Archery-Club-interior-full-front-1024x675.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 403: Forbidden",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://thecarriagehtx.com/wp-content/uploads/2024/10/The-Carriage-Archery-Club-interior-19-683x1024.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 403: Forbidden",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://thecarriagehtx.com/wp-content/uploads/2024/06/The-Carriage-Tan-e1729607235893-300x189.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: HTTP Error 403: Forbidden",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://thecarriagehtx.com/wp-content/uploads/2024/10/Insta-icon-80x80.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'icon'"
+        },
+        {
+          "url": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: unknown",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        }
+      ],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "all candidates failed gate"
+}

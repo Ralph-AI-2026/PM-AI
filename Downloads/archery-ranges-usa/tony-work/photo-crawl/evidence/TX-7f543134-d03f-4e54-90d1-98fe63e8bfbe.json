@@ -1,0 +1,24 @@
+{
+  "id": "7f543134-d03f-4e54-90d1-98fe63e8bfbe",
+  "name": "X10 Archery",
+  "city": "Houston",
+  "state": "TX",
+  "website": "http://www.x10archery.com/home-1",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.x10archery.com/home-1",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "no img/og:image tags found"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "dc118831-8710-4095-8b0b-92a942d3221f",
+  "name": "Arrow Minded Outdoors",
+  "city": "Bulverde",
+  "state": "TX",
+  "website": "http://arrowminded.co",
+  "facebook_url": "https://www.facebook.com/arrowmindedoutdoors",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://arrowminded.co",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 2,
+      "candidates": [
+        {
+          "url": "https://d1rozh26tys225.cloudfront.net/robot-suspicion.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://d1rozh26tys225.cloudfront.net/loader.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        }
+      ],
+      "chosen": null,
+      "dead_or_parked": null
+    },
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/arrowmindedoutdoors",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 4,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/305959222_126145886843854_4407083949765937838_n.jpg?stp=dst-jpg_tt6&cstp=mx609x609&ctp=s609x609&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rS705u0Xuy4Q7kNvwHpihaN&_nc_oc=AdpMWcjiQMBiLjt97ss5b2lf0aFKYO6TeE5QhLTc-LEuOyKPT2ig4Du3Ci1TUVivEkI&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=UD45JxJHzmlg6qxnbJizDg&_nc_ss=79289&oh=00_AQCQVLS105Sf0xyYB-hRu5-BBl0ANrzmj9WWlpCajR-gww&oe=6A5229DF",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "21285",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/518362934_713116811480089_2188238240555274744_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Dr3ZnixBR2IQ7kNvwEdaydZ&_nc_oc=AdqMLacPJxLgu40czQACMcP_ggxQTMUtscelp_-spSuQJGEWucBTC0zoqeoNDS6eBpg&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=wSvHzo5Vq5ewZaljJbNd6g&_nc_ss=79289&oh=00_AQDQ-2NMBaxj9sK1S7OOGh2fdL7hg48BCkjkM3ywuAzyTA&oe=6A5221CF",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2261B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2261",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/518362934_713116811480089_2188238240555274744_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Dr3ZnixBR2IQ7kNvwEdaydZ&_nc_oc=AdqMLacPJxLgu40czQACMcP_ggxQTMUtscelp_-spSuQJGEWucBTC0zoqeoNDS6eBpg&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=wSvHzo5Vq5ewZaljJbNd6g&_nc_ss=79289&oh=00_AQAy2n6KKoevQquepehZXXAyTVOO88GSE9tUmx0wOJVvEw&oe=6A5221CF",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "100140",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.facebook.com/images/icons/FBLogo_Blueprint.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/305959222_126145886843854_4407083949765937838_n.jpg?stp=dst-jpg_tt6&cstp=mx609x609&ctp=s609x609&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rS705u0Xuy4Q7kNvwHpihaN&_nc_oc=AdpMWcjiQMBiLjt97ss5b2lf0aFKYO6TeE5QhLTc-LEuOyKPT2ig4Du3Ci1TUVivEkI&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=UD45JxJHzmlg6qxnbJizDg&_nc_ss=79289&oh=00_AQCQVLS105Sf0xyYB-hRu5-BBl0ANrzmj9WWlpCajR-gww&oe=6A5229DF",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "21285",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/305959222_126145886843854_4407083949765937838_n.jpg?stp=dst-jpg_tt6&cstp=mx609x609&ctp=s609x609&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rS705u0Xuy4Q7kNvwHpihaN&_nc_oc=AdpMWcjiQMBiLjt97ss5b2lf0aFKYO6TeE5QhLTc-LEuOyKPT2ig4Du3Ci1TUVivEkI&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=UD45JxJHzmlg6qxnbJizDg&_nc_ss=79289&oh=00_AQCQVLS105Sf0xyYB-hRu5-BBl0ANrzmj9WWlpCajR-gww&oe=6A5229DF",
+  "chosen_source_page": "https://www.facebook.com/arrowmindedoutdoors",
+  "drop_reason": null
+}

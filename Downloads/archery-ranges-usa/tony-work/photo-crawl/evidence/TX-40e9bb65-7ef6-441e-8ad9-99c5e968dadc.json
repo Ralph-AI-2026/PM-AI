@@ -1,0 +1,24 @@
+{
+  "id": "40e9bb65-7ef6-441e-8ad9-99c5e968dadc",
+  "name": "City of Carrollton Parks & Rec Department",
+  "city": "Carrollton",
+  "state": "TX",
+  "website": "http://www.cityofcarrollton.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.cityofcarrollton.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "no img/og:image tags found"
+}

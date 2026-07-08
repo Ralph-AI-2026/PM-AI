@@ -1,0 +1,159 @@
+{
+  "id": "4503a65a-8d5a-44d2-b5a4-36db14f8e833",
+  "name": "The Complete Hunters Outlet",
+  "city": "Suffield",
+  "state": "OH",
+  "website": null,
+  "facebook_url": "https://www.facebook.com/pages/The-Complete-Hunters-Outlet/462661057088970",
+  "attempts": [
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/pages/The-Complete-Hunters-Outlet/462661057088970",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 16,
+      "candidates": [
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/503803751_1267030705427307_6437181902924305394_n.jpg?stp=dst-jpg_tt6&cstp=mx477x551&ctp=s477x551&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=L8DNIE0Y-FoQ7kNvwH9tcIE&_nc_oc=AdpoHfGZA8E-eTOUTOikvhi1JW4yJbLRHUw0WEsvrYEPUmkKMYl2oBfpU0rMLDV6QWo&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=7o5Ab82EhumhlS49vmVAmQ&_nc_ss=79289&oh=00_AQCHnYuG20xGH6oLmXDdcTIDUgYoQ-bzPUyKgoN4vSriZw&oe=6A5231A1",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "29099",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/504068678_1267025788761132_1561052260367421239_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Hr-Uvj4pPnIQ7kNvwGlVR2K&_nc_oc=AdpVpSCmTHSIBlmnqEAMuLb62sAsqZKIiOp0sn8rJW_shu1jtLbk2jcsNOanAz6eWHM&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=Kmck7QbfXhXB569bC5bY6A&_nc_ss=79289&oh=00_AQDxj8eHUeCO14s24SCtK3mBUN3Xu2Di2GL1WWE3mPBnEw&oe=6A52211D",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (2247B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "2247",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/504068678_1267025788761132_1561052260367421239_n.jpg?stp=dst-jpg_tt6&cstp=mx935x601&ctp=s935x601&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Hr-Uvj4pPnIQ7kNvwGlVR2K&_nc_oc=AdpVpSCmTHSIBlmnqEAMuLb62sAsqZKIiOp0sn8rJW_shu1jtLbk2jcsNOanAz6eWHM&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=Kmck7QbfXhXB569bC5bY6A&_nc_ss=79289&oh=00_AQB7dWh8LHDTR0ksuaW6HX9n-mXjkI9nd-xIinotr1rkuQ&oe=6A52211D",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "42107",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yL/r/VLNVMYsRNQ9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yH/r/tL0h0V4PmET.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/y-/r/aa_l5zrpN2S.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/ya/r/3o9J8sZvP-9.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yf/r/xHO_YGUAcdB.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://static.xx.fbcdn.net/rsrc.php/yU/r/Ng23ZhjhWNZ.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'static.xx.fbcdn.net/rsrc.php'"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.99422-6/734973602_4507068786248782_6508610619301734972_n.png?stp=c0.89.1080.1080a_dst-jpg_tt6&cstp=mx1080x1080&ctp=s160x160&_nc_cat=103&ccb=1-7&_nc_sid=09d16d&_nc_ohc=bgcr4X46sggQ7kNvwFuJelt&_nc_oc=Adp9YOm_STttEKD2941OfmhMol7ieINiDKyvePotcej5l5LnHAZMMvBcLTkO1SWH1e8&_nc_zt=14&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=Kmck7QbfXhXB569bC5bY6A&_nc_ss=79289&oh=00_AQBlK8ZVC4HTGTw4L3KKgYK7hcPQs5lpbGQpPvoEfAugEw&oe=6A52446D",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5029B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "5029",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.99422-6/733868842_1062169559577833_5223943522469320503_n.png?stp=c0.89.1080.1080a_dst-jpg_tt6&cstp=mx1080x1080&ctp=s160x160&_nc_cat=106&ccb=1-7&_nc_sid=09d16d&_nc_ohc=FrucVt4WjHkQ7kNvwFdMIiJ&_nc_oc=AdrW3Am1aOLzblf1Bs_HB2PoTMpVbOgRpkJAj7ys16KdfapO2wv4FuTTOK8Iehu0LNc&_nc_zt=14&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=Kmck7QbfXhXB569bC5bY6A&_nc_ss=79289&oh=00_AQB1GRdt9QFPtw-c7LvCXPaz3j8B03QSglZ0inYPhVBQng&oe=6A522E9C",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5599B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "5599",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/713343307_1599053755558332_5357150393417022059_n.jpg?stp=c0.149.1350.1350a_dst-jpg_tt6&cstp=mx1350x1350&ctp=s160x160&_nc_cat=100&ccb=1-7&_nc_sid=8a6525&_nc_ohc=X1_3oVYbPc0Q7kNvwEhzVS0&_nc_oc=AdqK5zkorF5bjMvsbKbj3jQ7dqnI2LXvUscjNJswbqtTEC8TCX4OIjKrniV8cj5L8es&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=Kmck7QbfXhXB569bC5bY6A&_nc_ss=79289&oh=00_AQAcF6N9Uka7Xo0QjsXBtQlFpXUrEnTdsJq2VrqTVoi32w&oe=6A5246DC",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (7465B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "7465",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/702290973_1586585880138453_2009954933930467382_n.jpg?stp=c0.79.720.720a_dst-jpg_tt6&cstp=mx720x720&ctp=s160x160&_nc_cat=107&ccb=1-7&_nc_sid=8a6525&_nc_ohc=2VzJBOHTtGgQ7kNvwEzcikZ&_nc_oc=AdrkMYGk6TvJBNqnyEOYeLV2w2MQGjUY7kDOSKwxftSJ3sVp3-hUsVcBTWM7PwKEp5M&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=Kmck7QbfXhXB569bC5bY6A&_nc_ss=79289&oh=00_AQAjSN49fTOeJ9YHoLWkJHEIXl2beu-WI8QkbCR0-IMuQw&oe=6A522849",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (8719B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "8719",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/704206595_1586585770138464_8347116870978351358_n.jpg?stp=c0.79.720.720a_dst-jpg_tt6&cstp=mx720x720&ctp=s160x160&_nc_cat=106&ccb=1-7&_nc_sid=8a6525&_nc_ohc=wkE6FL_JWXIQ7kNvwHmiGPF&_nc_oc=AdolH9sW72im4_JccaScoBSViSi2hbkw_YMwEsrkLtpJknlodAjoPySq9GEFYSn0dYU&_nc_zt=23&_nc_ht=scontent.fyzd1-3.fna&_nc_gid=Kmck7QbfXhXB569bC5bY6A&_nc_ss=79289&oh=00_AQAZ2-r02gDRIwL9zP-59JoAY7xSBh96OJswat-W_5n3RA&oe=6A524FC8",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (8719B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "8719",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/702232515_1586585680138473_6097061244593125703_n.jpg?stp=c0.79.720.720a_dst-jpg_tt6&cstp=mx720x720&ctp=s160x160&_nc_cat=109&ccb=1-7&_nc_sid=8a6525&_nc_ohc=QuHodPi5HRgQ7kNvwFSrWHm&_nc_oc=AdruRh5DHdphcCTyGOK3Xp_A5n6dMN0nD9vFXQPteDHQjaBCvlTii2h2aFf2VCGzATQ&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=Kmck7QbfXhXB569bC5bY6A&_nc_ss=79289&oh=00_AQD5iVOHS6jHvhPp5OPkDyvtSsVYR61RRpYJExvk6cNbOQ&oe=6A5238F5",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (8719B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "8719",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/605223683_1455326113264431_2695084908807146669_n.jpg?stp=c268.0.315.315a_dst-jpg_tt6&cstp=mx315x315&ctp=s160x160&_nc_cat=111&ccb=1-7&_nc_sid=09d16d&_nc_ohc=nnB2nW6tFa4Q7kNvwFHIIf1&_nc_oc=AdpZBRIqc68j80Vmh1L8bB6lbtakB8q7iuy_USbCTQ9e3WbRfINrsOjuvIkQzhdh0VY&_nc_zt=23&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=Kmck7QbfXhXB569bC5bY6A&_nc_ss=79289&oh=00_AQCUlUCKIUz4Uvt6QnOUAp2RTpdjwB23v4fXJ05GVC__6g&oe=6A524791",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5782B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "5782",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/503803751_1267030705427307_6437181902924305394_n.jpg?stp=dst-jpg_tt6&cstp=mx477x551&ctp=s477x551&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=L8DNIE0Y-FoQ7kNvwH9tcIE&_nc_oc=AdpoHfGZA8E-eTOUTOikvhi1JW4yJbLRHUw0WEsvrYEPUmkKMYl2oBfpU0rMLDV6QWo&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=7o5Ab82EhumhlS49vmVAmQ&_nc_ss=79289&oh=00_AQCHnYuG20xGH6oLmXDdcTIDUgYoQ-bzPUyKgoN4vSriZw&oe=6A5231A1",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "29099",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/503803751_1267030705427307_6437181902924305394_n.jpg?stp=dst-jpg_tt6&cstp=mx477x551&ctp=s477x551&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=L8DNIE0Y-FoQ7kNvwH9tcIE&_nc_oc=AdpoHfGZA8E-eTOUTOikvhi1JW4yJbLRHUw0WEsvrYEPUmkKMYl2oBfpU0rMLDV6QWo&_nc_zt=24&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=7o5Ab82EhumhlS49vmVAmQ&_nc_ss=79289&oh=00_AQCHnYuG20xGH6oLmXDdcTIDUgYoQ-bzPUyKgoN4vSriZw&oe=6A5231A1",
+  "chosen_source_page": "https://www.facebook.com/pages/The-Complete-Hunters-Outlet/462661057088970",
+  "drop_reason": null
+}

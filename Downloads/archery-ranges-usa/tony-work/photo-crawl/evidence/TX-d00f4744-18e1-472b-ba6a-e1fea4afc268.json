@@ -1,0 +1,123 @@
+{
+  "id": "d00f4744-18e1-472b-ba6a-e1fea4afc268",
+  "name": "Lone Star Ranch Austin",
+  "city": "Austin",
+  "state": "TX",
+  "website": "https://lonestarranchtexas.com",
+  "facebook_url": "https://www.facebook.com/lonestarranchtexas",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://lonestarranchtexas.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 12,
+      "candidates": [
+        {
+          "url": "https://www.lonestarranchtexas.com/wp-content/uploads/2026/05/hat.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.lonestarranchtexas.com/wp-content/uploads/2026/05/barn.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.lonestarranchtexas.com/wp-content/uploads/2026/05/saddle.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://lonestarranchtexas.com/wp-content/themes/lonestarranch/assets/images/down-arrow.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://www.lonestarranchtexas.com/wp-content/smush-webp/2026/06/Screenshot-2026-06-20-at-14.43.05-1-1608x1132.jpg.webp",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/webp",
+          "content_length": "238152",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.lonestarranchtexas.com/wp-content/smush-webp/2026/06/LSR_1.1.1-1608x905.jpg.webp",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/webp",
+          "content_length": "109874",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.lonestarranchtexas.com/wp-content/themes/lonestarranch/assets/images/sage-edge.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'wp-content/themes'"
+        },
+        {
+          "url": "https://www.lonestarranchtexas.com/wp-content/themes/lonestarranch/assets/images/sage-edge-mobile.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "platform default pattern 'wp-content/themes'"
+        },
+        {
+          "url": "https://www.lonestarranchtexas.com/wp-content/smush-webp/2026/06/LSR_1.5.1-scaled-e1782245540913-301x336.jpg.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (14358B < 15000B, method=HEAD)",
+          "content_type": "image/webp",
+          "content_length": "14358",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.lonestarranchtexas.com/wp-content/smush-webp/2026/05/Frame-1477-1-219x336.jpg.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (9766B < 15000B, method=HEAD)",
+          "content_type": "image/webp",
+          "content_length": "9766",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.lonestarranchtexas.com/wp-content/smush-webp/2026/06/LSR_1.34.1-480x270.jpg.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (13368B < 15000B, method=HEAD)",
+          "content_type": "image/webp",
+          "content_length": "13368",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.lonestarranchtexas.com/wp-content/smush-webp/2026/06/LSR_1.19.2-1608x905.jpg.webp",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/webp",
+          "content_length": "48052",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://www.lonestarranchtexas.com/wp-content/smush-webp/2026/06/Screenshot-2026-06-20-at-14.43.05-1-1608x1132.jpg.webp",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/webp",
+        "content_length": "238152",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://www.lonestarranchtexas.com/wp-content/smush-webp/2026/06/Screenshot-2026-06-20-at-14.43.05-1-1608x1132.jpg.webp",
+  "chosen_source_page": "https://lonestarranchtexas.com",
+  "drop_reason": null
+}

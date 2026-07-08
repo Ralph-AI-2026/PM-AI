@@ -1,0 +1,40 @@
+{"id":"28353097-1a6c-4dc7-9361-93fa6d371c76","verdict":"keep","kind":"interior","reason":"child shooting at targets indoors"}
+{"id":"b463488a-05be-4b24-9c86-9dc5c9fcdbf8","verdict":"keep","kind":"range","reason":"large outdoor archery competition"}
+{"id":"e4345655-1333-4d14-a9fa-0bb6c7e942a9","verdict":"keep","kind":"3d","reason":"outdoor 3d target shoot"}
+{"id":"8271766f-3e30-446e-8c23-366f0b4b7800","verdict":"keep","kind":"range","reason":"outdoor archery competition field"}
+{"id":"9038ff05-e0c5-4804-b4d9-bb79e2518006","verdict":"reject","kind":"other","reason":"graphic logo not real facility"}
+{"id":"8a8f6a78-3c93-4e2f-8c8f-54af88f3e2e2","verdict":"keep","kind":"range","reason":"outdoor targets and competition setup"}
+{"id":"ba9e8788-d5c4-4187-b5a3-fbdd9947cc3d","verdict":"keep","kind":"interior","reason":"children with bows indoors"}
+{"id":"0ba7d712-1898-4e03-a1ab-688e2e54e12d","verdict":"hold","kind":"interior","reason":"indoor group, archery context unclear"}
+{"id":"efc489f6-9ca7-4dc1-8e55-edbfede74d2a","verdict":"keep","kind":"shooting","reason":"two people with bows outdoors"}
+{"id":"c86ec59d-115f-483d-8a7b-762af8e8adf3","verdict":"keep","kind":"proshop","reason":"interior with bows and equipment"}
+{"id":"b17a4d78-7f34-4193-9d5f-ad0173c57b38","verdict":"keep","kind":"range","reason":"outdoor targets with text overlay"}
+{"id":"de3ef8c9-82ba-428e-b23c-269c5478c12d","verdict":"keep","kind":"proshop","reason":"display of recurve bows"}
+{"id":"5eafa021-b9cf-4ebc-a9a8-8a9b4cccd98f","verdict":"keep","kind":"proshop","reason":"interior with equipment and customers"}
+{"id":"d59d7b87-34d1-4167-8525-808f97c178ad","verdict":"keep","kind":"proshop","reason":"compound bows displayed"}
+{"id":"4503a65a-8d5a-44d2-b5a4-36db14f8e833","verdict":"keep","kind":"signage","reason":"exterior building with sign"}
+{"id":"f6f16cff-19bf-4f42-bc2e-3a129342b083","verdict":"reject","kind":"other","reason":"animal in field not archery"}
+{"id":"074ace66-062c-4c6f-b391-6f634730c3fa","verdict":"keep","kind":"range","reason":"outdoor 3d archery shooting"}
+{"id":"97fd52cb-86d7-4772-b969-3a0459e4efdd","verdict":"keep","kind":"shooting","reason":"person with compound bow drawing"}
+{"id":"c9ae3b38-8245-419d-bf2d-382d8405892e","verdict":"reject","kind":"other","reason":"not archery related subject"}
+{"id":"48bc0aba-9faa-4d78-bb3e-3ce87021007e","verdict":"reject","kind":"other","reason":"restaurant bar not archery"}
+{"id":"fce2d8e4-5474-4c9d-8a90-0640d4686c6a","verdict":"keep","kind":"3d","reason":"person shooting at 3d target"}
+{"id":"346a242d-4689-42fc-9e84-1fdd5ca281ff","verdict":"keep","kind":"3d","reason":"two people with bows shooting"}
+{"id":"a7922f8c-c7c5-4d62-8a0a-613c2b5a4b47","verdict":"reject","kind":"other","reason":"map or diagram not photo"}
+{"id":"38a4a04a-25c9-4a1e-b8be-db17b300e4fe","verdict":"keep","kind":"interior","reason":"joad kids with coach indoors"}
+{"id":"c1565bfa-6a52-4e83-8bc0-3a7d403ad5ce","verdict":"reject","kind":"other","reason":"kite flying not archery"}
+{"id":"19a4b33c-95a9-4675-88f3-59bf4d35fb3c","verdict":"reject","kind":"other","reason":"logo graphic not real facility"}
+{"id":"91380cdf-cd65-4f79-a438-390d47915b9b","verdict":"keep","kind":"3d","reason":"outdoor 3d archery event"}
+{"id":"420f2f65-ff74-4947-85d6-9b608b43ca52","verdict":"keep","kind":"interior","reason":"indoor range with shooters"}
+{"id":"536d42e6-c7ee-41f6-9148-6c54800aa30c","verdict":"keep","kind":"signage","reason":"exterior storefront building"}
+{"id":"be12ab85-9284-4c4a-aa07-a55b17fd05c7","verdict":"reject","kind":"other","reason":"promotional poster not facility"}
+{"id":"8059cc3f-1470-4dc0-a9d5-4d60faad9dd4","verdict":"hold","kind":"other","reason":"equipment flat lay possibly stock"}
+{"id":"24324b2e-3a57-4e48-bed6-35714488cd5e","verdict":"keep","kind":"interior","reason":"child shooting at indoor targets"}
+{"id":"8dab909e-e74b-4c04-9407-c63f2da91f89","verdict":"keep","kind":"shooting","reason":"person with compound bow outdoors"}
+{"id":"0308cd07-c569-4447-9645-fc33f59a91ea","verdict":"keep","kind":"shooting","reason":"portrait with bow in outdoor"}
+{"id":"cc282baa-010a-465b-ae6f-0cf50277675a","verdict":"reject","kind":"other","reason":"landscape aerial no archery"}
+{"id":"7205d4d5-5e52-41e7-a4b4-118a50416746","verdict":"reject","kind":"other","reason":"promotional graphic with logos"}
+{"id":"dadf745a-5946-45f8-b498-1f7f91d682c3","verdict":"keep","kind":"group","reason":"large team group photo"}
+{"id":"67447d24-f91b-4609-9b3e-8a6abdaba2a7","verdict":"keep","kind":"interior","reason":"indoor range with targets"}
+{"id":"3fb15b3b-f878-48a5-91e8-071dd4aa0c2b","verdict":"reject","kind":"other","reason":"event poster graphic"}
+{"id":"2b7001de-3aaf-467a-bd1b-6ffa76c9ad4f","verdict":"keep","kind":"interior","reason":"indoor range with shooter"}

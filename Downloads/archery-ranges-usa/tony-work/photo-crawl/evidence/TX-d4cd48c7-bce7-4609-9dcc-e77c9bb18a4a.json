@@ -1,0 +1,123 @@
+{
+  "id": "d4cd48c7-bce7-4609-9dcc-e77c9bb18a4a",
+  "name": "At Home On The Range Archery",
+  "city": "Victoria",
+  "state": "TX",
+  "website": "https://www.folksyfarmsteadvtx.com/home-on-the-range",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.folksyfarmsteadvtx.com/home-on-the-range",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 10,
+      "candidates": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/baa555a4-5b9c-4dcf-afbc-fe6e885d3089/Copy+of+All+About+Archery+Camp+%281%29.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "2481855",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/5b0a7b99-7a5f-4e59-8082-679e96f90392/Copy+of+Green+and+White+Photo+Collage+Kids+Summer+Camp+Flyer+%283%29.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "2178803",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/ba6b5dd0-cbc6-46b5-93fd-77807c41b88b/Red+white+and+blue+camp.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "627926",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/f480b204-dff7-4819-9938-c0fa05994326/All+American+Camp.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "609831",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/b2bfb1a0-945d-4d8b-8f52-53ca19969f89/348356905_1269507843659107_2185197395123782488_n.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "38141",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/667915ad-1a9f-4d06-b0ba-856e184a8835/686392843_949269324668478_6858772266696794840_n+%281%29.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "377118",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/013ca891-7a29-47b6-b491-122d0bfe58c7/705982341_968647129397364_2861996952649881513_n.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "150333",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/c5fd8c7a-0552-4f6e-8882-22e73235ead2/Fundraiser+Info.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "1993239",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/b79b49a9-ebc3-4fda-bddb-0ae614e4acbc/539193423_753396430922436_768564361009977073_n.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "836351",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/2e600ce3-7780-4c7d-ac91-621c14519e6d/631359692_885876291007782_3899656522091217408_n.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "375911",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/baa555a4-5b9c-4dcf-afbc-fe6e885d3089/Copy+of+All+About+Archery+Camp+%281%29.png",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/png",
+        "content_length": "2481855",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://images.squarespace-cdn.com/content/v1/64e5014a7ef1726d56c17a3b/baa555a4-5b9c-4dcf-afbc-fe6e885d3089/Copy+of+All+About+Archery+Camp+%281%29.png",
+  "chosen_source_page": "https://www.folksyfarmsteadvtx.com/home-on-the-range",
+  "drop_reason": null
+}

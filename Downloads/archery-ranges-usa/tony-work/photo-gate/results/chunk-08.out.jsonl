@@ -1,0 +1,40 @@
+{"id":"e417148f-67b1-4a13-a2b0-4e914c1af016","verdict":"keep","kind":"exterior","reason":"facility clubhouse building"}
+{"id":"84fda70d-5f4f-4ceb-b727-d5c327ed22a1","verdict":"reject","kind":"other","reason":"poster flyer text event"}
+{"id":"57b6497a-b3d3-4b83-9790-6fe431c1fb36","verdict":"reject","kind":"other","reason":"poster reused generic stock"}
+{"id":"69cbbc2b-ba40-4efa-9a95-b093b1c28aa3","verdict":"reject","kind":"other","reason":"logo graphic seal"}
+{"id":"99e88232-2bcf-424e-8a37-d86aef6fbffc","verdict":"keep","kind":"range","reason":"outdoor targets visible field"}
+{"id":"eb4dbdda-40b1-4cf9-85e1-18717539d671","verdict":"keep","kind":"shooting","reason":"person shooting bow targets"}
+{"id":"1fd5a097-b288-4483-8f1a-915e0a1147b8","verdict":"keep","kind":"shooting","reason":"multiple archers indoor gym"}
+{"id":"608844b8-dde7-4130-9ad6-e549508c2025","verdict":"keep","kind":"interior","reason":"archery range equipment indoor"}
+{"id":"704e7713-34c6-44f5-b89d-dc8067517a75","verdict":"keep","kind":"shooting","reason":"archer shooting bow target"}
+{"id":"54364025-a22f-46d2-be8d-eb46c4f80c18","verdict":"keep","kind":"shooting","reason":"person shooting outdoors targets"}
+{"id":"d2bb8065-bdfd-47bf-8ba6-ad7fe44dbcb0","verdict":"reject","kind":"other","reason":"leagues poster text graphic"}
+{"id":"7115737b-64c4-429f-892e-8b93e640abf4","verdict":"keep","kind":"shooting","reason":"archers shooting bows indoors"}
+{"id":"bdbe15f4-0562-41c5-bfed-9ddf88ff8d7f","verdict":"reject","kind":"other","reason":"medals awards not facility"}
+{"id":"32e03dfc-ee98-44e9-853a-a6acacdf9988","verdict":"keep","kind":"shooting","reason":"kyudo archer shooting outdoors"}
+{"id":"69921817-4f76-4c1a-b682-4c6c37083848","verdict":"keep","kind":"range","reason":"outdoor range facility field"}
+{"id":"e60e5fa3-2a46-4f2a-946a-687693e45a27","verdict":"keep","kind":"shooting","reason":"person shooting outdoor range"}
+{"id":"2654591f-7221-4d04-acab-b8b2b279d4b7","verdict":"reject","kind":"shooting","reason":"firearms guns not bows"}
+{"id":"8ac734e9-4fca-4642-8aed-9dfb8bdee893","verdict":"keep","kind":"3d","reason":"3d course archery forest trail"}
+{"id":"1ada3595-e7b7-41da-a273-c518606a718e","verdict":"reject","kind":"other","reason":"logo graphic seal fish"}
+{"id":"0e02803c-a8b7-4a6e-a2ff-77433b1cd9a4","verdict":"keep","kind":"shooting","reason":"archer shooting bow indoors"}
+{"id":"fba7bbf6-182d-4f41-9fc4-55bd3588f5dd","verdict":"keep","kind":"shooting","reason":"archers shooting event outdoor"}
+{"id":"4e3d3494-96d4-4a85-a6fd-3187d754e9e9","verdict":"reject","kind":"other","reason":"logo ibo organization graphic"}
+{"id":"4d92b8c5-236f-4c55-b24f-19dc0dd1ffa6","verdict":"keep","kind":"interior","reason":"archery equipment indoor building"}
+{"id":"50e6c33e-3423-4605-bed8-0f7f9c5e76e2","verdict":"reject","kind":"other","reason":"logo ship wheel graphic"}
+{"id":"985377b3-4da7-485d-8d88-fe28015fcd3d","verdict":"reject","kind":"other","reason":"made usa logo generic"}
+{"id":"5d6dcbcc-e296-4b3a-857a-1c7c1d519177","verdict":"reject","kind":"other","reason":"property map diagram labeled"}
+{"id":"d7f509d9-3239-48bd-83c0-d006b33741a0","verdict":"reject","kind":"other","reason":"thank you card unrelated"}
+{"id":"eafe1861-9067-47b3-ad45-10d58f0da59e","verdict":"hold","kind":"other","reason":"aerial view ambiguous 3d"}
+{"id":"7d42d4de-d43b-4b7d-b163-c11d53d762be","verdict":"keep","kind":"shooting","reason":"youth team event facility"}
+{"id":"130edacc-3426-41d0-8967-8bae4fc41060","verdict":"keep","kind":"shooting","reason":"archers shooting indoors many"}
+{"id":"53974c54-c15f-4a9b-9e5a-39ce4e6df79a","verdict":"keep","kind":"3d","reason":"3d course outdoor archery shooting"}
+{"id":"93c9e2a7-414d-43b6-b930-94b150f5f176","verdict":"reject","kind":"other","reason":"elite logo graphic"}
+{"id":"2fe84b9d-c541-4739-b6c4-1edc4a50d067","verdict":"keep","kind":"interior","reason":"archery proshop people equipment"}
+{"id":"24e6a51a-2648-43f5-bc52-9a4ce6d72b05","verdict":"keep","kind":"event","reason":"team photo outdoor facility"}
+{"id":"9519b693-262a-4e61-a65e-1a8f734c9339","verdict":"reject","kind":"other","reason":"nssa logo graphic"}
+{"id":"a119455c-1ce9-4573-8d03-f46f37558bd3","verdict":"reject","kind":"other","reason":"tournament poster text event"}
+{"id":"dc5b306c-0945-492e-8321-970ffac6a440","verdict":"keep","kind":"shooting","reason":"archers shooting indoors facility"}
+{"id":"a93be0e1-d251-4b5b-b261-f74aa28f95cd","verdict":"reject","kind":"other","reason":"logo graphic bow arrow"}
+{"id":"68afc88f-ed5e-4aa0-84e7-d1b7fc8654b7","verdict":"reject","kind":"other","reason":"product arrows equipment close-up"}
+{"id":"c4e48428-6879-4543-917a-7b92b26552a0","verdict":"keep","kind":"shooting","reason":"large group archers indoors"}

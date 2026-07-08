@@ -1,0 +1,87 @@
+{
+  "id": "df331bc8-8433-4cbf-bbaf-2b9dd7894f61",
+  "name": "Clinton County Farmers and Sportsmen Association",
+  "city": "Wilmington",
+  "state": "OH",
+  "website": "http://ccfsa.net/",
+  "facebook_url": "https://www.facebook.com/CCFSA45177/",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://ccfsa.net/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 7,
+      "candidates": [
+        {
+          "url": "http://ccfsa.net/favImage.png",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "240542",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://ccfsa.net/favImage_small.png",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "129544",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://ccfsa.net/images/bg_60_white-3-.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (713B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "713",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://ccfsa.net/images/CCFSA-Primary-Logo---Website-PNG-3077-.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "http://ccfsa.net/images/ccfsa_lgo-WE7370dbc31e.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (4003B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "4003",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "http://ccfsa.net/images/blu-arrow.gif",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .gif"
+        },
+        {
+          "url": "http://ccfsa.net/images/CCFSA-Secondary-Emblem---Website-PNG-logo-.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        }
+      ],
+      "chosen": {
+        "url": "http://ccfsa.net/favImage.png",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/png",
+        "content_length": "240542",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "http://ccfsa.net/favImage.png",
+  "chosen_source_page": "http://ccfsa.net/",
+  "drop_reason": null
+}

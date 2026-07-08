@@ -1,0 +1,24 @@
+{
+  "id": "2f392caf-85fa-4c55-ab70-3589b066830e",
+  "name": "Tejas Bowmen Archery Club",
+  "city": "Corpus Christi",
+  "state": "TX",
+  "website": "http://www.tejasbowmenarcheryclub.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.tejasbowmenarcheryclub.com",
+      "reachable": false,
+      "fail_reason": "arlen-crawl exit 1: Patchright failed for http://www.tejasbowmenarcheryclub.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.tejasbowmenarcheryclub.com/\nCall log:\n  - navigating to \"http://www.tejasbowmenarcheryclub.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\nError: Both engines failed for htt",
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "unreachable: arlen-crawl exit 1: Patchright failed for http://www.tejasbowmenarcheryclub.com (Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.tejasbowmenarcheryclub.com/\nCall log:\n  - navigating to \"http://www.tejasbowmenarcheryclub.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\nError: Both engines failed for htt"
+}

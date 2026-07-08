@@ -1,0 +1,117 @@
+{
+  "id": "52066b07-153e-4db3-9b8e-b27ac71dfedf",
+  "name": "York Road Archery Range",
+  "city": "North Royalton",
+  "state": "OH",
+  "website": "https://www.clevelandmetroparks.com/parks/visit/parks/brecksville-reservation/york-road-archery-range",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.clevelandmetroparks.com/parks/visit/parks/brecksville-reservation/york-road-archery-range",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 10,
+      "candidates": [
+        {
+          "url": "https://match.adsrvr.org/track/cmf/generic?gdpr=0&ttd_passthrough=a_id%3D68a38312faa29aa82047c18d&ttd_pid=6fgi4r1&ttd_puid=6a4c64cf0cec5000024dda75&ttd_tpi=1",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "rejected content-type image/gif",
+          "content_type": "image/gif",
+          "content_length": "70",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.clevelandmetroparks.com/getContentAsset/ad9192f7-1075-4bbd-a295-d82c6241265f/52ab9de4-fc3f-46fc-9949-bdad96564f78/Cleveland-Metroparks.png?language=en",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (5580B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "5580",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://api.mapbox.com/styles/v1/cleveland-metroparks/cmcm7iiwp00af01qvf4i1afbb/static/-81.7572149590052,41.30472693310301,16.04751494447835,0,0/240x240@2x?access_token=pk.eyJ1IjoiY2xldmVsYW5kLW1ldHJvcGFya3MiLCJhIjoiWHRKaDhuRSJ9.FGqNSOHwiCr2dmTH2JTMAA",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "43520",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.clevelandmetroparks.com/getContentAsset/f10d0b5f-5476-4c7b-96e4-80c6c54373bf/52ab9de4-fc3f-46fc-9949-bdad96564f78/Aukerman_Park_Thumb.jpg?language=en",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "295852",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://www.clevelandmetroparks.com/getContentAsset/b8ad8ff9-c803-4443-87be-f39618c3fe81/52ab9de4-fc3f-46fc-9949-bdad96564f78/Squire_Rich_Museum_02_Thumb.jpg?language=en",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "33634",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://ohclevelandmetroparksweb.myvscloud.com/images/ohclevelandmetroparks/Archery CAMP.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: URL can't contain control characters. '/images/ohclevelandmetroparks/Archery CAMP.jpg' (found at least ' ')",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://ohclevelandmetroparksweb.myvscloud.com/images/ohclevelandmetroparks/Archery - No People.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: URL can't contain control characters. '/images/ohclevelandmetroparks/Archery - No People.jpg' (found at least ' ')",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://ohclevelandmetroparksweb.myvscloud.com/images/ohclevelandmetroparks/Archery JR CAMP.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "HEAD/GET failed: URL can't contain control characters. '/images/ohclevelandmetroparks/Archery JR CAMP.jpg' (found at least ' ')",
+          "content_type": null,
+          "content_length": null,
+          "head_method": "none"
+        },
+        {
+          "url": "https://www.google.com/images/cleardot.gif",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .gif"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        }
+      ],
+      "chosen": {
+        "url": "https://www.clevelandmetroparks.com/getContentAsset/f10d0b5f-5476-4c7b-96e4-80c6c54373bf/52ab9de4-fc3f-46fc-9949-bdad96564f78/Aukerman_Park_Thumb.jpg?language=en",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "295852",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://www.clevelandmetroparks.com/getContentAsset/f10d0b5f-5476-4c7b-96e4-80c6c54373bf/52ab9de4-fc3f-46fc-9949-bdad96564f78/Aukerman_Park_Thumb.jpg?language=en",
+  "chosen_source_page": "https://www.clevelandmetroparks.com/parks/visit/parks/brecksville-reservation/york-road-archery-range",
+  "drop_reason": null
+}

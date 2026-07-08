@@ -1,0 +1,96 @@
+{
+  "id": "4a874095-ab6d-49c7-9630-ea21c09a2585",
+  "name": "Legacy Archery",
+  "city": "FORT WORTH",
+  "state": "TX",
+  "website": "https://www.legacyarcherydfw.com/",
+  "facebook_url": "https://www.facebook.com/profile.php?id=100087976121394",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.legacyarcherydfw.com/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 8,
+      "candidates": [
+        {
+          "url": "http://static1.squarespace.com/static/632f5238215661299a923214/t/63321b1e62726c4bf23e1e75/1664228130196/LA-Black-Green.png?format=1500w",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "163344",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/632f5238215661299a923214/971be7d8-bf8c-4cda-8ca4-8a8dcfaa4032/logo-text-white.png?format=1500w",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/632f5238215661299a923214/c01e3ea5-19f5-4569-8cf9-45ee177beeaf/LA-White-Green.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/632f5238215661299a923214/0e257a36-3278-446c-9b0b-bae172e20b26/arrow-white.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'arrow-'"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/632f5238215661299a923214/b9b3a349-53c4-4677-8cf1-8bcc317521e2/Logos-shaft-2.jpeg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/632f5238215661299a923214/13ac0cc9-e341-4f23-8928-06dae594f26a/phantom.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/632f5238215661299a923214/8a25fc9e-e97a-4ab3-b84e-8136e102f6b0/arrows+in+target.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/632f5238215661299a923214/44f8b970-e59f-4055-bbbf-0b2965453a2d/Services%3ATech.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (1B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "1",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "http://static1.squarespace.com/static/632f5238215661299a923214/t/63321b1e62726c4bf23e1e75/1664228130196/LA-Black-Green.png?format=1500w",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/png",
+        "content_length": "163344",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "http://static1.squarespace.com/static/632f5238215661299a923214/t/63321b1e62726c4bf23e1e75/1664228130196/LA-Black-Green.png?format=1500w",
+  "chosen_source_page": "https://www.legacyarcherydfw.com/",
+  "drop_reason": null
+}

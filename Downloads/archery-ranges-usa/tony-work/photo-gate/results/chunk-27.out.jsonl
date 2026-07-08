@@ -1,0 +1,15 @@
+{"id": "25bdd684-b074-402b-a41a-3c53b8bb589c", "verdict": "keep", "kind": "range", "reason": "Colored arrows in target"}
+{"id": "d4b96ea6-8250-4197-8d74-b9fe6c572dc4", "verdict": "keep", "kind": "interior", "reason": "Youth shooting indoors targets"}
+{"id": "d09dde8e-099c-4c18-a9a3-6d31bf332e15", "verdict": "keep", "kind": "interior", "reason": "Two people with bows indoors"}
+{"id": "c277d338-f7b4-47dc-92cf-6b595291b144", "verdict": "keep", "kind": "other", "reason": "Bow and arrows equipment"}
+{"id": "6afe4757-1d05-4921-b743-d4ed852f2981", "verdict": "reject", "kind": "other", "reason": "Logo graphic not actual facility"}
+{"id": "0bf7c950-173e-4c7d-abe0-e32e06e258ac", "verdict": "reject", "kind": "other", "reason": "Logo graphic design not facility"}
+{"id": "8064f939-2fc4-4d40-9111-cbf9d8e553a2", "verdict": "keep", "kind": "exterior", "reason": "Group shooting outdoors"}
+{"id": "7ebfaa8a-de2b-4e9d-9e0e-b00c91e2e3dd", "verdict": "keep", "kind": "interior", "reason": "Children shooting indoors facility"}
+{"id": "b0a82f5c-f4af-483d-b017-492257a83d34", "verdict": "keep", "kind": "exterior", "reason": "Person shooting bow outdoors"}
+{"id": "accd4b85-a9ca-45b5-aa88-ccb4dffbb3fe", "verdict": "keep", "kind": "exterior", "reason": "Outdoor archery setup targets"}
+{"id": "419d8b09-527c-4965-bea2-fac03709f19e", "verdict": "reject", "kind": "other", "reason": "Poster flyer not real facility"}
+{"id": "5bead3d9-1247-45a7-a07c-eb4a824eea00", "verdict": "keep", "kind": "3d", "reason": "3D archery course hillside"}
+{"id": "90d91699-b415-4d64-982d-d3f4283ae8d3", "verdict": "keep", "kind": "3d", "reason": "3D archery course outdoor"}
+{"id": "ad3843ed-14df-425a-a407-4171930f9643", "verdict": "reject", "kind": "other", "reason": "Logo graphic not actual facility"}
+{"id": "b42550e2-e825-4120-872b-0b087a6dd200", "verdict": "keep", "kind": "interior", "reason": "Indoor archery targets people"}

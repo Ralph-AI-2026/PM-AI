@@ -1,0 +1,150 @@
+{
+  "id": "1465ca62-66c2-49dd-bdf2-688d37c8610d",
+  "name": "West Houston Archery",
+  "city": "Houston",
+  "state": "TX",
+  "website": "http://www.westhoustonarchery.com/",
+  "facebook_url": "https://www.facebook.com/HoustonArchery",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.westhoustonarchery.com/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 14,
+      "candidates": [
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_8d3c67d7dd5742fca05f70f724696793%7Emv2.gif/v1/fit/w_2500,h_1330,al_c/2d3fa2_8d3c67d7dd5742fca05f70f724696793%7Emv2.gif",
+          "tag": "og:image",
+          "gate": "reject",
+          "gate_reason": "bad ext .gif"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_b902553e0c0545518f211a8138ee1bb5f000.jpg/v1/fill/w_1920,h_740,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/2d3fa2_b902553e0c0545518f211a8138ee1bb5f000.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "185530",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_6a0647c2a2334e44aa6d083169cf6ee3~mv2.jpg/v1/fill/w_310,h_282,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7440.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "35530",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_81c461da1a8b47c6999aa08f2a999269~mv2.jpg/v1/fill/w_310,h_282,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7425.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "33085",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_d5268634b03341c6a7b320b52519ee80~mv2.jpg/v1/crop/x_0,y_641,w_3024,h_2751/fill/w_310,h_282,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7442.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "28775",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_40a993e4f0b3478d8686f11c4bbdd57c~mv2.jpg/v1/fill/w_310,h_282,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7432.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "32573",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_3321b19bd7134c7593d8ade4329c4b66~mv2.jpg/v1/fill/w_1920,h_1200,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2d3fa2_3321b19bd7134c7593d8ade4329c4b66~mv2.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "297305",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_99533dcea7414b0391ba4b1dfa37e2cc~mv2.jpg/v1/fill/w_427,h_426,q_90,enc_avif,quality_auto/2d3fa2_99533dcea7414b0391ba4b1dfa37e2cc~mv2.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "57626",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_cd441f6be49d4944872896f83ce20041~mv2.jpg/v1/fill/w_427,h_426,q_90,enc_avif,quality_auto/2d3fa2_cd441f6be49d4944872896f83ce20041~mv2.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "91978",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_205a6b197fdf47d5af5fbe1ec684a3aa~mv2.png/v1/fill/w_125,h_51,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5-stars.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (3167B < 15000B, method=HEAD)",
+          "content_type": "image/png",
+          "content_length": "3167",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_cf33feec9b6f462fb298eb766603e4cc~mv2.png/v1/fill/w_230,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2d3fa2_cf33feec9b6f462fb298eb766603e4cc~mv2.png",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "22826",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_a9133f081e7742cda05a5a541eb12b83~mv2.jpg/v1/crop/x_0,y_123,w_400,h_164/fill/w_235,h_93,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2d3fa2_a9133f081e7742cda05a5a541eb12b83~mv2.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "too small (9967B < 15000B, method=HEAD)",
+          "content_type": "image/jpeg",
+          "content_length": "9967",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_1fac73eecbf0481a8f7f553814d6ddd3~mv2.webp/v1/fill/w_191,h_78,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/pse%20logo.webp",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/2d3fa2_2101ae78ebe44c998cc71921d9d62a5d~mv2.png/v1/crop/x_0,y_102,w_900,h_288/fill/w_198,h_63,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bowtech-archery-vector-logo.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        }
+      ],
+      "chosen": {
+        "url": "https://static.wixstatic.com/media/2d3fa2_3321b19bd7134c7593d8ade4329c4b66~mv2.jpg/v1/fill/w_1920,h_1200,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2d3fa2_3321b19bd7134c7593d8ade4329c4b66~mv2.jpg",
+        "tag": "img",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "297305",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://static.wixstatic.com/media/2d3fa2_3321b19bd7134c7593d8ade4329c4b66~mv2.jpg/v1/fill/w_1920,h_1200,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2d3fa2_3321b19bd7134c7593d8ade4329c4b66~mv2.jpg",
+  "chosen_source_page": "http://www.westhoustonarchery.com/",
+  "drop_reason": null
+}

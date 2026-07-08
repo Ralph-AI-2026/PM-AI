@@ -1,0 +1,40 @@
+{"id":"dfa809f7-209a-4e2f-a172-ce454b6d8cfc","verdict":"keep","kind":"shooting","reason":"people with bows outdoors"}
+{"id":"09f364cf-32d5-4f69-bde3-1ccc065cc0b6","verdict":"keep","kind":"interior","reason":"indoor range with targets"}
+{"id":"a1cfbbdb-f042-42bd-a50f-7ad420178f65","verdict":"keep","kind":"interior","reason":"indoor facility with targets"}
+{"id":"2f8c4c24-55cf-4351-b689-0072b269ddef","verdict":"keep","kind":"signage","reason":"plaque about facility"}
+{"id":"f94623e0-fe66-4c69-88b5-4d3c8f88a9e8","verdict":"reject","kind":"other","reason":"logo graphic not real photo"}
+{"id":"d5ad035b-0d8e-427b-9814-86017b41befb","verdict":"reject","kind":"other","reason":"generic stock arrows"}
+{"id":"9c6efc5a-6874-45e0-a078-44d34ba88e99","verdict":"reject","kind":"other","reason":"stock close-up arrows"}
+{"id":"5eb19a2e-e4db-410b-9d57-bbd6c4bb54b8","verdict":"keep","kind":"exterior","reason":"facility building with signage"}
+{"id":"953b5202-1de0-48d3-a3a2-043522a0070b","verdict":"keep","kind":"exterior","reason":"range building exterior"}
+{"id":"c6110cdf-b0d8-4cfd-96c1-97a0d2bd5f6e","verdict":"keep","kind":"other","reason":"outdoor people with bows"}
+{"id":"79523e25-ba1e-431e-9461-e9a0bde8b1e5","verdict":"keep","kind":"proshop","reason":"indoor proshop range"}
+{"id":"899a2aa5-1a47-4b7d-81d2-ccae11769bf4","verdict":"keep","kind":"other","reason":"event booth archery booth"}
+{"id":"36aab59f-7cf1-45b0-9ba1-7726330a77a0","verdict":"keep","kind":"exterior","reason":"building exterior inn"}
+{"id":"fc847f7b-156c-4f00-8786-c3858bccfeb8","verdict":"keep","kind":"exterior","reason":"modern facility building"}
+{"id":"605ce9e0-911e-495d-a1c5-de0d94a62b05","verdict":"keep","kind":"shooting","reason":"kids shooting bows"}
+{"id":"a290ff4b-cb5b-402b-9226-46706d0fbb45","verdict":"keep","kind":"other","reason":"nfaa group photo"}
+{"id":"aa178381-499c-45fa-8374-3d606ed8bf4f","verdict":"keep","kind":"shooting","reason":"person shooting bow"}
+{"id":"2a650f95-570d-4212-a932-811cba5ff9cb","verdict":"reject","kind":"other","reason":"logo graphic target"}
+{"id":"0622da12-c5ed-4560-94a1-b02780a22f85","verdict":"reject","kind":"other","reason":"logo graphic deer"}
+{"id":"2290343b-7880-4de1-bc48-a40dd5473dcb","verdict":"reject","kind":"other","reason":"unrelated alligator photo"}
+{"id":"118e1fe1-5c07-4b20-9dda-c7e6a0668f90","verdict":"keep","kind":"interior","reason":"indoor facility"}
+{"id":"cd29ce74-74bb-4cd1-91ab-edd6c884025e","verdict":"reject","kind":"other","reason":"logo graphic bowhunter"}
+{"id":"c344b46b-52e0-4b1f-92e3-b8abbe4178ea","verdict":"keep","kind":"interior","reason":"indoor bows people"}
+{"id":"f608833c-ca9e-4cc7-86f3-7b2e83474dae","verdict":"keep","kind":"range","reason":"outdoor targets field"}
+{"id":"bef25081-4337-4691-a2a9-2d6c9c2c9489","verdict":"keep","kind":"range","reason":"outdoor targets grass"}
+{"id":"d7375d5e-f530-4b1e-b69e-dbf05c518c34","verdict":"reject","kind":"other","reason":"qr code graphic"}
+{"id":"2fb2ff8c-2266-40c7-b0fa-d7cf23761666","verdict":"keep","kind":"exterior","reason":"facility with signage"}
+{"id":"f89428b7-e81e-4330-954f-fefc241c4d3c","verdict":"keep","kind":"shooting","reason":"people with bows outdoor"}
+{"id":"0a7b86e8-ad31-453a-992a-fede290c1d82","verdict":"keep","kind":"3d","reason":"outdoor 3d course"}
+{"id":"c3e2af84-c3df-4cb3-9f2f-0ee47e5f035a","verdict":"reject","kind":"other","reason":"logo graphic"}
+{"id":"1efe0139-2cf6-4923-ade8-25c10daead30","verdict":"keep","kind":"shooting","reason":"people with bows"}
+{"id":"4e8adefa-d6ff-465c-b807-1e900f309526","verdict":"keep","kind":"shooting","reason":"person shooting bow"}
+{"id":"5f0822cd-1039-4198-9e7b-ab98506a79a6","verdict":"keep","kind":"proshop","reason":"indoor proshop arrows"}
+{"id":"e8b28ad9-8060-47c0-9540-70de5f84f61f","verdict":"keep","kind":"signage","reason":"business signage"}
+{"id":"982de492-5d06-4cfc-911b-1f29ba28419f","verdict":"reject","kind":"other","reason":"neon sign logo"}
+{"id":"8b983cf0-3877-4c2a-9ae8-040efb60d508","verdict":"reject","kind":"other","reason":"bow brand logo"}
+{"id":"e90727c5-8a36-4874-8da4-fad9f767fae2","verdict":"keep","kind":"shooting","reason":"people shooting bows"}
+{"id":"001383fd-09f4-4ec0-a3a1-694392f3b0c9","verdict":"keep","kind":"interior","reason":"person shooting indoors"}
+{"id":"c4cde419-6748-43a9-9594-37f789c83157","verdict":"keep","kind":"range","reason":"outdoor range shelter"}
+{"id":"24bf8e1e-12b0-4322-9a66-c5935619ed56","verdict":"keep","kind":"interior","reason":"indoor facility"}

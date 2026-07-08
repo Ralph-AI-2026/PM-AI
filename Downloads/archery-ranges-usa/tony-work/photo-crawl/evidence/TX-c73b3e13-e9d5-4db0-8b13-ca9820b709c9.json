@@ -1,0 +1,24 @@
+{
+  "id": "c73b3e13-e9d5-4db0-8b13-ca9820b709c9",
+  "name": "Texas Archery",
+  "city": "Spring",
+  "state": "TX",
+  "website": "http://www.thebowzone.com/",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.thebowzone.com/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": "dead/parked marker: 'this domain is for sale'"
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "dead/parked: dead/parked marker: 'this domain is for sale'"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "09bb7ade-1233-4ea2-bc62-16804d2a28e5",
+  "name": "Austin Archery Club",
+  "city": "Austin",
+  "state": "TX",
+  "website": "http://www.austinarcheryclub.com/",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://www.austinarcheryclub.com/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 3,
+      "candidates": [
+        {
+          "url": "https://austinarcheryclub.com/wp-content/uploads/2025/02/Clubhouse-small.jpg",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "290436",
+          "head_method": "HEAD"
+        },
+        {
+          "url": "https://austinarcheryclub.com/wp-content/uploads/2018/12/facebook-logo.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://austinarcheryclub.com/wp-content/uploads/2025/02/New-Banner-2-1140x200-1-1140x200.jpg",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "65161",
+          "head_method": "HEAD"
+        }
+      ],
+      "chosen": {
+        "url": "https://austinarcheryclub.com/wp-content/uploads/2025/02/Clubhouse-small.jpg",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/jpeg",
+        "content_length": "290436",
+        "head_method": "HEAD"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://austinarcheryclub.com/wp-content/uploads/2025/02/Clubhouse-small.jpg",
+  "chosen_source_page": "http://www.austinarcheryclub.com/",
+  "drop_reason": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "af81d804-4348-4cb2-8832-f0c061c8ce87",
+  "name": "Arrowstotle Archery",
+  "city": "Plano",
+  "state": "TX",
+  "website": "http://flemingarchery.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://flemingarchery.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 2,
+      "candidates": [
+        {
+          "url": "https://d1rozh26tys225.cloudfront.net/robot-suspicion.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        },
+        {
+          "url": "https://d1rozh26tys225.cloudfront.net/loader.svg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .svg"
+        }
+      ],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "all candidates failed gate"
+}

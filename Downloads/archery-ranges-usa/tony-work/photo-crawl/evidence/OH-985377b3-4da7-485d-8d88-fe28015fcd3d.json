@@ -1,0 +1,72 @@
+{
+  "id": "985377b3-4da7-485d-8d88-fe28015fcd3d",
+  "name": "Nelson Ledges Archery LLC",
+  "city": "Windham",
+  "state": "OH",
+  "website": "http://nla.kevcamp.com",
+  "facebook_url": "https://www.facebook.com/Nelson-Ledges-Archery-577305552459144/",
+  "attempts": [
+    {
+      "source": "website",
+      "url": "http://nla.kevcamp.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 5,
+      "candidates": [
+        {
+          "url": "http://nla.kevcamp.com/DomainData/TBGSSL/FavIcon.png",
+          "tag": "og:image",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'icon'"
+        },
+        {
+          "url": "https://www.tbgtom.com/domaindata/tbgssl/logotbgtom2.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://photography.tbgtom.com/DomainData/PHOTO/FancyLogoNoFace.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://ckonline.tbgtom.com/TheCryptKeeperLogo2026b.jpg",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'logo'"
+        },
+        {
+          "url": "https://www.tbgtom.com/usa.gif",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "bad ext .gif"
+        }
+      ],
+      "chosen": null,
+      "dead_or_parked": null
+    },
+    {
+      "source": "facebook",
+      "url": "https://www.facebook.com/Nelson-Ledges-Archery-577305552459144/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 1,
+      "candidates": [
+        {
+          "url": "https://www.facebook.com/images/pages/finch/cover_placeholder-2x.png",
+          "tag": "img",
+          "gate": "reject",
+          "gate_reason": "filename junk pattern 'placeholder'"
+        }
+      ],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "all candidates failed gate"
+}

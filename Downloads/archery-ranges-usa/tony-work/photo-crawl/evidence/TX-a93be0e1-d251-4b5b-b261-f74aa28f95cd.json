@@ -1,0 +1,24 @@
+{
+  "id": "a93be0e1-d251-4b5b-b261-f74aa28f95cd",
+  "name": "Oakridge Archery",
+  "city": "Logo Vista",
+  "state": "TX",
+  "website": "https://www.oakridgearcherytx.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://www.oakridgearcherytx.com",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": "dead/parked marker: 'coming soon'"
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "dead/parked: dead/parked marker: 'coming soon'"
+}

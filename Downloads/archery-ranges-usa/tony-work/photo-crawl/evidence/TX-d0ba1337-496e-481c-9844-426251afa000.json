@@ -1,0 +1,24 @@
+{
+  "id": "d0ba1337-496e-481c-9844-426251afa000",
+  "name": "South Plains Archery Club",
+  "city": "Lubbock",
+  "state": "TX",
+  "website": "https://southplainsarchery.com",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://southplainsarchery.com",
+      "reachable": false,
+      "fail_reason": "arlen-crawl exit 1: Patchright failed for https://southplainsarchery.com (Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://southplainsarchery.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\n/home/jrpkennedy/arlen-crawl/.venv/lib/python3.14/site-packages/playwright/driver/package/l",
+      "candidates_found": 0,
+      "candidates": [],
+      "chosen": null,
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "dropped",
+  "chosen_url": null,
+  "chosen_source_page": null,
+  "drop_reason": "unreachable: arlen-crawl exit 1: Patchright failed for https://southplainsarchery.com (Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://southplainsarchery.com/\", waiting until \"networkidle\"\n) \u2014 retrying with Camoufox\n/home/jrpkennedy/arlen-crawl/.venv/lib/python3.14/site-packages/playwright/driver/package/l"
+}

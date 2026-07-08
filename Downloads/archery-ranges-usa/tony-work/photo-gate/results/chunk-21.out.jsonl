@@ -1,0 +1,40 @@
+{"id":"70f38037-1060-4fda-869e-b18aa06f67d6", "verdict":"keep", "kind":"interior", "reason":"People shooting archery indoors"}
+{"id":"490d25f4-d1ae-488b-a9df-a1f8a44d1118", "verdict":"reject", "kind":"other", "reason":"Logo/graphic design only"}
+{"id":"d63f92e8-91ed-475b-97bb-73d965879683", "verdict":"keep", "kind":"range", "reason":"Archer shooting outdoor targets"}
+{"id":"ec2f085b-e8d6-4810-b975-e3bf9c4ecc72", "verdict":"hold", "kind":"other", "reason":"Ambiguous hunting gear image"}
+{"id":"da159aa1-fc16-4819-a471-41e59c987df1", "verdict":"reject", "kind":"other", "reason":"Just rusty signage/sign only"}
+{"id":"12e434ef-151a-4654-ab09-129cdd6d6915", "verdict":"keep", "kind":"range", "reason":"Archer shooting outdoors with range"}
+{"id":"82ee4366-7809-44e9-bd9c-62f582a2de55", "verdict":"reject", "kind":"other", "reason":"Logo/target graphic design"}
+{"id":"4a7c6710-1394-4aa4-8970-35d9a8492d55", "verdict":"keep", "kind":"range", "reason":"Hunter with bow in outdoor setting"}
+{"id":"0c9d32ec-4f1b-4039-a9df-4d9ab11396a9", "verdict":"keep", "kind":"range", "reason":"Archer shooting outdoors"}
+{"id":"8451162e-aa12-453f-be00-ed6bc81f435b", "verdict":"keep", "kind":"interior", "reason":"Multiple archers shooting indoors"}
+{"id":"2642d28e-8c2c-40b8-9d50-b2f4711be478", "verdict":"reject", "kind":"other", "reason":"Deer skull logo/graphic"}
+{"id":"48a92738-96f1-45c3-a9d9-6b35b976d1be", "verdict":"keep", "kind":"interior", "reason":"Archers shooting indoors"}
+{"id":"cd64c1dc-e6b4-4505-8fc2-261a1e8dad0d", "verdict":"keep", "kind":"interior", "reason":"Archer competing indoors"}
+{"id":"1225d707-eeac-4fd2-abd2-3dca49d00814", "verdict":"keep", "kind":"range", "reason":"Archer shooting with group"}
+{"id":"38855409-e8ed-4ce8-863c-35f2b74e2888", "verdict":"keep", "kind":"interior", "reason":"Multiple archers indoor facility"}
+{"id":"72ac88ca-e54c-476b-9056-0f6f742cf4d7", "verdict":"reject", "kind":"other", "reason":"Product advertisement image"}
+{"id":"82955337-e728-4f16-9ec3-65f09552757c", "verdict":"keep", "kind":"3d", "reason":"Group at outdoor 3D archery course"}
+{"id":"17a2a423-08d9-4389-8fa6-b7209e791da3", "verdict":"keep", "kind":"signage", "reason":"Facility entrance sign with logo"}
+{"id":"abbdee3c-176a-41e3-a9b6-40e2797cf7b2", "verdict":"reject", "kind":"other", "reason":"Deer skull logo/emblem only"}
+{"id":"535a027a-8b1b-47c6-9b26-99d03fc99a42", "verdict":"hold", "kind":"other", "reason":"Indoor facility, unclear if archery"}
+{"id":"1e0171a6-a212-4c7b-b57c-3da401e5d76b", "verdict":"keep", "kind":"interior", "reason":"Multiple archers indoors shooting"}
+{"id":"1c35324a-b890-47a5-9faa-19224e52e1b9", "verdict":"keep", "kind":"interior", "reason":"Archer shooting indoors"}
+{"id":"6e3a7cee-ec45-4c60-9732-af9912508d6b", "verdict":"keep", "kind":"range", "reason":"Archer shooting outdoors"}
+{"id":"21b68e82-73d8-4868-8660-ddc694a215c4", "verdict":"reject", "kind":"other", "reason":"Circular logo emblem only"}
+{"id":"9a987118-e865-44cf-83f5-addbeb890cdc", "verdict":"reject", "kind":"other", "reason":"Event poster/flyer text"}
+{"id":"b21459b7-8dcf-4aff-b995-188c9cf47350", "verdict":"keep", "kind":"interior", "reason":"Archers at indoor event/facility"}
+{"id":"417c997b-a1f2-407c-9754-313aa11452ce", "verdict":"keep", "kind":"proshop", "reason":"Indoor archery equipment/pro-shop"}
+{"id":"b689de23-50bb-43b1-9252-40670a7437b6", "verdict":"keep", "kind":"range", "reason":"Archer with target outdoors"}
+{"id":"e512c405-6cee-4007-8701-02ac6ce27aa1", "verdict":"keep", "kind":"exterior", "reason":"Facility exterior with archer"}
+{"id":"a55a9c74-a92c-4860-94f9-19ecf4fac91b", "verdict":"keep", "kind":"range", "reason":"Archer shooting outdoors"}
+{"id":"a3988d11-9bca-4a4a-bc12-023aa89ca009", "verdict":"keep", "kind":"range", "reason":"Archer shooting outdoors"}
+{"id":"6c5f05be-91c4-4131-aaae-2dfdcb5215b1", "verdict":"keep", "kind":"interior", "reason":"Archer shooting indoors at targets"}
+{"id":"b843a735-1faf-473e-9ee8-54bc1b498fd3", "verdict":"keep", "kind":"interior", "reason":"Archers at indoor facility"}
+{"id":"d08498c8-18e5-4b65-832d-db694a3d17e2", "verdict":"reject", "kind":"other", "reason":"Logo/silhouette graphic only"}
+{"id":"f6507b7d-d6ce-44a3-a5ff-4952ff1b39d1", "verdict":"keep", "kind":"exterior", "reason":"Club building/facility exterior"}
+{"id":"8bd67383-d9fe-45c1-b27e-da96002fe76f", "verdict":"keep", "kind":"interior", "reason":"Indoor archery facility/group"}
+{"id":"421fbc55-468a-4b2b-a173-87822b2976a1", "verdict":"keep", "kind":"interior", "reason":"Archer shooting indoors at targets"}
+{"id":"1a83ee7d-4334-471a-854f-4c98c216afbe", "verdict":"keep", "kind":"interior", "reason":"Multiple archers shooting indoors"}
+{"id":"33934b01-095c-4ed9-9f67-8ece43dcb23a", "verdict":"reject", "kind":"other", "reason":"Deer/bowhunter logo graphic"}
+{"id":"d59a63a9-a67a-4bf1-8ec2-83f16853d76a", "verdict":"hold", "kind":"other", "reason":"Bowhunters group photo, unclear range"}

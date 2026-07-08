@@ -1,0 +1,78 @@
+{
+  "id": "47c90781-15b9-4828-b535-c10062fec475",
+  "name": "Huaco Bowmen Archery Club",
+  "city": "Waco",
+  "state": "TX",
+  "website": "https://huacobowmen.org/",
+  "facebook_url": null,
+  "attempts": [
+    {
+      "source": "website",
+      "url": "https://huacobowmen.org/",
+      "reachable": true,
+      "fail_reason": null,
+      "candidates_found": 5,
+      "candidates": [
+        {
+          "url": "https://img1.wsimg.com/isteam/ip/20432bd1-41ff-467d-8ccb-b4e3ac6a3b15/blob-ba6c46b.png",
+          "tag": "og:image",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "444178",
+          "head_method": "GET"
+        },
+        {
+          "url": "https://img1.wsimg.com/isteam/ip/20432bd1-41ff-467d-8ccb-b4e3ac6a3b15/blob-ba6c46b.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "444178",
+          "head_method": "GET"
+        },
+        {
+          "url": "https://img1.wsimg.com/isteam/ip/20432bd1-41ff-467d-8ccb-b4e3ac6a3b15/group_2023.jpg/:/cr=t:14.18%25,l:2.83%25,w:94.34%25,h:71.65%25/rs=w:600,h:300,cg:true,m",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "57277",
+          "head_method": "GET"
+        },
+        {
+          "url": "https://img1.wsimg.com/isteam/ip/20432bd1-41ff-467d-8ccb-b4e3ac6a3b15/blob-30bc80c.png/:/cr=t:21.83%25,l:10.68%25,w:80.65%25,h:53.54%25/rs=w:600,h:300,cg:true,m",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/png",
+          "content_length": "572185",
+          "head_method": "GET"
+        },
+        {
+          "url": "https://img1.wsimg.com/isteam/ip/20432bd1-41ff-467d-8ccb-b4e3ac6a3b15/DJI_20250419102926_0042_D_002.JPG/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300",
+          "tag": "img",
+          "gate": "pass",
+          "gate_reason": "ok",
+          "content_type": "image/jpeg",
+          "content_length": "53931",
+          "head_method": "GET"
+        }
+      ],
+      "chosen": {
+        "url": "https://img1.wsimg.com/isteam/ip/20432bd1-41ff-467d-8ccb-b4e3ac6a3b15/blob-ba6c46b.png",
+        "tag": "og:image",
+        "gate": "pass",
+        "gate_reason": "ok",
+        "content_type": "image/png",
+        "content_length": "444178",
+        "head_method": "GET"
+      },
+      "dead_or_parked": null
+    }
+  ],
+  "verdict_pregate2": "kept",
+  "chosen_url": "https://img1.wsimg.com/isteam/ip/20432bd1-41ff-467d-8ccb-b4e3ac6a3b15/blob-ba6c46b.png",
+  "chosen_source_page": "https://huacobowmen.org/",
+  "drop_reason": null
+}
